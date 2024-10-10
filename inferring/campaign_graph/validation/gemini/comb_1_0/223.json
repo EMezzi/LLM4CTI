@@ -1,0 +1,94 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Magic Hound",
+                    "Rocket Kitten"
+                ],
+                "date_start": [
+                    "2016-05",
+                    "2016-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Magic Hound",
+                    "Rocket Kitten"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "malicious macros",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [],
+        "tools": [
+            {
+                "name": "Pupy RAT",
+                "id": "tools1"
+            },
+            {
+                "name": "Meterpreter",
+                "id": "tools2"
+            },
+            {
+                "name": "MagicHound.DropIt",
+                "id": "tools3"
+            },
+            {
+                "name": "MagicHound.Fetch",
+                "id": "tools4"
+            },
+            {
+                "name": "MagicHound.Rollover",
+                "id": "tools5"
+            },
+            {
+                "name": "MagicHound.Retriever",
+                "id": "tools6"
+            },
+            {
+                "name": "MagicHound.Leash",
+                "id": "tools7"
+            },
+            {
+                "name": "Magic Unicorn",
+                "id": "tools8"
+            },
+            {
+                "name": "MPK.Bot",
+                "id": "tools9"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

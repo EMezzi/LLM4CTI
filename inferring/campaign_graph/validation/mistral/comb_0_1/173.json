@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Metel",
+                "date_start": [
+                    "2015-01"
+                ],
+                "id": "campaign1"
+            },
+            {
+                "actor": "GCMAN",
+                "date_start": [
+                    "2015-01"
+                ],
+                "id": "campaign2"
+            },
+            {
+                "actor": "Carbanak 2.0",
+                "date_start": [
+                    "2015-09"
+                ],
+                "id": "campaign3"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Metel",
+                "id": "APT1"
+            },
+            {
+                "name": "GCMAN",
+                "id": "APT2"
+            },
+            {
+                "name": "Carbanak 2.0",
+                "id": "APT3"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "e-mail",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "MS SQL injection",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign2",
+                "APT2"
+            ],
+            [
+                "campaign3",
+                "APT3"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign2",
+                "attack_vector1"
+            ],
+            [
+                "campaign3",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

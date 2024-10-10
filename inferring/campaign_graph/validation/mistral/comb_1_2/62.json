@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT37 (REAPER)",
+                "date_start": [
+                    "2012-01",
+                    "2017-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT37 (REAPER)",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-4878",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

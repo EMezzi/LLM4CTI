@@ -1,0 +1,28 @@
+{
+    "nodes": {
+        "": null,
+        "campaign": [
+            {
+                "actor": "APT10/Stone Panda",
+                "date_start": [
+                    "2017-02-27",
+                    "2017-03-01"
+                ],
+                "id": "Operation TradeSecret"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT10/Stone Panda",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Website infiltration and malware embedding",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

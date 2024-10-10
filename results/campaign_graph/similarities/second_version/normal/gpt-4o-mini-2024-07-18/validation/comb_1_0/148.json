@@ -1,0 +1,75 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.14918583631515503
+            ],
+            "false positives": {},
+            "total_sim": 0.14918583631515503
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.29837167263031006
+            ],
+            "false positives": {},
+            "total_sim": 0.29837167263031006
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                0.4554380476474762
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "spearphishing link",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.7277190834283829
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.22377875447273254
+            ],
+            "false positives": {},
+            "total_sim": 0.22377875447273254
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.5745929777622223
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                0.3023119419813156
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.43845245987176895
+        }
+    }
+}

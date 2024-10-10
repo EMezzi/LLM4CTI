@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Gaza Cybergang",
+                "date_start": [
+                    "2017-04",
+                    "2017-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Gaza Cybergang",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

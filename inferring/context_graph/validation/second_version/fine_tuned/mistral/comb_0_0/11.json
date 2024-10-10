@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "APT33"
+                ],
+                "goals": "nation-state",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Saudi Arabia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "nation-state",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

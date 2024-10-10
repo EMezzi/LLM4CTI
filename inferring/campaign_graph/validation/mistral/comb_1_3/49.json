@@ -1,0 +1,28 @@
+[
+    {
+        "nodes": {
+            "campaign": [
+                {
+                    "actor": "OceanLotus",
+                    "date_start": [
+                        "2018-11"
+                    ],
+                    "id": "campaign1"
+                }
+            ]
+        },
+        "APT": [
+            {
+                "name": "OceanLotus",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "MuddyWater"
+                ],
+                "date_start": [
+                    "2017-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "MuddyWater"
+                ],
+                "description": "MuddyWater is a threat group that has primarily targeted Middle Eastern nations since at least 2017",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

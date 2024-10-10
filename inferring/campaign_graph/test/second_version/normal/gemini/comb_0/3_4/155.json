@@ -1,0 +1,38 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT1",
+                    "PLA Unit 61398"
+                ],
+                "date_start": [
+                    "2009-06",
+                    "2009-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT1",
+                    "PLA Unit 61398"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

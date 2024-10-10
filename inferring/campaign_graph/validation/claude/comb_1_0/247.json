@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "OilRig group",
+                    "OilRig"
+                ],
+                "date_start": [
+                    "2018-05",
+                    "2018-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "OilRig group",
+                    "OilRig"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear phishing email",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious macro document",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2021-36934",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2022-28751",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

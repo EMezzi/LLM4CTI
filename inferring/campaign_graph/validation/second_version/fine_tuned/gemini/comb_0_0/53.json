@@ -1,0 +1,59 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT33"
+                ],
+                "date_start": [
+                    "2018-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT33"
+                ],
+                "description": "APT33 is a suspected Iranian threat group that has targeted organizations across multiple industries, primarily in the United States, Saudi Arabia, and South Korea",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "valid accounts",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-11774",
+                "reservedDate": "2017-09",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

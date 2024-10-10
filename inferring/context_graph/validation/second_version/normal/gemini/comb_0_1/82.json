@@ -1,0 +1,142 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Wicked Spider",
+                    "Winnti Group",
+                    "Suckfly",
+                    "WinNTI",
+                    "Dogfish",
+                    "Wicked Panda",
+                    "Winnti Umbrella",
+                    "Group 72",
+                    "Blackfly",
+                    "Tailgater",
+                    "Deputy Dog",
+                    "Group72",
+                    "Winnti",
+                    "APT 41",
+                    "APT 17",
+                    "Ragebeast",
+                    "APT17",
+                    "Barium",
+                    "Hidden Lynx",
+                    "Group 8",
+                    "APT41",
+                    "Tailgater Team",
+                    "Lead"
+                ],
+                "goals": "espionage,financial gain",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "DLL Side-Loading",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Supply Chain Compromise",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2010-3306",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability4"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage,financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Threat Group-3390",
+                    "Iron Tiger"
+                ],
+                "date_start": [
+                    "2017-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Threat Group-3390",
+                    "Iron Tiger"
+                ],
+                "description": "Iron Tiger is a threat group that has been active since at least 2010",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

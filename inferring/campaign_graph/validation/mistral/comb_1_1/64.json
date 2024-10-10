@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT37 (Reaper)",
+                "date_start": [
+                    "2012"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "APT37 (Reaper)",
+            "id": "APT1"
+        }
+    ]
+}

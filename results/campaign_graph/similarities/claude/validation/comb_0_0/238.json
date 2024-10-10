@@ -1,0 +1,81 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.5965789258480072
+            ],
+            "false positives": {},
+            "total_sim": 0.5965789258480072
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.1931578516960144
+            ],
+            "false positives": {},
+            "total_sim": 0.1931578516960144
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.438179075717926
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Exploit CVE-2017-8759",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.438179075717926
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.3948683887720108
+            ],
+            "false positives": {},
+            "total_sim": 0.3948683887720108
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.7982894629240036
+            ],
+            "false positives": {},
+            "total_sim": 0.7982894629240036
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.5173790007829666
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.5173790007829666
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "ZINC",
+                    "Subgroup: Bluenoroff",
+                    "Unit 121",
+                    "Bureau 121",
+                    "HIDDEN COBRA",
+                    "Guardians of Peace",
+                    "Operation Troy",
+                    "Dark Seoul",
+                    "APT-C-26",
+                    "Lazarus Group",
+                    "NICKEL ACADEMY",
+                    "Stardust Chollima",
+                    "Lazarus",
+                    "Operation DarkSeoul",
+                    "Operation GhostSecret",
+                    "Andariel",
+                    "Operation AppleJeus",
+                    "APT38",
+                    "Hastati Group",
+                    "Nickel Academy",
+                    "NewRomanic Cyber Army Team",
+                    "Hidden Cobra",
+                    "Bluenoroff",
+                    "Appleworm",
+                    "APT 38",
+                    "Zinc",
+                    "Whois Hacking Team",
+                    "Labyrinth Chollima",
+                    "Group 77"
+                ],
+                "goals": "financial gain",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "North Korea",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Watering Hole",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Exploitation of Remote Services",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Drive-by Compromise",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2018-4878",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT38",
+                    "Lazarus Group"
+                ],
+                "date_start": [
+                    "2018-10",
+                    "2018-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT38",
+                    "Lazarus Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Malicious Documents",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Dropbox",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Strategic Planning Manager.doc",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Business Intelligence Administrator.doc",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Customer Service Representative.doc",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

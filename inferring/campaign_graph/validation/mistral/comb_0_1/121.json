@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Darkhotel",
+                "date_start": [
+                    "2007"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Darkhotel",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spear-phishing",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "hotel WiFi",
+            "id": "attack_vector2"
+        },
+        {
+            "name": "peer-to-peer networks",
+            "id": "attack_vector3"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2015-5119",
+            "id": "vulnerability1"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Cobalt group",
+                "date_start": [
+                    "2017-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                ".tag": "APT",
+                "name": "Cobalt group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                ".tag": "attack_vector",
+                "name": "phishing email with malicious RTF attachment",
+                "id": "attack_vector1"
+            },
+            {
+                ".tag": "attack_vector",
+                "name": "exploitation of CVE-2017-11882 vulnerability",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                ".tag": "vulnerability",
+                "name": "CVE-2017-11882",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

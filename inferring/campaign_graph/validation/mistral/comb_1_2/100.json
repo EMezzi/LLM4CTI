@@ -1,0 +1,42 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Thamar Reservoir",
+                "date_start": [
+                    "2014-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Thamar Reservoir",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "phone calls",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "account recovery abuse",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "private messages",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": []
+    }
+}

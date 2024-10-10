@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Cobalt group",
+                "date_start": [
+                    "2016-06"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Cobalt group",
+            "id": "APT1"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Energetic Bear",
+                    "Dragonfly",
+                    "Dragonfly 2.0"
+                ],
+                "date_start": [
+                    "2017-01",
+                    "2010-01",
+                    "2016-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Energetic Bear",
+                    "Dragonfly",
+                    "Dragonfly 2.0"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "waterhole attack",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-0167",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

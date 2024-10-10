@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT39"
+                ],
+                "date_start": [
+                    "2018-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT39"
+                ],
+                "description": "APT39 is a suspected Iranian cyber espionage group that has primarily targeted telecommunications companies since at least 2014",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

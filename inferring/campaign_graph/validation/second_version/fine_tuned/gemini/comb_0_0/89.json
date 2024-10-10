@@ -1,0 +1,71 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "BRONZE BUTLER",
+                    "Tick"
+                ],
+                "date_start": [
+                    "2015-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "BRONZE BUTLER",
+                    "Tick"
+                ],
+                "description": "Tick is a threat group that has been active since at least 2006. The group has targeted Japanese organizations, primarily in the technology, engineering, and media sectors",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-4114",
+                "reservedDate": "2014-08",
+                "baseScore": "9.3",
+                "publishedDate": "2014-10",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

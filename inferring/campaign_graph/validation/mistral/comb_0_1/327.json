@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Winnti Group",
+                "date_start": [
+                    "2016-09"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Winnti Group",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "Winnti backdoor",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": []
+}

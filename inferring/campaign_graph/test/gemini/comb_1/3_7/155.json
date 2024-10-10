@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Elderwood Group"
+                ],
+                "date_start": [
+                    "2009-12",
+                    "2009-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Elderwood Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2009-",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

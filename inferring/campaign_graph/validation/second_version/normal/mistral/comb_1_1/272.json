@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Sandworm Team"
+                ],
+                "date_start": [
+                    "2019-03",
+                    "2020-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Sandworm Team"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

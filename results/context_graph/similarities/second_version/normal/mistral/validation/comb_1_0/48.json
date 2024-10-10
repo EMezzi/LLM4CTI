@@ -1,0 +1,129 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.6232665777206421
+            ],
+            "false positives": {},
+            "total_sim": 0.6232665777206421
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                0.29237985610961914
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "PowerShell",
+                    "id": "attack_vector2"
+                },
+                "attack_vector4": {
+                    "name": "COM Hijacking",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.6461899876594543
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [
+                "vulnerability1",
+                1
+            ],
+            "vulnerability3": [
+                "vulnerability2",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 0.6666666666666666
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.4276154935359955
+            ],
+            "false positives": {},
+            "total_sim": 0.4276154935359955
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.811633288860321
+            ],
+            "false positives": {},
+            "total_sim": 0.811633288860321
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                1.0000000596046448
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                0.6461899280548096
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.8230949938297272
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.5
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.5
+            ],
+            "targets3": [],
+            "false positives": {},
+            "total_sim": 0.3333333333333333
+        }
+    }
+}

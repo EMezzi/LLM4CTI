@@ -1,0 +1,17 @@
+{
+    "": {
+        "attributed&#x5F;to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack&#x5F;vector1"
+            ]
+        ]
+    }
+}

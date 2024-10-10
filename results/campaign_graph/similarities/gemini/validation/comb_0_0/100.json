@@ -1,0 +1,97 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.14260436594486237
+            ],
+            "false positives": {},
+            "total_sim": 0.14260436594486237
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.28520873188972473
+            ],
+            "false positives": {},
+            "total_sim": 0.28520873188972473
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6931829452514648
+            ],
+            "attack_vector2": [
+                "attack_vector2",
+                0.4484279751777649
+            ],
+            "false positives": {
+                "attack_vector3": {
+                    "name": "Account Recovery Abuse",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Compromised Website",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.5708054602146149
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2015-1641",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.21390654891729355
+            ],
+            "false positives": {},
+            "total_sim": 0.21390654891729355
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.4178936555981636
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.29551617056131363
+            ],
+            "false positives": {
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.3567049130797386
+        }
+    }
+}

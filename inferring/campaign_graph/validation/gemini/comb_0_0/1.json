@@ -1,0 +1,53 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    ""
+                ],
+                "date_start": [
+                    "2014-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    ""
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear Phishing Email",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Link",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

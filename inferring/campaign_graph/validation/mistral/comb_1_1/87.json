@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT41",
+                "date_start": [
+                    "2020-01"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "APT41",
+            "id": "APT1"
+        }
+    ]
+}

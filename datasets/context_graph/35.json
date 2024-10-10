@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": "FIN6",
+                "description": "FIN6 is a cybercrime group that has stolen payment card data and sold it for profit on underground marketplaces",
+                "goals": "financial gain",
+                "labels": "crime-syndicate",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "crime-syndicate",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "uses": [],
+        "targets": []
+    }
+}

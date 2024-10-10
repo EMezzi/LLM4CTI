@@ -1,0 +1,70 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Patchwork"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "India",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Malicious Macro",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

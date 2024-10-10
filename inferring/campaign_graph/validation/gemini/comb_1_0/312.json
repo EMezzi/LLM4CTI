@@ -1,0 +1,89 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Emissary Panda",
+                    "Threat Group-3390"
+                ],
+                "date_start": [
+                    "2019-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Emissary Panda",
+                    "Threat Group-3390"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Webshell",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Exploitation of CVE-2019-0604",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "EternalBlue",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "CVE-2017-0144",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2019-0604",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0144",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

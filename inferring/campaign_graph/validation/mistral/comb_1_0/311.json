@@ -1,0 +1,37 @@
+{
+    "": {
+        "nodes": {
+            "campaign": [
+                {
+                    "actor": "LuckyMouse",
+                    "date_start": [
+                        "2017-09"
+                    ],
+                    "id": "campaign1"
+                }
+            ]
+        },
+        "APT": [
+            {
+                "name": "LuckyMouse",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Watering Hole",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spear Phishing",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.9999999701976776
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999701976776
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.818195641040802
+            ],
+            "attack_vector2": [
+                "attack_vector1",
+                0.9999997019767761
+            ],
+            "false positives": {
+                "attack_vector3": {
+                    "name": "exploit public-facing application",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "valid accounts",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "external remote services",
+                    "id": "attack_vector5"
+                }
+            },
+            "total_sim": 0.9090976715087891
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.9999999552965164
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999552965164
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.9090978056192398
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.9999998360872269
+            ],
+            "false positives": {
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                "employs5": [
+                    "campaign1",
+                    "attack_vector5"
+                ]
+            },
+            "total_sim": 0.9545488208532333
+        }
+    }
+}

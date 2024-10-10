@@ -1,0 +1,68 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.687116414308548
+            ],
+            "false positives": {},
+            "total_sim": 0.687116414308548
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.37423282861709595
+            ],
+            "false positives": {},
+            "total_sim": 0.37423282861709595
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-unknown",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.530674621462822
+            ],
+            "false positives": {},
+            "total_sim": 0.530674621462822
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.843558207154274
+            ],
+            "false positives": {},
+            "total_sim": 0.843558207154274
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "ScarCruft",
+                    "APT37"
+                ],
+                "date_start": [
+                    "2016-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "ScarCruft",
+                    "APT37"
+                ],
+                "description": "ScarCruft is a threat group that has targeted organizations in Russia, Nepal, South Korea, China, India, Kuwait, and Romania",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-4171",
+                "reservedDate": "2016-04",
+                "baseScore": "9.3",
+                "publishedDate": "2016-06",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

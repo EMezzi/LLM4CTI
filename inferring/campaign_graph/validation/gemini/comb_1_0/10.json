@@ -1,0 +1,168 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "",
+                    "APT17",
+                    "Winnti Group",
+                    "APT41",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2012-01",
+                    "2013-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "",
+                    "APT17",
+                    "Winnti Group",
+                    "APT41",
+                    "Suckfly"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Targeted emails",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Watering hole",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Drive-by download",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Exploiting vulnerabilities",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Update hijacking",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Domain hijacking",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Widespread emails",
+                "id": "attack_vector7"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-7247",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2015-5119",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-5122",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "MS14-068",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "MS14-058",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2013-3893",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2013-3918",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2014-0324",
+                "id": "vulnerability8"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ],
+            [
+                "campaign1",
+                "vulnerability4"
+            ],
+            [
+                "campaign1",
+                "vulnerability5"
+            ],
+            [
+                "campaign1",
+                "vulnerability6"
+            ],
+            [
+                "campaign1",
+                "vulnerability7"
+            ],
+            [
+                "campaign1",
+                "vulnerability8"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ]
+        ]
+    }
+}

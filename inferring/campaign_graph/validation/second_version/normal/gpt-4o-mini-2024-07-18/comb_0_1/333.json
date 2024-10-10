@@ -1,0 +1,79 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT17",
+                    "Suckfly",
+                    "APT41",
+                    "Winnti Group"
+                ],
+                "date_start": [
+                    "2019-10",
+                    "2020-03",
+                    "2019-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT17",
+                    "Suckfly",
+                    "APT41",
+                    "Winnti Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "external remote services",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2019-XXXX",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2020-XXXX",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "PLATINUM"
+                ],
+                "goals": "espionage",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "North Korea",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Remote Desktop Protocol",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Web Shell",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Executable Files",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2020-0688",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2019-0803",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

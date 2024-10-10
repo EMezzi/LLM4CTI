@@ -1,0 +1,153 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT17",
+                    "Winnti Group",
+                    "Suckfly",
+                    "APT41"
+                ],
+                "date_start": [
+                    "2015-01",
+                    "2015-09",
+                    "2013-01",
+                    "2015-05",
+                    "2015-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT17",
+                    "Winnti Group",
+                    "Suckfly",
+                    "APT41"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "valid accounts",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "external remote services",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-7247",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2015-5119",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-5122",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2014-6324",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2014-4113",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2013-3893",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2013-3918",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2014-0324",
+                "id": "vulnerability8"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ],
+            [
+                "campaign1",
+                "vulnerability4"
+            ],
+            [
+                "campaign1",
+                "vulnerability5"
+            ],
+            [
+                "campaign1",
+                "vulnerability6"
+            ],
+            [
+                "campaign1",
+                "vulnerability7"
+            ],
+            [
+                "campaign1",
+                "vulnerability8"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

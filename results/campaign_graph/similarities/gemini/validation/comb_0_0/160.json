@@ -1,0 +1,83 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8091717958450317
+            ],
+            "attack_vector2": [
+                "attack_vector4",
+                0.3632364273071289
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Credential Harvesting",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Malicious VBA Macros",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.5862041115760803
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.9999999105930328
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999105930328
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.9045858681201935
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                0.6816181838512421
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.7931020259857178
+        }
+    }
+}

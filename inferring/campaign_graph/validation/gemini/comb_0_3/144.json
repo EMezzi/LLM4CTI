@@ -1,0 +1,59 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Energetic Bear",
+                    "Dragonfly",
+                    "Dragonfly 2.0"
+                ],
+                "date_start": [
+                    "2017-01",
+                    "2010-01",
+                    "2016-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Energetic Bear",
+                    "Dragonfly",
+                    "Dragonfly 2.0"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

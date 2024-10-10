@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "BlackEnergy 3"
+                ],
+                "date_start": [
+                    "2015-03",
+                    "2015-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "BlackEnergy 3"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "valid accounts",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "external remote services",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

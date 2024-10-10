@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT31"
+                ],
+                "date_start": [
+                    "2017-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT31"
+                ],
+                "description": "APT31 is a threat group that has operated since at least 2010, targeting a variety of industries, including defense, healthcare, high-tech, and telecommunications",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

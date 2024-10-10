@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "LuckyMouse",
+                "date_start": [
+                    "2017-09",
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "LuckyMouse",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "watering hole attacks",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2017-11882",
+            "id": "vulnerability1"
+        }
+    ]
+}

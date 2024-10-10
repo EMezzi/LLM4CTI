@@ -1,0 +1,42 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": "Patchwork",
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "India",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Microsoft Office Documents",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability3"
+            }
+        ]
+    }
+}

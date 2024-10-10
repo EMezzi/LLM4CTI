@@ -1,0 +1,47 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "Kimsuky",
+                "date_start": [
+                    "2013-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Kimsuky",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear-phishing emails",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2013-3893",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

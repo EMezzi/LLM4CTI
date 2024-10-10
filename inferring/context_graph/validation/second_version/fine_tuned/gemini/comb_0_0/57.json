@@ -1,0 +1,304 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "PLATINUM"
+                ],
+                "goals": "spy",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "External Remote Services",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Exploitation for Privilege Escalation",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Exploitation of Remote Services",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Drive-by Compromise",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Web Service",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "User Execution",
+                "id": "attack_vector9"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector10"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2013-3906",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2014-1761",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2014-4114",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2014-6332",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2015-1641",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2015-1701",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2015-2419",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2015-2545",
+                "id": "vulnerability9"
+            },
+            {
+                "name": "CVE-2015-2546",
+                "id": "vulnerability10"
+            },
+            {
+                "name": "CVE-2015-2590",
+                "id": "vulnerability11"
+            },
+            {
+                "name": "CVE-2015-6128",
+                "id": "vulnerability12"
+            },
+            {
+                "name": "CVE-2016-0165",
+                "id": "vulnerability13"
+            },
+            {
+                "name": "CVE-2016-0167",
+                "id": "vulnerability14"
+            },
+            {
+                "name": "CVE-2016-0189",
+                "id": "vulnerability15"
+            },
+            {
+                "name": "CVE-2016-4117",
+                "id": "vulnerability16"
+            },
+            {
+                "name": "CVE-2016-7255",
+                "id": "vulnerability17"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability18"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability19"
+            },
+            {
+                "name": "CVE-2017-8759",
+                "id": "vulnerability20"
+            },
+            {
+                "name": "CVE-2018-0802",
+                "id": "vulnerability21"
+            },
+            {
+                "name": "CVE-2018-8174",
+                "id": "vulnerability22"
+            }
+        ],
+        "goals": [
+            {
+                "name": "spy",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ],
+            [
+                "APT1",
+                "vulnerability10"
+            ],
+            [
+                "APT1",
+                "vulnerability11"
+            ],
+            [
+                "APT1",
+                "vulnerability12"
+            ],
+            [
+                "APT1",
+                "vulnerability13"
+            ],
+            [
+                "APT1",
+                "vulnerability14"
+            ],
+            [
+                "APT1",
+                "vulnerability15"
+            ],
+            [
+                "APT1",
+                "vulnerability16"
+            ],
+            [
+                "APT1",
+                "vulnerability17"
+            ],
+            [
+                "APT1",
+                "vulnerability18"
+            ],
+            [
+                "APT1",
+                "vulnerability19"
+            ],
+            [
+                "APT1",
+                "vulnerability20"
+            ],
+            [
+                "APT1",
+                "vulnerability21"
+            ],
+            [
+                "APT1",
+                "vulnerability22"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ],
+            [
+                "APT1",
+                "attack_vector9"
+            ],
+            [
+                "APT1",
+                "attack_vector10"
+            ]
+        ]
+    }
+}

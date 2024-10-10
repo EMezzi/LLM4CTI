@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Russian government cyber actors"
+                ],
+                "date_start": [
+                    "2016-03",
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Russian government cyber actors"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "watering hole",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

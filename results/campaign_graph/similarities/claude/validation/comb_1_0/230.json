@@ -1,0 +1,99 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6422129571437836
+            ],
+            "false positives": {},
+            "total_sim": 0.6422129571437836
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.28442591428756714
+            ],
+            "false positives": {},
+            "total_sim": 0.28442591428756714
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.36954617500305176
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Malicious RTFs leveraging Bit.ly",
+                    "id": "attack_vector1"
+                },
+                "attack_vector3": {
+                    "name": "Malicious RTFs exploiting CVE-2017-0199",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Self-extracting executables",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.36954617500305176
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-0199",
+                    "id": "vulnerability1"
+                }
+            },
+            "total_sim": 0.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.46331943571567535
+            ],
+            "false positives": {},
+            "total_sim": 0.46331943571567535
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.3211064785718918
+            ],
+            "false positives": {},
+            "total_sim": 0.3211064785718918
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.5058795660734177
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.5058795660734177
+        }
+    }
+}

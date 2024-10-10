@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Magic Hound",
+                    "Alibaba",
+                    "Operation Saffron Rose",
+                    "Ajax Security Team",
+                    "TG-2889",
+                    "Group 41",
+                    "Cutting Kitten",
+                    "Newscaster",
+                    "TEMP.Beanie",
+                    "Operation Woolen-Goldfish",
+                    "Ghambar",
+                    "Tarh Andishan",
+                    "COBALT GYPSY",
+                    "APT 35",
+                    "Operation Cleaver",
+                    "Rocket Kitten",
+                    "Cobalt Gypsy",
+                    "Rocket_Kitten",
+                    "APT35"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Iran",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

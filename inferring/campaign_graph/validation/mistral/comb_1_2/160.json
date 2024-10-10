@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "FIN4",
+                "date_start": [
+                    "2013-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "FIN4",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "Pawn Storm",
+                "date_start": [
+                    "2016-10",
+                    "2016-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Pawn Storm",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-7855",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2016-7255",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

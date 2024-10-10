@@ -1,0 +1,59 @@
+{
+    "nodes": {
+        "": [
+            {
+                "id": "campaign1",
+                "actor": "Turla",
+                "date_start": [
+                    "2016-11"
+                ]
+            }
+        ],
+        "APT": [
+            {
+                "id": "APT1",
+                "name": "Turla"
+            }
+        ],
+        "attack_vector": [
+            {
+                "id": "attack_vector1",
+                "name": "malicious document with macro"
+            },
+            {
+                "id": "attack_vector2",
+                "name": "spear phishing"
+            }
+        ],
+        "vulnerability": [
+            {
+                "id": "vulnerability1",
+                "name": "CVE-unknown (macro in Microsoft Office)"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

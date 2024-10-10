@@ -1,0 +1,63 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Gorgon Group",
+                    "Subaat"
+                ],
+                "date_start": [
+                    "2017-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Gorgon Group",
+                    "Subaat"
+                ],
+                "description": "Subaat is a threat actor that has been active since at least 2016. The actor has targeted a variety of victims, including government, military, and media organizations",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "reservedDate": "2011-12",
+                "baseScore": "9.3",
+                "publishedDate": "2012-01",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

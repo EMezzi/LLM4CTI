@@ -1,0 +1,21 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Sowbug",
+                "date_start": [
+                    "2015-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Sowbug",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    }
+}

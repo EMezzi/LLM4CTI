@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Kimsuky"
+                ],
+                "date_start": [
+                    "2019-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Kimsuky"
+                ],
+                "description": "Kimsuky is a North Korean threat group that has targeted South Korean think tanks, government organizations, and news outlets since at least 2013",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

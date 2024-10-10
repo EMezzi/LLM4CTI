@@ -1,0 +1,53 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Suckfly",
+                    "APT41",
+                    "Wicked Panda",
+                    "Winnti Group",
+                    "APT17"
+                ],
+                "date_start": [
+                    "2018-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Suckfly",
+                    "APT41",
+                    "Wicked Panda",
+                    "Winnti Group",
+                    "APT17"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

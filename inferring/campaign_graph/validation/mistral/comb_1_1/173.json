@@ -1,0 +1,88 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Metel",
+                "date_start": [
+                    "2015-06"
+                ],
+                "id": "campaign1"
+            },
+            {
+                "actor": "GCMAN",
+                "date_start": [],
+                "id": "campaign2"
+            },
+            {
+                "actor": "Carbanak 2.0",
+                "date_start": [
+                    "2014-12",
+                    "2015-09"
+                ],
+                "id": "campaign3"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Metel",
+                "id": "APT1"
+            },
+            {
+                "name": "GCMAN",
+                "id": "APT2"
+            },
+            {
+                "name": "Carbanak 2.0",
+                "id": "APT3"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Email",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spear-phishing",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-xxxx-xxxx",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign2",
+                "APT2"
+            ],
+            [
+                "campaign3",
+                "APT3"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign2",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

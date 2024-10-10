@@ -1,0 +1,32 @@
+{
+    "": {
+        "": {
+            "": [
+                {
+                    "name": "Unknown",
+                    "id": "APT1"
+                }
+            ],
+            "attack_vector": [
+                {
+                    "name": "Spear phishing",
+                    "id": "attack_vector1"
+                },
+                {
+                    "name": "Malware (BlackEnergy 3)",
+                    "id": "attack_vector2"
+                }
+            ],
+            "vulnerability": [
+                {
+                    "name": "CVE-2015-8461",
+                    "id": "vulnerability1"
+                },
+                {
+                    "name": "CVE-2015-8462",
+                    "id": "vulnerability2"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Poseidon Group"
+                ],
+                "goals": "financial gain",
+                "labels": "crime-syndicate",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Portugal",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-3333",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2018-0802",
+                "id": "vulnerability5"
+            }
+        ],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "crime-syndicate",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Threat Group-3390"
+                ],
+                "goals": "spy",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Web Service",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0002",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2012-4969",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2012-4792",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2013-0634",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2013-3893",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2014-0322",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2014-1776",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2014-6332",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2015-1635",
+                "id": "vulnerability9"
+            }
+        ],
+        "goals": [
+            {
+                "name": "spy",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

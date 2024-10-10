@@ -1,0 +1,59 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Patchwork",
+                "date_start": [
+                    "2017"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Patchwork",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "valid accounts",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-1856",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-4114",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2017-8570",
+                "id": "vulnerability4"
+            }
+        ]
+    }
+}

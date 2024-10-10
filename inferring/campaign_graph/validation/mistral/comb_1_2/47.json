@@ -1,0 +1,30 @@
+{
+    "": {
+        "": [
+            {
+                "actor": "OceanLotus",
+                "date_start": [
+                    "2018-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "OceanLotus",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    }
+}

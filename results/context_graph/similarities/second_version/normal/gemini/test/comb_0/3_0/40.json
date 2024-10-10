@@ -1,0 +1,264 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999997019767761
+            ],
+            "false positives": {},
+            "total_sim": 0.9999997019767761
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Valid Accounts",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "External Remote Services",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "Data from Local System",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "Command-Line Interface",
+                    "id": "attack_vector6"
+                },
+                "attack_vector7": {
+                    "name": "Scripting",
+                    "id": "attack_vector7"
+                },
+                "attack_vector8": {
+                    "name": "Obfuscated Files or Information",
+                    "id": "attack_vector8"
+                },
+                "attack_vector9": {
+                    "name": "Account Discovery",
+                    "id": "attack_vector9"
+                },
+                "attack_vector10": {
+                    "name": "System Network Connections Discovery",
+                    "id": "attack_vector10"
+                },
+                "attack_vector11": {
+                    "name": "System Service Discovery",
+                    "id": "attack_vector11"
+                },
+                "attack_vector12": {
+                    "name": "File and Directory Discovery",
+                    "id": "attack_vector12"
+                },
+                "attack_vector13": {
+                    "name": "Registry Run Keys / Startup Folder",
+                    "id": "attack_vector13"
+                },
+                "attack_vector14": {
+                    "name": "Remote File Copy",
+                    "id": "attack_vector14"
+                },
+                "attack_vector15": {
+                    "name": "Data Compressed",
+                    "id": "attack_vector15"
+                },
+                "attack_vector16": {
+                    "name": "System Information Discovery",
+                    "id": "attack_vector16"
+                },
+                "attack_vector17": {
+                    "name": "Data Encoding",
+                    "id": "attack_vector17"
+                },
+                "attack_vector18": {
+                    "name": "Regsvr32",
+                    "id": "attack_vector18"
+                },
+                "attack_vector19": {
+                    "name": "System Owner/User Discovery",
+                    "id": "attack_vector19"
+                },
+                "attack_vector20": {
+                    "name": "Process Discovery",
+                    "id": "attack_vector20"
+                },
+                "attack_vector21": {
+                    "name": "Credential Dumping",
+                    "id": "attack_vector21"
+                },
+                "attack_vector22": {
+                    "name": "Timestomp",
+                    "id": "attack_vector22"
+                },
+                "attack_vector23": {
+                    "name": "Modify Registry",
+                    "id": "attack_vector23"
+                },
+                "attack_vector24": {
+                    "name": "Data from Removable Media",
+                    "id": "attack_vector24"
+                },
+                "attack_vector25": {
+                    "name": "Hidden Files and Directories",
+                    "id": "attack_vector25"
+                }
+            },
+            "total_sim": 1.0000001192092896
+        },
+        "vulnerability": "No ground truth and no false positives",
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999998211860657
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998211860657
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9999999105930328
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                "uses5": [
+                    "APT1",
+                    "attack_vector5"
+                ],
+                "uses6": [
+                    "APT1",
+                    "attack_vector6"
+                ],
+                "uses7": [
+                    "APT1",
+                    "attack_vector7"
+                ],
+                "uses8": [
+                    "APT1",
+                    "attack_vector8"
+                ],
+                "uses9": [
+                    "APT1",
+                    "attack_vector9"
+                ],
+                "uses10": [
+                    "APT1",
+                    "attack_vector10"
+                ],
+                "uses11": [
+                    "APT1",
+                    "attack_vector11"
+                ],
+                "uses12": [
+                    "APT1",
+                    "attack_vector12"
+                ],
+                "uses13": [
+                    "APT1",
+                    "attack_vector13"
+                ],
+                "uses14": [
+                    "APT1",
+                    "attack_vector14"
+                ],
+                "uses15": [
+                    "APT1",
+                    "attack_vector15"
+                ],
+                "uses16": [
+                    "APT1",
+                    "attack_vector16"
+                ],
+                "uses17": [
+                    "APT1",
+                    "attack_vector17"
+                ],
+                "uses18": [
+                    "APT1",
+                    "attack_vector18"
+                ],
+                "uses19": [
+                    "APT1",
+                    "attack_vector19"
+                ],
+                "uses20": [
+                    "APT1",
+                    "attack_vector20"
+                ],
+                "uses21": [
+                    "APT1",
+                    "attack_vector21"
+                ],
+                "uses22": [
+                    "APT1",
+                    "attack_vector22"
+                ],
+                "uses23": [
+                    "APT1",
+                    "attack_vector23"
+                ],
+                "uses24": [
+                    "APT1",
+                    "attack_vector24"
+                ],
+                "uses25": [
+                    "APT1",
+                    "attack_vector25"
+                ]
+            },
+            "total_sim": 0.9999999105930328
+        },
+        "targets": "No relations to pair and no false positives"
+    }
+}

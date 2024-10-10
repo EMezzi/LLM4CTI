@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2014-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "description": "Winnti Group is a threat group that has primarily targeted the video game industry since at least 2011",
+                "labels": "crime-syndicate",
+                "goals": "financial gain",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

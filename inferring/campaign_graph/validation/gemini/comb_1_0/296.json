@@ -1,0 +1,72 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Unknown",
+                    "STOLEN PENCIL"
+                ],
+                "date_start": [
+                    "2019-02",
+                    "2018-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Unknown",
+                    "STOLEN PENCIL"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear Phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Excel Macro",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "HTA Files",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "PE Files",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

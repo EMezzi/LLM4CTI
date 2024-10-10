@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Unnamed threat actor",
+                "date_start": [
+                    "2015-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Lazarus Group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Trojanized PDF reader",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "Unknown",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

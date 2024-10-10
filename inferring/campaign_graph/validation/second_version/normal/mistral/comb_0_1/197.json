@@ -1,0 +1,98 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT38",
+                    "NewRomanic Cyber Army Team"
+                ],
+                "date_start": [
+                    "2013-03",
+                    "2009-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT38",
+                    "NewRomanic Cyber Army Team"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2009-XXXX",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-XXXX",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2011-XXXX",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2012-XXXX",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2013-XXXX",
+                "id": "vulnerability5"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ],
+            [
+                "campaign1",
+                "vulnerability4"
+            ],
+            [
+                "campaign1",
+                "vulnerability5"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

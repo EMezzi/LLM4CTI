@@ -1,0 +1,68 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT38",
+                    "Lazarus Group",
+                    "Operation Sharpshooter"
+                ],
+                "date_start": [
+                    "2018-10",
+                    "2018-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT38",
+                    "Lazarus Group",
+                    "Operation Sharpshooter"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Malicious Documents",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Dropbox",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2015-",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

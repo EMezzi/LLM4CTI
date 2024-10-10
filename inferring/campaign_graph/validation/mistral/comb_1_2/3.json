@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "YUANGE1975",
+                "date_start": [
+                    "2011-03"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "YUANGE1975",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spearphishing attachment",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2011-0609",
+            "id": "vulnerability1"
+        }
+    ]
+}

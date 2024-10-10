@@ -1,0 +1,129 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.4483731985092163
+            ],
+            "attack_vector2": [
+                "attack_vector4",
+                0.34664133191108704
+            ],
+            "attack_vector3": [
+                "attack_vector2",
+                0.32814592123031616
+            ],
+            "false positives": {
+                "attack_vector3": {
+                    "name": "PowerShell",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.37438681721687317
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {
+                "vulnerability2": {
+                    "name": "CVE-2017-0199",
+                    "id": "vulnerability2"
+                }
+            },
+            "total_sim": 1.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.7241865992546082
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                0.6733206659555435
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                0.6640729606151581
+            ],
+            "false positives": {
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.6871934086084366
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                1.0
+            ],
+            "false positives": {
+                "targets2": [
+                    "APT1",
+                    "vulnerability2"
+                ]
+            },
+            "total_sim": 1.0
+        }
+    }
+}

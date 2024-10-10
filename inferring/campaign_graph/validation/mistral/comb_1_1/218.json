@@ -1,0 +1,25 @@
+{
+    "": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign2",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign2",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

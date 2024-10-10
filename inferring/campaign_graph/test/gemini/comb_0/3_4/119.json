@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "DarkHydrus",
+                    "DarkHydrus Group"
+                ],
+                "date_start": [
+                    "2019-01",
+                    "2018-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "DarkHydrus",
+                    "DarkHydrus Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-8414",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": []
+    }
+}

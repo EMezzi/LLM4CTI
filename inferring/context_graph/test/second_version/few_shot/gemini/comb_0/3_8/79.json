@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Tropic Trooper"
+                ],
+                "goals": "espionage",
+                "labels": "crime-syndicate",
+                "id": "APT1"
+            }
+        ],
+        "country": [],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "crime-syndicate",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [],
+        "targets": [],
+        "uses": []
+    }
+}

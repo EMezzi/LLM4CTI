@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Group 123",
+                    "APT37"
+                ],
+                "date_start": [
+                    "2018-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Group 123",
+                    "APT37"
+                ],
+                "description": "Group 123 is a threat group that has targeted South Korean government, media, and think tank organizations since at least 2015",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2013-0808",
+                "reservedDate": "2013-01",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Energetic Bear/Crouching Yeti",
+                "date_start": [
+                    "2010"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Energetic Bear/Crouching Yeti",
+                "id": "APT1"
+            }
+        ]
+    },
+    "attack_vector": [
+        {
+            "name": "Phishing emails with malicious documents",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "Infecting servers",
+            "id": "attack_vector2"
+        },
+        {
+            "name": "Waterhole attacks",
+            "id": "attack_vector3"
+        }
+    ]
+}

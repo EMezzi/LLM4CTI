@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2013-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-6324",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

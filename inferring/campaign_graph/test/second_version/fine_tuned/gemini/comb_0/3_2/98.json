@@ -1,0 +1,79 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FIN7",
+                    "Carbanak"
+                ],
+                "date_start": [
+                    "2018-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FIN7",
+                    "Carbanak"
+                ],
+                "description": "Carbanak is a threat group that has been active since at least 2013. The group has targeted financial institutions in Russia, Ukraine, Belarus, Kazakhstan, Kyrgyzstan, Armenia, Moldova, Azerbaijan, Estonia, Georgia, Tajikistan, Latvia, Lithuania, Poland, Romania, Bulgaria, Czech Republic, Germany, Spain, Norway, United Kingdom, United States, China, Taiwan, Malaysia, Nepal, and Angola",
+                "labels": "crime-syndicate",
+                "goals": "financial gain",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-8570",
+                "reservedDate": "2017-06",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "reservedDate": "2017-09",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2018-0802",
+                "reservedDate": "2018-01",
+                "id": "vulnerability3"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "\u2014\u252c\u2014": [
+            {
+                "actor": "MuddyWater",
+                "date_start": [
+                    "2018-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "MuddyWater",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

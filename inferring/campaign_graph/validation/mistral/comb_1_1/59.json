@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        ";campaign": [
+            ";{]; "
+        ],
+        "; APTOpt1": [
+            ";{]; "
+        ],
+        ";attack_vector": [
+            ";{]; "
+        ],
+        ";vulnerability": [
+            ";{]; "
+        ]
+    },
+    ";relations": {
+        ";attributed": [
+            ";[]; "
+        ],
+        ";targets": [
+            ";[]; "
+        ],
+        ";employs": [
+            ";["
+        ]
+    }
+}

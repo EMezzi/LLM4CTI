@@ -1,0 +1,107 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                0.2901514172554016
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Web Service",
+                    "id": "attack_vector2"
+                },
+                "attack_vector4": {
+                    "name": "Remote Access Tools",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "Credential Dumping",
+                    "id": "attack_vector5"
+                }
+            },
+            "total_sim": 0.5541734993457794
+        },
+        "vulnerability": "No ground truth and no false positives",
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.4764662981033325
+            ],
+            "false positives": {},
+            "total_sim": 0.4764662981033325
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090977907180786
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                0.6450757086277008
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                "uses5": [
+                    "APT1",
+                    "attack_vector5"
+                ]
+            },
+            "total_sim": 0.7770867496728897
+        },
+        "targets": "No relations to pair and no false positives"
+    }
+}

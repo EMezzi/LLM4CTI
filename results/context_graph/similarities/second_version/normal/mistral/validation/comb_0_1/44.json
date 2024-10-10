@@ -1,0 +1,156 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999997615814209
+            ],
+            "false positives": {},
+            "total_sim": 0.9999997615814209
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector6",
+                0.4509105682373047
+            ],
+            "attack_vector3": [
+                "attack_vector3",
+                0.4085152745246887
+            ],
+            "attack_vector4": [
+                "attack_vector5",
+                0.5080559849739075
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "PowerShell",
+                    "id": "attack_vector2"
+                },
+                "attack_vector4": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.5464193522930145
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "vulnerability3": [],
+            "vulnerability4": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-11882",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2017-0199",
+                    "id": "vulnerability2"
+                }
+            },
+            "total_sim": 0.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090976715087891
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector6"
+                ],
+                0.7254551649093628
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                0.7042575180530548
+            ],
+            "uses4": [
+                [
+                    "APT1",
+                    "attack_vector5"
+                ],
+                0.7540278732776642
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.7732095569372177
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.49999988079071045
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.49999988079071045
+            ],
+            "targets3": [],
+            "targets4": [],
+            "false positives": {},
+            "total_sim": 0.24999994039535522
+        }
+    }
+}

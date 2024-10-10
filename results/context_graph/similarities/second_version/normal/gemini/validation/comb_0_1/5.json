@@ -1,0 +1,142 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.4483731985092163
+            ],
+            "attack_vector2": [
+                "attack_vector4",
+                0.3322622776031494
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Web Service",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Valid Accounts",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.39031773805618286
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "vulnerability3": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2009-3676",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2010-3333",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2012-0158",
+                    "id": "vulnerability3"
+                }
+            },
+            "total_sim": 0.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.4764662981033325
+            ],
+            "false positives": {},
+            "total_sim": 0.4764662981033325
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.3419210910797119
+            ],
+            "false positives": {},
+            "total_sim": 0.3419210910797119
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.7241865992546082
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                0.6661311388015747
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.6951588690280914
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.5
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.5
+            ],
+            "targets3": [
+                [
+                    "APT1",
+                    "vulnerability3"
+                ],
+                0.5
+            ],
+            "false positives": {},
+            "total_sim": 0.5
+        }
+    }
+}

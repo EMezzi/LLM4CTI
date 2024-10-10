@@ -1,0 +1,76 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6591551303863525
+            ],
+            "false positives": {},
+            "total_sim": 0.6591551303863525
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.3183102607727051
+            ],
+            "false positives": {},
+            "total_sim": 0.3183102607727051
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.2585391402244568
+            ],
+            "false positives": {},
+            "total_sim": 0.2585391402244568
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2014-XXXX",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2015-XXXX",
+                    "id": "vulnerability2"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4887326955795288
+            ],
+            "false positives": {},
+            "total_sim": 0.4887326955795288
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.45884713530540466
+            ],
+            "false positives": {},
+            "total_sim": 0.45884713530540466
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.1715673804283142
+            ],
+            "false positives": {},
+            "total_sim": 0.1715673804283142
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.3431347608566284
+            ],
+            "false positives": {},
+            "total_sim": 0.3431347608566284
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector6",
+                0.300504207611084
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "spearphishing attachment",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "spearphishing link",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "drive-by compromise",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "exploit public-facing application",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "valid accounts",
+                    "id": "attack_vector5"
+                }
+            },
+            "total_sim": 0.300504207611084
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2018-14665",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.2573510706424713
+            ],
+            "false positives": {},
+            "total_sim": 0.2573510706424713
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector6"
+                ],
+                0.2360357940196991
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                "employs5": [
+                    "campaign1",
+                    "attack_vector5"
+                ]
+            },
+            "total_sim": 0.2360357940196991
+        }
+    }
+}

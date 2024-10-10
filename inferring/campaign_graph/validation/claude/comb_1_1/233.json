@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "TEMP.Zagros",
+                    "MuddyWater"
+                ],
+                "date_start": [
+                    "2018-02",
+                    "2018-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "TEMP.Zagros",
+                    "MuddyWater"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Macro-based documents",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2018-",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

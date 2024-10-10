@@ -1,0 +1,64 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT32",
+                    "unknown"
+                ],
+                "date_start": [
+                    "2017-05",
+                    "2017-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT32",
+                    "unknown"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Website Compromise",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Code Injection",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Phishing",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

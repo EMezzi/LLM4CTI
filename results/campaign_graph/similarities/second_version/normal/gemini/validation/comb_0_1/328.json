@@ -1,0 +1,68 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6216342225670815
+            ],
+            "false positives": {},
+            "total_sim": 0.6216342225670815
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2432684451341629
+            ],
+            "false positives": {},
+            "total_sim": 0.2432684451341629
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2013-1347",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4324513338506222
+            ],
+            "false positives": {},
+            "total_sim": 0.4324513338506222
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.810817051678896
+            ],
+            "false positives": {},
+            "total_sim": 0.810817051678896
+        }
+    }
+}

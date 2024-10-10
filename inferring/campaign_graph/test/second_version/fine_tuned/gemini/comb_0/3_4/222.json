@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Rocket Kitten",
+                    "Magic Hound"
+                ],
+                "date_start": [
+                    "2015-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Rocket Kitten",
+                    "Magic Hound"
+                ],
+                "description": "Rocket Kitten is a threat group that has targeted individuals and organizations, including military personnel, diplomats, journalists, and activists, since mid-2014",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

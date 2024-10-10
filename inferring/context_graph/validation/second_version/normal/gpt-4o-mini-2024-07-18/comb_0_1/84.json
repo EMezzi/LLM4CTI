@@ -1,0 +1,57 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "POTASSIUM",
+                    "CVNX",
+                    "APT 10",
+                    "Stone Panda",
+                    "MenuPass",
+                    "menuPass",
+                    "menuPass Team",
+                    "DustStorm",
+                    "happyyongzi",
+                    "HOGFISH",
+                    "Menupass Team",
+                    "Red Apollo",
+                    "Cloud Hopper",
+                    "APT10"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "menuPass",
+                    "APT10",
+                    "Stone Panda"
+                ],
+                "date_start": [
+                    "2017-02",
+                    "2017-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "menuPass",
+                    "APT10",
+                    "Stone Panda"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

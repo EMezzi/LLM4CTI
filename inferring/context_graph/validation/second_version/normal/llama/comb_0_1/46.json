@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "APT38",
+                    "Lazarus Group"
+                ],
+                "goals": "financial gain",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "North Korea",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

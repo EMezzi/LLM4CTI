@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "TEMP.Veles",
+                    "Xenotime"
+                ],
+                "date_start": [
+                    "2017-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "TEMP.Veles",
+                    "Xenotime"
+                ],
+                "description": "Xenotime is a threat group that has targeted multiple critical infrastructure organizations in the Middle East and North America",
+                "labels": "nation-state",
+                "goals": "sabotage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

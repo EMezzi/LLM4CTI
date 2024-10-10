@@ -1,0 +1,704 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Putter Panda"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-3333",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2012-0002",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2010-2883",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2012-1856",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2010-0249",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2010-1885",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2010-0188",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2010-0434",
+                "id": "vulnerability9"
+            },
+            {
+                "name": "CVE-2010-0842",
+                "id": "vulnerability10"
+            },
+            {
+                "name": "CVE-2010-3962",
+                "id": "vulnerability11"
+            },
+            {
+                "name": "CVE-2010-0425",
+                "id": "vulnerability12"
+            },
+            {
+                "name": "CVE-2010-0806",
+                "id": "vulnerability13"
+            },
+            {
+                "name": "CVE-2010-0886",
+                "id": "vulnerability14"
+            },
+            {
+                "name": "CVE-2010-0250",
+                "id": "vulnerability15"
+            },
+            {
+                "name": "CVE-2010-0807",
+                "id": "vulnerability16"
+            },
+            {
+                "name": "CVE-2010-0840",
+                "id": "vulnerability17"
+            },
+            {
+                "name": "CVE-2010-0808",
+                "id": "vulnerability18"
+            },
+            {
+                "name": "CVE-2010-0843",
+                "id": "vulnerability19"
+            },
+            {
+                "name": "CVE-2010-0822",
+                "id": "vulnerability20"
+            },
+            {
+                "name": "CVE-2010-0823",
+                "id": "vulnerability21"
+            },
+            {
+                "name": "CVE-2010-0824",
+                "id": "vulnerability22"
+            },
+            {
+                "name": "CVE-2010-0825",
+                "id": "vulnerability23"
+            },
+            {
+                "name": "CVE-2010-0826",
+                "id": "vulnerability24"
+            },
+            {
+                "name": "CVE-2010-0827",
+                "id": "vulnerability25"
+            },
+            {
+                "name": "CVE-2010-0828",
+                "id": "vulnerability26"
+            },
+            {
+                "name": "CVE-2010-0829",
+                "id": "vulnerability27"
+            },
+            {
+                "name": "CVE-2010-0830",
+                "id": "vulnerability28"
+            },
+            {
+                "name": "CVE-2010-0831",
+                "id": "vulnerability29"
+            },
+            {
+                "name": "CVE-2010-0832",
+                "id": "vulnerability30"
+            },
+            {
+                "name": "CVE-2010-0833",
+                "id": "vulnerability31"
+            },
+            {
+                "name": "CVE-2010-0834",
+                "id": "vulnerability32"
+            },
+            {
+                "name": "CVE-2010-0835",
+                "id": "vulnerability33"
+            },
+            {
+                "name": "CVE-2010-0836",
+                "id": "vulnerability34"
+            },
+            {
+                "name": "CVE-2010-0837",
+                "id": "vulnerability35"
+            },
+            {
+                "name": "CVE-2010-0838",
+                "id": "vulnerability36"
+            },
+            {
+                "name": "CVE-2010-0839",
+                "id": "vulnerability37"
+            },
+            {
+                "name": "CVE-2010-0841",
+                "id": "vulnerability38"
+            },
+            {
+                "name": "CVE-2010-0844",
+                "id": "vulnerability39"
+            },
+            {
+                "name": "CVE-2010-0845",
+                "id": "vulnerability40"
+            },
+            {
+                "name": "CVE-2010-0846",
+                "id": "vulnerability41"
+            },
+            {
+                "name": "CVE-2010-0847",
+                "id": "vulnerability42"
+            },
+            {
+                "name": "CVE-2010-0848",
+                "id": "vulnerability43"
+            },
+            {
+                "name": "CVE-2010-0849",
+                "id": "vulnerability44"
+            },
+            {
+                "name": "CVE-2010-0850",
+                "id": "vulnerability45"
+            },
+            {
+                "name": "CVE-2010-0851",
+                "id": "vulnerability46"
+            },
+            {
+                "name": "CVE-2010-0852",
+                "id": "vulnerability47"
+            },
+            {
+                "name": "CVE-2010-0853",
+                "id": "vulnerability48"
+            },
+            {
+                "name": "CVE-2010-0854",
+                "id": "vulnerability49"
+            },
+            {
+                "name": "CVE-2010-0855",
+                "id": "vulnerability50"
+            },
+            {
+                "name": "CVE-2010-0856",
+                "id": "vulnerability51"
+            },
+            {
+                "name": "CVE-2010-0857",
+                "id": "vulnerability52"
+            },
+            {
+                "name": "CVE-2010-0858",
+                "id": "vulnerability53"
+            },
+            {
+                "name": "CVE-2010-0859",
+                "id": "vulnerability54"
+            },
+            {
+                "name": "CVE-2010-0860",
+                "id": "vulnerability55"
+            },
+            {
+                "name": "CVE-2010-0861",
+                "id": "vulnerability56"
+            },
+            {
+                "name": "CVE-2010-0862",
+                "id": "vulnerability57"
+            },
+            {
+                "name": "CVE-2010-0863",
+                "id": "vulnerability58"
+            },
+            {
+                "name": "CVE-2010-0864",
+                "id": "vulnerability59"
+            },
+            {
+                "name": "CVE-2010-0865",
+                "id": "vulnerability60"
+            },
+            {
+                "name": "CVE-2010-0866",
+                "id": "vulnerability61"
+            },
+            {
+                "name": "CVE-2010-0867",
+                "id": "vulnerability62"
+            },
+            {
+                "name": "CVE-2010-0868",
+                "id": "vulnerability63"
+            },
+            {
+                "name": "CVE-2010-0869",
+                "id": "vulnerability64"
+            },
+            {
+                "name": "CVE-2010-0870",
+                "id": "vulnerability65"
+            },
+            {
+                "name": "CVE-2010-0871",
+                "id": "vulnerability66"
+            },
+            {
+                "name": "CVE-2010-0872",
+                "id": "vulnerability67"
+            },
+            {
+                "name": "CVE-2010-0873",
+                "id": "vulnerability68"
+            },
+            {
+                "name": "CVE-2010-0874",
+                "id": "vulnerability69"
+            },
+            {
+                "name": "CVE-2010-0875",
+                "id": "vulnerability70"
+            },
+            {
+                "name": "CVE-2010-0876",
+                "id": "vulnerability71"
+            },
+            {
+                "name": "CVE-2010-0877",
+                "id": "vulnerability72"
+            },
+            {
+                "name": "CVE-2010-0878",
+                "id": "vulnerability73"
+            },
+            {
+                "name": "CVE-2010-0879",
+                "id": "vulnerability74"
+            },
+            {
+                "name": "CVE-2010-0880",
+                "id": "vulnerability75"
+            },
+            {
+                "name": "CVE-2010-0881",
+                "id": "vulnerability76"
+            },
+            {
+                "name": "CVE-2010-0882",
+                "id": "vulnerability77"
+            },
+            {
+                "name": "CVE-2010-0883",
+                "id": "vulnerability78"
+            },
+            {
+                "name": "CVE-2010-0884",
+                "id": "vulnerability79"
+            },
+            {
+                "name": "CVE-2010-0885",
+                "id": "vulnerability80"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ],
+            [
+                "APT1",
+                "vulnerability10"
+            ],
+            [
+                "APT1",
+                "vulnerability11"
+            ],
+            [
+                "APT1",
+                "vulnerability12"
+            ],
+            [
+                "APT1",
+                "vulnerability13"
+            ],
+            [
+                "APT1",
+                "vulnerability14"
+            ],
+            [
+                "APT1",
+                "vulnerability15"
+            ],
+            [
+                "APT1",
+                "vulnerability16"
+            ],
+            [
+                "APT1",
+                "vulnerability17"
+            ],
+            [
+                "APT1",
+                "vulnerability18"
+            ],
+            [
+                "APT1",
+                "vulnerability19"
+            ],
+            [
+                "APT1",
+                "vulnerability20"
+            ],
+            [
+                "APT1",
+                "vulnerability21"
+            ],
+            [
+                "APT1",
+                "vulnerability22"
+            ],
+            [
+                "APT1",
+                "vulnerability23"
+            ],
+            [
+                "APT1",
+                "vulnerability24"
+            ],
+            [
+                "APT1",
+                "vulnerability25"
+            ],
+            [
+                "APT1",
+                "vulnerability26"
+            ],
+            [
+                "APT1",
+                "vulnerability27"
+            ],
+            [
+                "APT1",
+                "vulnerability28"
+            ],
+            [
+                "APT1",
+                "vulnerability29"
+            ],
+            [
+                "APT1",
+                "vulnerability30"
+            ],
+            [
+                "APT1",
+                "vulnerability31"
+            ],
+            [
+                "APT1",
+                "vulnerability32"
+            ],
+            [
+                "APT1",
+                "vulnerability33"
+            ],
+            [
+                "APT1",
+                "vulnerability34"
+            ],
+            [
+                "APT1",
+                "vulnerability35"
+            ],
+            [
+                "APT1",
+                "vulnerability36"
+            ],
+            [
+                "APT1",
+                "vulnerability37"
+            ],
+            [
+                "APT1",
+                "vulnerability38"
+            ],
+            [
+                "APT1",
+                "vulnerability39"
+            ],
+            [
+                "APT1",
+                "vulnerability40"
+            ],
+            [
+                "APT1",
+                "vulnerability41"
+            ],
+            [
+                "APT1",
+                "vulnerability42"
+            ],
+            [
+                "APT1",
+                "vulnerability43"
+            ],
+            [
+                "APT1",
+                "vulnerability44"
+            ],
+            [
+                "APT1",
+                "vulnerability45"
+            ],
+            [
+                "APT1",
+                "vulnerability46"
+            ],
+            [
+                "APT1",
+                "vulnerability47"
+            ],
+            [
+                "APT1",
+                "vulnerability48"
+            ],
+            [
+                "APT1",
+                "vulnerability49"
+            ],
+            [
+                "APT1",
+                "vulnerability50"
+            ],
+            [
+                "APT1",
+                "vulnerability51"
+            ],
+            [
+                "APT1",
+                "vulnerability52"
+            ],
+            [
+                "APT1",
+                "vulnerability53"
+            ],
+            [
+                "APT1",
+                "vulnerability54"
+            ],
+            [
+                "APT1",
+                "vulnerability55"
+            ],
+            [
+                "APT1",
+                "vulnerability56"
+            ],
+            [
+                "APT1",
+                "vulnerability57"
+            ],
+            [
+                "APT1",
+                "vulnerability58"
+            ],
+            [
+                "APT1",
+                "vulnerability59"
+            ],
+            [
+                "APT1",
+                "vulnerability60"
+            ],
+            [
+                "APT1",
+                "vulnerability61"
+            ],
+            [
+                "APT1",
+                "vulnerability62"
+            ],
+            [
+                "APT1",
+                "vulnerability63"
+            ],
+            [
+                "APT1",
+                "vulnerability64"
+            ],
+            [
+                "APT1",
+                "vulnerability65"
+            ],
+            [
+                "APT1",
+                "vulnerability66"
+            ],
+            [
+                "APT1",
+                "vulnerability67"
+            ],
+            [
+                "APT1",
+                "vulnerability68"
+            ],
+            [
+                "APT1",
+                "vulnerability69"
+            ],
+            [
+                "APT1",
+                "vulnerability70"
+            ],
+            [
+                "APT1",
+                "vulnerability71"
+            ],
+            [
+                "APT1",
+                "vulnerability72"
+            ],
+            [
+                "APT1",
+                "vulnerability73"
+            ],
+            [
+                "APT1",
+                "vulnerability74"
+            ],
+            [
+                "APT1",
+                "vulnerability75"
+            ],
+            [
+                "APT1",
+                "vulnerability76"
+            ],
+            [
+                "APT1",
+                "vulnerability77"
+            ],
+            [
+                "APT1",
+                "vulnerability78"
+            ],
+            [
+                "APT1",
+                "vulnerability79"
+            ],
+            [
+                "APT1",
+                "vulnerability80"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

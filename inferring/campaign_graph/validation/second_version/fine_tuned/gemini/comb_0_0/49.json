@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "OceanLotus",
+                    "APT32"
+                ],
+                "date_start": [
+                    "2018-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "OceanLotus",
+                    "APT32"
+                ],
+                "description": "OceanLotus is a suspected Vietnamese threat group that has been targeting foreign corporations with interests in Vietnam\u2019s manufacturing, consumer products, and industrial sectors since at least 2012",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

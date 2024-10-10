@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        ">*": [
+            {
+                "actor": "OceanLotus\",>*"
+            }
+        ],
+        "APT": [
+            {
+                "name": "OceanLotus\",>*"
+            }
+        ]
+    },
+    "attack*": [
+        {
+            "name": "watering hole*,>*"
+        }
+    ]
+}

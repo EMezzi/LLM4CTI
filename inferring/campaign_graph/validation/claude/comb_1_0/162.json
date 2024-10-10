@@ -1,0 +1,72 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FIN6"
+                ],
+                "date_start": [
+                    "2019-04",
+                    "2019-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FIN6"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "HTA files executing PowerShell scripts",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "WMI lateral movement",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-Unknown",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-Unknown",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

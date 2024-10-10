@@ -1,0 +1,106 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "TEMP.Veles"
+                ],
+                "date_start": [
+                    "2018-05",
+                    "2018-03",
+                    "2018-10",
+                    "2017-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "TEMP.Veles"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Terminal session",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "SSH session",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Phishing",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Exposed Docker API Ports",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Steganography",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "SMS Text Messages",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Zero-day",
+                "id": "attack_vector7"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-14665",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ]
+        ]
+    }
+}

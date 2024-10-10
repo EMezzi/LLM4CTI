@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Unknown",
+                "date_start": [
+                    "2011-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [],
+        "attack_vector": [
+            {
+                "name": "Email attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "CVE-2011-0611",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2011-0611",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

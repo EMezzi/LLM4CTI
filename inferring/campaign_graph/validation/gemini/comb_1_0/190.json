@@ -1,0 +1,105 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT15",
+                    "Ke3chang"
+                ],
+                "date_start": [
+                    "2017-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT15",
+                    "Ke3chang"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Backdoor",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "COM Interface",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Corporate VPN",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Stolen VPN Certificate",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "DNS Based Backdoor",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Keyloggers",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Mimikatz",
+                "id": "attack_vector7"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2005-1794",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ]
+        ]
+    }
+}

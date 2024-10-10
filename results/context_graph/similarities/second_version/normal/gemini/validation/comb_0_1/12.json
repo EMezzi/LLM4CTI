@@ -1,0 +1,110 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                0.4022599458694458
+            ],
+            "attack_vector3": [
+                "attack_vector2",
+                0.32814592123031616
+            ],
+            "false positives": {},
+            "total_sim": 0.5162004828453064
+        },
+        "vulnerability": {},
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090977609157562
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                0.7011299431324005
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                0.6640729308128357
+            ],
+            "false positives": {},
+            "total_sim": 0.7581002116203308
+        },
+        "targets": {
+            "targets1": [],
+            "targets2": [],
+            "targets3": [],
+            "targets4": [],
+            "targets5": [],
+            "targets6": [],
+            "targets7": [],
+            "targets8": [],
+            "targets9": [],
+            "targets10": [],
+            "targets11": [],
+            "targets12": [],
+            "targets13": [],
+            "targets14": [],
+            "targets15": [],
+            "false positives": {},
+            "total_sim": 0.0
+        }
+    }
+}

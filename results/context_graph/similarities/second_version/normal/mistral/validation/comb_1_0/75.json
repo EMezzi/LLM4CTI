@@ -1,0 +1,177 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.000000238418579
+            ],
+            "false positives": {},
+            "total_sim": 1.000000238418579
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Spearphishing Attachment",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Remote Desktop Protocol",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Scripting",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "PowerShell",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "File and Directory Discovery",
+                    "id": "attack_vector6"
+                },
+                "attack_vector7": {
+                    "name": "Process Discovery",
+                    "id": "attack_vector7"
+                },
+                "attack_vector8": {
+                    "name": "Credentials in Files",
+                    "id": "attack_vector8"
+                },
+                "attack_vector9": {
+                    "name": "Remote File Copy",
+                    "id": "attack_vector9"
+                },
+                "attack_vector10": {
+                    "name": "Exfiltration Over Command and Control Channel",
+                    "id": "attack_vector10"
+                },
+                "attack_vector11": {
+                    "name": "Exploitation for Defense Evasion",
+                    "id": "attack_vector11"
+                },
+                "attack_vector12": {
+                    "name": "Input Capture",
+                    "id": "attack_vector12"
+                }
+            }
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-12686",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2017-12687",
+                    "id": "vulnerability2"
+                }
+            }
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.33614203333854675
+            ],
+            "false positives": {},
+            "total_sim": 0.33614203333854675
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0000000894069672
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000894069672
+        },
+        "uses": {
+            "false positives": {
+                "uses1": [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                "uses5": [
+                    "APT1",
+                    "attack_vector5"
+                ],
+                "uses6": [
+                    "APT1",
+                    "attack_vector6"
+                ],
+                "uses7": [
+                    "APT1",
+                    "attack_vector7"
+                ],
+                "uses8": [
+                    "APT1",
+                    "attack_vector8"
+                ],
+                "uses9": [
+                    "APT1",
+                    "attack_vector9"
+                ],
+                "uses10": [
+                    "APT1",
+                    "attack_vector10"
+                ],
+                "uses11": [
+                    "APT1",
+                    "attack_vector11"
+                ],
+                "uses12": [
+                    "APT1",
+                    "attack_vector12"
+                ]
+            }
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "APT1",
+                    "vulnerability2"
+                ]
+            }
+        }
+    }
+}

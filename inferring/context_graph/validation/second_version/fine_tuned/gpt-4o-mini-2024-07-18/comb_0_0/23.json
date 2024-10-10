@@ -1,0 +1,64 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "DarkHydrus"
+                ],
+                "goals": "espionage",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Middle East",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "cve-2017-11882",
+                "id": "vulnerability1"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

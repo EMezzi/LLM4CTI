@@ -1,0 +1,81 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "FIN6",
+                    "ITG08"
+                ],
+                "goals": "financial gain",
+                "labels": "crime-syndicate",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "United States",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Web Service",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0144",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2015-1641",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "crime-syndicate",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

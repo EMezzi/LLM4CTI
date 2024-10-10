@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "Wekby",
+                "date_start": [
+                    "2015-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Wekby",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

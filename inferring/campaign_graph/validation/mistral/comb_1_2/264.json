@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Multiple Chinese Threat Groups",
+                "date_start": [
+                    "2018-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Multiple Chinese Threat Groups",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-0798",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

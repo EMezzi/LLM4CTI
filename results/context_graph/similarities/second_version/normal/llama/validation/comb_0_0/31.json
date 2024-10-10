@@ -1,0 +1,123 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Spearphishing Attachment",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "Drive-by Compromise",
+                    "id": "attack_vector2"
+                }
+            }
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2014-1761",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2015-3043",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2014-4113",
+                    "id": "vulnerability3"
+                },
+                "vulnerability4": {
+                    "name": "CVE-2014-6352",
+                    "id": "vulnerability4"
+                }
+            },
+            "total_sim": 0.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.44416457414627075
+            ],
+            "false positives": {},
+            "total_sim": 0.44416457414627075
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "uses": {
+            "false positives": {
+                "uses1": [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ]
+            }
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.5
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.5
+            ],
+            "false positives": {
+                "targets3": [
+                    "APT1",
+                    "vulnerability3"
+                ],
+                "targets4": [
+                    "APT1",
+                    "vulnerability4"
+                ]
+            },
+            "total_sim": 0.5
+        }
+    }
+}

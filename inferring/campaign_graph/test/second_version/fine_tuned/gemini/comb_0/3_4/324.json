@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2014-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "description": "Winnti Group is a threat group that has been active since at least 2010",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

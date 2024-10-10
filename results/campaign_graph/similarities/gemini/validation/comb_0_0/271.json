@@ -1,0 +1,86 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.552707813680172
+            ],
+            "false positives": {},
+            "total_sim": 0.552707813680172
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.10541562736034393
+            ],
+            "false positives": {},
+            "total_sim": 0.10541562736034393
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6612724661827087
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "VPN",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Remote Access",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.6612724661827087
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2014-4114",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.32906172052025795
+            ],
+            "false positives": {},
+            "total_sim": 0.32906172052025795
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.6069901399314404
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.6069901399314404
+        }
+    }
+}

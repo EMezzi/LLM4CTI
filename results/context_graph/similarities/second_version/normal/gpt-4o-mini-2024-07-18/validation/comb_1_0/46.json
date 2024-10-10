@@ -1,0 +1,144 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector1",
+                0.4118887782096863
+            ],
+            "attack_vector3": [
+                "attack_vector3",
+                0.276377409696579
+            ],
+            "attack_vector4": [],
+            "false positives": {},
+            "total_sim": 0.4220665767788887
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "vulnerability3": [],
+            "vulnerability4": [],
+            "vulnerability5": [],
+            "vulnerability6": [],
+            "vulnerability7": [],
+            "vulnerability8": [
+                "vulnerability1",
+                1
+            ],
+            "vulnerability9": [],
+            "vulnerability10": [],
+            "vulnerability11": [],
+            "vulnerability12": [],
+            "false positives": {
+                "vulnerability2": {
+                    "name": "CVE-2018-7600",
+                    "id": "vulnerability2"
+                }
+            },
+            "total_sim": 0.08333333333333333
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.3416554629802704
+            ],
+            "false positives": {},
+            "total_sim": 0.3416554629802704
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999999701976776
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999701976776
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                1.0000000596046448
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.7059443891048431
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                0.6381887048482895
+            ],
+            "uses4": [],
+            "false positives": {},
+            "total_sim": 0.5860332883894444
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.5
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.5
+            ],
+            "targets3": [],
+            "targets4": [],
+            "targets5": [],
+            "targets6": [],
+            "targets7": [],
+            "targets8": [],
+            "targets9": [],
+            "targets10": [],
+            "targets11": [],
+            "targets12": [],
+            "false positives": {},
+            "total_sim": 0.08333333333333333
+        }
+    }
+}

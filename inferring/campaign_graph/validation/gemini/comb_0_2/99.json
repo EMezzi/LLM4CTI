@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "NEWSCASTER",
+                    "Magic Hound",
+                    "Charming Kitten"
+                ],
+                "date_start": [
+                    "2012-01",
+                    "2011-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "NEWSCASTER",
+                    "Magic Hound",
+                    "Charming Kitten"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

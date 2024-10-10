@@ -1,0 +1,97 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.9999999701976776
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999701976776
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.5583474636077881
+            ],
+            "attack_vector2": [
+                "attack_vector4",
+                0.3536025583744049
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Malicious Facebook Posts",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Compromised Facebook Accounts",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.4559750109910965
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2011-3402",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.9999999552965164
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999552965164
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.7791737169027328
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                0.6768012642860413
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.727987490594387
+        }
+    }
+}

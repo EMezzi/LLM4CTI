@@ -1,0 +1,86 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.24821388721466064
+            ],
+            "false positives": {},
+            "total_sim": 0.24821388721466064
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.4964277744293213
+            ],
+            "false positives": {},
+            "total_sim": 0.4964277744293213
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.7646920680999756
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Malicious Java Code",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.7646920680999756
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2020-",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2011-",
+                    "id": "vulnerability2"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.37232083082199097
+            ],
+            "false positives": {},
+            "total_sim": 0.37232083082199097
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.5064529776573181
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.5064529776573181
+        }
+    }
+}

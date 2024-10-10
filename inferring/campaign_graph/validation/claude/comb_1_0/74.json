@@ -1,0 +1,72 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Buhtrap"
+                ],
+                "date_start": [
+                    "2018-05",
+                    "2018-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Buhtrap"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Wiper Malware",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Compromising SWIFT Network",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-0000-0000",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-0000-0000",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

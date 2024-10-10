@@ -1,0 +1,68 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.5505056977272034
+            ],
+            "false positives": {},
+            "total_sim": 0.5505056977272034
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.10101139545440674
+            ],
+            "false positives": {},
+            "total_sim": 0.10101139545440674
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.30632084608078003
+            ],
+            "false positives": {},
+            "total_sim": 0.30632084608078003
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "No conclusive evidence to confirm sensitive information was removed from the system",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.32575854659080505
+            ],
+            "false positives": {},
+            "total_sim": 0.32575854659080505
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.4284132719039917
+            ],
+            "false positives": {},
+            "total_sim": 0.4284132719039917
+        }
+    }
+}

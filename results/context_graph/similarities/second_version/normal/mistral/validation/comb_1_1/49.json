@@ -1,0 +1,178 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.29384514689445496
+            ],
+            "false positives": {},
+            "total_sim": 0.29384514689445496
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector5",
+                0.3600504994392395
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Password Policy Discovery",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "DLL Side-Loading",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Exploitation of Remote Services",
+                    "id": "attack_vector4"
+                },
+                "attack_vector6": {
+                    "name": "Remote File Copy",
+                    "id": "attack_vector6"
+                },
+                "attack_vector7": {
+                    "name": "Custom Cryptographic Protocol",
+                    "id": "attack_vector7"
+                },
+                "attack_vector8": {
+                    "name": "Web Service",
+                    "id": "attack_vector8"
+                },
+                "attack_vector9": {
+                    "name": "Email Collection",
+                    "id": "attack_vector9"
+                }
+            },
+            "total_sim": 0.6800253093242645
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "vulnerability2": [],
+            "false positives": {
+                "vulnerability2": {
+                    "name": "CVE-2015-2545",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2020-0601",
+                    "id": "vulnerability3"
+                }
+            },
+            "total_sim": 0.5
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.6469225734472275
+            ],
+            "false positives": {},
+            "total_sim": 0.6469225734472275
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                1.0000000596046448
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector5"
+                ],
+                0.6800252497196198
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                "uses6": [
+                    "APT1",
+                    "attack_vector6"
+                ],
+                "uses7": [
+                    "APT1",
+                    "attack_vector7"
+                ],
+                "uses8": [
+                    "APT1",
+                    "attack_vector8"
+                ],
+                "uses9": [
+                    "APT1",
+                    "attack_vector9"
+                ]
+            },
+            "total_sim": 0.8400126546621323
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                1.0
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.5
+            ],
+            "false positives": {
+                "targets3": [
+                    "APT1",
+                    "vulnerability3"
+                ]
+            },
+            "total_sim": 0.75
+        }
+    }
+}

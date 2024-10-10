@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Cobalt group",
+                "date_start": [
+                    "2017-08",
+                    "2017-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Cobalt group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Macro-based attack",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "CVE-2017-8759 exploit",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-8759",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

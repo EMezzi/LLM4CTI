@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "RASPITE",
+                    "Leafminer"
+                ],
+                "date_start": [
+                    "2017-01",
+                    "2017-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "RASPITE",
+                    "Leafminer"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Strategic website compromise",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Embedding a link to prompt SMB connection",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Deploying malicious service to beacon back to actor-controlled infrastructure",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-unknown",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

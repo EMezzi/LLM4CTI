@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "Comment Crew",
+                "date_start": [
+                    "2018-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Comment Crew",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear phishing",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

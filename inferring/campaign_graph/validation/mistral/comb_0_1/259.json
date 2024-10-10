@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Poseidon Group",
+                "date_start": [
+                    "2001",
+                    "2005"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Poseidon Group",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spear-phishing emails including RTF/DOC files",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": []
+}

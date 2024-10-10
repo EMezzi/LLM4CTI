@@ -1,0 +1,47 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "NewsBeef APT",
+                "date_start": [
+                    "2016-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "NewsBeef APT",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "watering hole",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CMS related",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "outdated WordPress plugin",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "outdated Joomla version",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "outdated Drupal version",
+                "id": "vulnerability4"
+            }
+        ]
+    }
+}

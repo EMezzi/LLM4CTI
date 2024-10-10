@@ -1,0 +1,64 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6536393761634827
+            ],
+            "false positives": {},
+            "total_sim": 0.6536393761634827
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.30727875232696533
+            ],
+            "false positives": {},
+            "total_sim": 0.30727875232696533
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.36817479133605957
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "spearphishing attachment",
+                    "id": "attack_vector1"
+                }
+            },
+            "total_sim": 0.36817479133605957
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.480459064245224
+            ],
+            "false positives": {},
+            "total_sim": 0.480459064245224
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.5109070837497711
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ]
+            },
+            "total_sim": 0.5109070837497711
+        }
+    }
+}

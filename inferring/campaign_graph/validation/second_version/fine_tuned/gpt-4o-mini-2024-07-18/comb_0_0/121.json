@@ -1,0 +1,57 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Darkhotel"
+                ],
+                "date_start": [
+                    "2015-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Darkhotel"
+                ],
+                "description": "Darkhotel is a long-running APT group that has been active since at least 2007. The group has targeted high-profile victims in the hospitality industry, as well as business executives traveling to Asia. The group has also been linked to the 2014 breach of the Japanese hotel chain, the Okura Hotels & Resorts, which was used to target attendees of the 2014 APEC summit in Beijing.",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2015-5119",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

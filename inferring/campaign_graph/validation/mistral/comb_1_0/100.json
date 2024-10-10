@@ -1,0 +1,59 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Iranian threat actor",
+                "date_start": [
+                    "2014-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Iranian threat actor",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "phone calls to victims",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

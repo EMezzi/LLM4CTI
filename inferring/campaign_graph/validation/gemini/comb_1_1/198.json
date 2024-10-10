@@ -1,0 +1,228 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT38",
+                    "Lazarus Group"
+                ],
+                "date_start": [
+                    "2012-01",
+                    "2016-04",
+                    "2015-07",
+                    "2015-04",
+                    "2015-10",
+                    "2014-04",
+                    "2014-11",
+                    "2015-11",
+                    "2011-04",
+                    "2016-07",
+                    "2015-08",
+                    "2017-02",
+                    "2015-03",
+                    "2017-08",
+                    "2017-07",
+                    "2015-09",
+                    "2016-09",
+                    "2014-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT38",
+                    "Lazarus Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "watering hole attacks",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "webshell uploads",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "zero-day vulnerability",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Fake screensaver installer",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Executable file disguised as a document file",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Installer of a security program",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "HWP  vulnerability",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "Masqueraded as a security program module",
+                "id": "attack_vector9"
+            },
+            {
+                "name": "HWPx vulnerability",
+                "id": "attack_vector10"
+            },
+            {
+                "name": "malicious email",
+                "id": "attack_vector11"
+            },
+            {
+                "name": "OpenType Font vulnerability",
+                "id": "attack_vector12"
+            },
+            {
+                "name": "Script Engine Memory Corruption vulnerability",
+                "id": "attack_vector13"
+            },
+            {
+                "name": "loading",
+                "id": "attack_vector14"
+            },
+            {
+                "name": "EPS",
+                "id": "attack_vector15"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2015-6585",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2016-7256",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2016-0189",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-2545",
+                "id": "vulnerability4"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ],
+            [
+                "campaign1",
+                "vulnerability4"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ],
+            [
+                "campaign1",
+                "attack_vector8"
+            ],
+            [
+                "campaign1",
+                "attack_vector9"
+            ],
+            [
+                "campaign1",
+                "attack_vector10"
+            ],
+            [
+                "campaign1",
+                "attack_vector11"
+            ],
+            [
+                "campaign1",
+                "attack_vector12"
+            ],
+            [
+                "campaign1",
+                "attack_vector13"
+            ],
+            [
+                "campaign1",
+                "attack_vector14"
+            ],
+            [
+                "campaign1",
+                "attack_vector15"
+            ]
+        ]
+    },
+    "targets_actor": [
+        [
+            "APT3",
+            "Financial institutions"
+        ],
+        [
+            "APT3",
+            "cryptocurrency exchanges"
+        ],
+        [
+            "APT4",
+            "confidential data from the military and defence industries"
+        ],
+        [
+            "APT4",
+            "Financial industry"
+        ]
+    ]
+}

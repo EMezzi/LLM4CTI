@@ -1,0 +1,31 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "LightsOut EK",
+                "date_start": [
+                    "2014-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "LightsOut EK",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2013-2465",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

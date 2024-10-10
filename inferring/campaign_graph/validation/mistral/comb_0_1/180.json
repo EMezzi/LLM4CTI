@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Gamaredon",
+                "date_start": [
+                    "2019-04"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Gamaredon",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "Spear Phishing",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": []
+}

@@ -1,0 +1,28 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "Chinese hackers",
+                "date_start": [
+                    "2011-10",
+                    "2012-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Chinese hackers",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

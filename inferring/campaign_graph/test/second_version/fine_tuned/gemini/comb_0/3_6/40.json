@@ -1,0 +1,63 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "UPS",
+                    "APT3"
+                ],
+                "date_start": [
+                    "2015-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "UPS",
+                    "APT3"
+                ],
+                "description": "UPS is a threat group that has targeted organizations in the United States, South Korea, and Vietnam",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2015-5119",
+                "reservedDate": "2015-06",
+                "baseScore": "9.3",
+                "publishedDate": "2015-07",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

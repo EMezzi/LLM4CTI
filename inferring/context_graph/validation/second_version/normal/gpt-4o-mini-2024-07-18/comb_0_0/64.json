@@ -1,0 +1,83 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Rancor",
+                    "Rancor group",
+                    "Rancor Group"
+                ],
+                "goals": "espionage",
+                "labels": "spy",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Indonesia",
+                "// name of the country the APT is from": "",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "User Execution",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2020-0601",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "spy",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

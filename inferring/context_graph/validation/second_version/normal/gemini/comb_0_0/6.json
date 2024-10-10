@@ -1,0 +1,165 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "IRON TWILIGHT",
+                    "Tsar Team",
+                    "SNAKEMACKEREL",
+                    "TG-4127",
+                    "TAG_0700",
+                    "Sednit",
+                    "Swallowtail",
+                    "Sofacy",
+                    "Sofacy Group",
+                    "APT28",
+                    "SIG40",
+                    "Grizzly Steppe",
+                    "Pawn Storm",
+                    "TsarTeam",
+                    "STRONTIUM",
+                    "Group-4127",
+                    "apt_sofacy",
+                    "Group 74",
+                    "Fancy Bear",
+                    "PawnStorm",
+                    "APT 28",
+                    "Threat Group-4127"
+                ],
+                "goals": "espionage,sabotage",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "External Remote Services",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Web Service",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-3333",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-1701",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-2424",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2016-0167",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability7"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage,sabotage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

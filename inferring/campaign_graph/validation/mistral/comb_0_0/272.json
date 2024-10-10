@@ -1,0 +1,69 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT28",
+                "date_start": [
+                    "2019-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT28",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear-phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spoofing real government website portals",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Registering domains similar to trusted destinations",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Displaying the sender of these phishing emails as a trusted entity",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign1",
+                "APT2"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

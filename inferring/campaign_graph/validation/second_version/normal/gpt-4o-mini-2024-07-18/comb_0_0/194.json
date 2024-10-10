@@ -1,0 +1,102 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "KimsukyGroup",
+                    "Kimsuky"
+                ],
+                "date_start": [
+                    "2018-08",
+                    "2014-12",
+                    "2019-02",
+                    "2013-01",
+                    "2019-01",
+                    "2019-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "KimsukyGroup",
+                    "Kimsuky"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "exploit public-facing application",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "valid accounts",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "external remote services",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-4171",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2018-4878",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Lazarus",
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "date_start": [
+                    "2017-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Lazarus",
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "": [
+            {}
+        ],
+        "campaign": [
+            {
+                "actor": "Cobalt group",
+                "date_start": [
+                    "2017-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Cobalt group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

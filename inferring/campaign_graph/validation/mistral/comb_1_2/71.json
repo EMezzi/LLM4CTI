@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Unnamed expression",
+                "date_start": [],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Lazarus Group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-unknown",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

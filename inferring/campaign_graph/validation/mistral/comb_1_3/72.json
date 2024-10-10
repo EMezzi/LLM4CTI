@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "Lazarus",
+                "date_start": [
+                    "2017-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Lazarus",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

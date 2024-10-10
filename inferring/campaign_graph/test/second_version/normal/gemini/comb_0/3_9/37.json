@@ -1,0 +1,55 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Operation Clandestine Fox",
+                    "APT3"
+                ],
+                "date_start": [
+                    "2014-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Operation Clandestine Fox",
+                    "APT3"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-1776",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-3962",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": []
+    }
+}

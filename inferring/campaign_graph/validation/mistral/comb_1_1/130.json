@@ -1,0 +1,21 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Deep Panda",
+                "date_start": [
+                    "2014-04"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Deep Panda",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [],
+    "vulnerability": []
+}

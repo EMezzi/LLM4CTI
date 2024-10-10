@@ -1,0 +1,68 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "country": {},
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector2",
+                0.2906816899776459
+            ],
+            "false positives": {},
+            "total_sim": 0.6453409045934677
+        },
+        "vulnerability": "No ground truth and no false positives",
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.9999998211860657
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998211860657
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [],
+            "false positives": {},
+            "total_sim": 0.0
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                1.0
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                0.6453407853841782
+            ],
+            "false positives": {},
+            "total_sim": 0.8226703926920891
+        },
+        "targets": "No relations to pair and no false positives"
+    }
+}

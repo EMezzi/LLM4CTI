@@ -1,0 +1,76 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "",
+                    "ProjectSauron",
+                    "Strider"
+                ],
+                "date_start": [
+                    "2016-",
+                    "2011-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "",
+                    "ProjectSauron",
+                    "Strider"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Legitimate software distribution channels",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Removable USB devices",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

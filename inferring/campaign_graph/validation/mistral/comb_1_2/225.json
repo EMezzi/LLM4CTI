@@ -1,0 +1,33 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Desert Falcons",
+                "date_start": [
+                    "2013-03",
+                    "2014-02",
+                    "2014-09",
+                    "2014-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Desert Falcons",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    }
+}

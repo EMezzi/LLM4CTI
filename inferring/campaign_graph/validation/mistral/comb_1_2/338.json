@@ -1,0 +1,22 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT10",
+                "date_start": [
+                    "2017-02",
+                    "2017-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT10",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    }
+}

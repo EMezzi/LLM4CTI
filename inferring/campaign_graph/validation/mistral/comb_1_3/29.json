@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "Sofacy Group",
+                "date_start": [
+                    "2018-10",
+                    "2018-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Sofacy Group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing",
+                "id": "attack_vector1"
+            }
+        ]
+    }
+}

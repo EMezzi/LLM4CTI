@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FIN5"
+                ],
+                "date_start": [
+                    "2008",
+                    "2015-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FIN5"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Brute Force",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "VPN",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Remote Desktop Protocol",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Citrix",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "VNC",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

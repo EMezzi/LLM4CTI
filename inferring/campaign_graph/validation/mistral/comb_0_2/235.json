@@ -1,0 +1,31 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "MuddyWater-associated BlackWater",
+                "date_start": [
+                    "2019-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "MuddyWater-associated BlackWater",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

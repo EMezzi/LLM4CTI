@@ -1,0 +1,70 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "China"
+                ],
+                "date_start": [
+                    "2015-02",
+                    "2014-11",
+                    "2014-03",
+                    "2015-06",
+                    "2014-07",
+                    "2015-05",
+                    "2014-12",
+                    "2014-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "China"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "exploit public-facing application",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-XXXX",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

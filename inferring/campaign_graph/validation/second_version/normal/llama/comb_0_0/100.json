@@ -1,0 +1,110 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Iranian"
+                ],
+                "date_start": [
+                    "2014-06",
+                    "2011-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Iranian"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing via email",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Drive-by compromise",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Supply chain compromise",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Exploit public-facing application",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Valid accounts",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "External remote services",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Spearphishing link",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Phone calls to victims",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "Messages on social networks",
+                "id": "attack_vector9"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ],
+            [
+                "campaign1",
+                "attack_vector8"
+            ],
+            [
+                "campaign1",
+                "attack_vector9"
+            ]
+        ]
+    }
+}

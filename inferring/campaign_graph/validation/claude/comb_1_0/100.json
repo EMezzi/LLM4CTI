@@ -1,0 +1,96 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Thamar Reservoir"
+                ],
+                "date_start": [
+                    "2014-05",
+                    "2015-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Thamar Reservoir"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear Phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Fake Websites",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Phone Calls",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Account Takeover",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Social Media Messages",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-0117",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-1829",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

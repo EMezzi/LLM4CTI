@@ -1,0 +1,124 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.4027126431465149
+            ],
+            "false positives": {},
+            "total_sim": 0.4027126431465149
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.8054252862930298
+            ],
+            "false positives": {},
+            "total_sim": 0.8054252862930298
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6612724661827087
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Strategic Web Compromises",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Torrent File-Sharing Sites",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.6612724661827087
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2018-4878",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2017-0199",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2016-4117",
+                    "id": "vulnerability3"
+                },
+                "vulnerability4": {
+                    "name": "CVE-2016-1019",
+                    "id": "vulnerability4"
+                },
+                "vulnerability5": {
+                    "name": "CVE-2015-3043",
+                    "id": "vulnerability5"
+                }
+            },
+            "total_sim": 0.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.6040689647197723
+            ],
+            "false positives": {},
+            "total_sim": 0.6040689647197723
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.20135632157325745
+            ],
+            "false positives": {
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ],
+                "targets3": [
+                    "campaign1",
+                    "vulnerability3"
+                ],
+                "targets4": [
+                    "campaign1",
+                    "vulnerability4"
+                ],
+                "targets5": [
+                    "campaign1",
+                    "vulnerability5"
+                ]
+            },
+            "total_sim": 0.20135632157325745
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.5319925546646118
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.5319925546646118
+        }
+    }
+}

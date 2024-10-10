@@ -1,0 +1,38 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "NewRomanic Cyber Army Team",
+                    "APT38"
+                ],
+                "date_start": [
+                    "2013-03",
+                    "2009-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "NewRomanic Cyber Army Team",
+                    "APT38"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

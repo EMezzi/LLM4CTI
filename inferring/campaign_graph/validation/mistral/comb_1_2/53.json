@@ -1,0 +1,43 @@
+{
+    "": {
+        "": [
+            {
+                "": "aPT33",
+                "date": [
+                    "2017-08",
+                    "2017-11",
+                    "2018-07",
+                    "2018-10",
+                    "2018-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "": "aPT33",
+                "id": "APT1"
+            }
+        ],
+        "attack": [
+            {
+                "": "spearphishing attachment",
+                "id": "attack1"
+            },
+            {
+                "": "drive-by compromise",
+                "id": "attack2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "": "CVE-2017-0213",
+                "id": "vulnerability1"
+            },
+            {
+                "": "CVE-2017-11774",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

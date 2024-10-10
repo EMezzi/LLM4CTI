@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Naikon"
+                ],
+                "date_start": [
+                    "2012-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Naikon"
+                ],
+                "description": "Naikon is a threat group that has been active since at least 2010",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "reservedDate": "2011-11",
+                "baseScore": "9.3",
+                "publishedDate": "2012-01",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

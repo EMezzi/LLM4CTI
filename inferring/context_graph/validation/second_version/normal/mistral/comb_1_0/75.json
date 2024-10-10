@@ -1,0 +1,161 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "TEMP.Veles",
+                    "XENOTIME"
+                ],
+                "goals": "sabotage",
+                "labels": "sabotage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Remote Desktop Protocol",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Scripting",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "PowerShell",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "File and Directory Discovery",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Process Discovery",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Credentials in Files",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "Remote File Copy",
+                "id": "attack_vector9"
+            },
+            {
+                "name": "Exfiltration Over Command and Control Channel",
+                "id": "attack_vector10"
+            },
+            {
+                "name": "Exploitation for Defense Evasion",
+                "id": "attack_vector11"
+            },
+            {
+                "name": "Input Capture",
+                "id": "attack_vector12"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-12686",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-12687",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "sabotage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "sabotage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ],
+            [
+                "APT1",
+                "attack_vector9"
+            ],
+            [
+                "APT1",
+                "attack_vector10"
+            ],
+            [
+                "APT1",
+                "attack_vector11"
+            ],
+            [
+                "APT1",
+                "attack_vector12"
+            ]
+        ]
+    }
+}

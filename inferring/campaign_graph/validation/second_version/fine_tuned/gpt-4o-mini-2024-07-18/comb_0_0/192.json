@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Kimsuky"
+                ],
+                "date_start": [
+                    "2019-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Kimsuky"
+                ],
+                "description": "Kimsuky is a North Korean threat group that has been active since at least 2013. The group has targeted a variety of industries, including government, think tanks, and media organizations, with a focus on South Korea and the United States. Kimsuky has been linked to several campaigns, including the 2014 Korea Hydro and Nuclear Power Company attack, and the 2016 South Korean Ministry of Defense attack.",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-20250",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

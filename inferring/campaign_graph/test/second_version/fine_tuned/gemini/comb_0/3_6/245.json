@@ -1,0 +1,63 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "OilRig",
+                    "APT34"
+                ],
+                "date_start": [
+                    "2017-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "OilRig",
+                    "APT34"
+                ],
+                "description": "APT34 is a threat group that has been operating since at least 2014 and has targeted organizations across the Middle East",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-11882",
+                "reservedDate": "2017-09",
+                "baseScore": "7.8",
+                "publishedDate": "2017-11",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

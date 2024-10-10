@@ -1,0 +1,70 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Kimsuky",
+                    "BlackBanshee"
+                ],
+                "date_start": [
+                    "2019-04",
+                    "2019-05",
+                    "2018-08",
+                    "2020-01",
+                    "2019-06",
+                    "2019-12",
+                    "2019-11",
+                    "2019-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Kimsuky",
+                    "BlackBanshee"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear Phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Credential Harvesting",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Malware",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

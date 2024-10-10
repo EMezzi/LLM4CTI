@@ -1,0 +1,69 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FIN4"
+                ],
+                "date_start": [
+                    "2013-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FIN4"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Emails",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Compromised Email Accounts",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Fake OWA Login Pages",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Malicious VBA Macros",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

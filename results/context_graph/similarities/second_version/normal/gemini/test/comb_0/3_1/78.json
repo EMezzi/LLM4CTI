@@ -1,0 +1,105 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999996423721313
+            ],
+            "false positives": {},
+            "total_sim": 0.9999996423721313
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Valid Accounts",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "Spearphishing Attachment",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector3"
+                }
+            }
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2012-0003",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2010-2076",
+                    "id": "vulnerability2"
+                }
+            }
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.3419210910797119
+            ],
+            "false positives": {},
+            "total_sim": 0.3419210910797119
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999998211860657
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998211860657
+        },
+        "uses": {
+            "false positives": {
+                "uses1": [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ]
+            }
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "APT1",
+                    "vulnerability2"
+                ]
+            }
+        }
+    }
+}

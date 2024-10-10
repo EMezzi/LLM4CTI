@@ -1,0 +1,152 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "PLATINUM"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Windows Management Instrumentation",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "PowerShell",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Remote System Discovery",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Execution through API",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Service Execution",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "File and Directory Discovery",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Exfiltration Over Command and Control Channel",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "Credential Dumping",
+                "id": "attack_vector9"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0261",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0262",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2017-0263",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2018-8440",
+                "id": "vulnerability4"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ],
+            [
+                "APT1",
+                "attack_vector9"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "OceanLotus",
+                "date_start": [
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "OceanLotus",
+                "id": "APT32"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Microsoft Office Document with malicious macro",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "RAR archive with legitimate program and DLL side-loading",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT32"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

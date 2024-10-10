@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT1"
+                ],
+                "date_start": [
+                    "2011-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT1"
+                ],
+                "description": "APT1 is a designation used by Mandiant to refer to a group of Chinese hackers that have been active since at least 2006. The group is believed to be based in Shanghai and is thought to be affiliated with the Chinese military. The group has been linked to a number of high-profile attacks against a variety of industries, including defense, aerospace, technology, and telecommunications.",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

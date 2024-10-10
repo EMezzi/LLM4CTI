@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT29"
+                ],
+                "date_start": [
+                    "2014-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT29"
+                ],
+                "description": "APT29 is a threat group that has been attributed to the Russian Federation\u2019s Federal Security Service (FSB)",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "reservedDate": "2011-12",
+                "baseScore": "7.5",
+                "publishedDate": "2012-04",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

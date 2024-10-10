@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Poseidon",
+                "date_start": [
+                    "2005"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Poseidon",
+            "id": "APT1"
+        }
+    ]
+}

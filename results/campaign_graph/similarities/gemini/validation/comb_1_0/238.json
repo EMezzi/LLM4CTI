@@ -1,0 +1,81 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.593800276517868
+            ],
+            "false positives": {},
+            "total_sim": 0.593800276517868
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.18760055303573608
+            ],
+            "false positives": {},
+            "total_sim": 0.18760055303573608
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.4466906189918518
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Malicious Microsoft Office RTF Document",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.4466906189918518
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.39070041477680206
+            ],
+            "false positives": {},
+            "total_sim": 0.39070041477680206
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.796900138258934
+            ],
+            "false positives": {},
+            "total_sim": 0.796900138258934
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.5202454477548599
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.5202454477548599
+        }
+    }
+}

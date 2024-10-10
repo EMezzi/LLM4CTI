@@ -1,0 +1,76 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6319565773010254
+            ],
+            "false positives": {},
+            "total_sim": 0.6319565773010254
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2639131546020508
+            ],
+            "false positives": {},
+            "total_sim": 0.2639131546020508
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.9999998807907104
+            ],
+            "attack_vector2": [
+                "attack_vector2",
+                0.9999996423721313
+            ],
+            "attack_vector3": [
+                "attack_vector3",
+                0.4483731985092163
+            ],
+            "false positives": {},
+            "total_sim": 0.8161242405573527
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4479348659515381
+            ],
+            "false positives": {},
+            "total_sim": 0.4479348659515381
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.8159782290458679
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.8159781098365784
+            ],
+            "employs3": [
+                [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                0.5401648879051208
+            ],
+            "false positives": {},
+            "total_sim": 0.7240404089291891
+        }
+    }
+}

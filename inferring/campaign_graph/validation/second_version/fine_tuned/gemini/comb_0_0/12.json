@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT41",
+                    "Winnti Group",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2014-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT41",
+                    "Winnti Group",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "description": "APT17 is a threat group that has been attributed to the Chinese Ministry of State Security",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

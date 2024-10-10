@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "TEMP.Zagros",
+                "date_start": [
+                    "2018-01",
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "TEMP.Zagros",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear phishing",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

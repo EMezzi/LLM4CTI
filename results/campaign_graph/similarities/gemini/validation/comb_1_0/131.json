@@ -1,0 +1,88 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                1.0000000596046448
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000596046448
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.3048343062400818
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Powershell scripts",
+                    "id": "attack_vector1"
+                },
+                "attack_vector3": {
+                    "name": "WMI",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "WebShells",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "Stolen Credentials",
+                    "id": "attack_vector5"
+                }
+            },
+            "total_sim": 0.3048343062400818
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                1.0000000894069672
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000894069672
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.6524171829223633
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                "employs5": [
+                    "campaign1",
+                    "attack_vector5"
+                ]
+            },
+            "total_sim": 0.6524171829223633
+        }
+    }
+}

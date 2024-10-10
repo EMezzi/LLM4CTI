@@ -1,0 +1,68 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.06295152753591537
+            ],
+            "false positives": {},
+            "total_sim": 0.06295152753591537
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.12590305507183075
+            ],
+            "false positives": {},
+            "total_sim": 0.12590305507183075
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.3206225335597992
+            ],
+            "false positives": {},
+            "total_sim": 0.3206225335597992
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2013-6359",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.09442729130387306
+            ],
+            "false positives": {},
+            "total_sim": 0.09442729130387306
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.19178703054785728
+            ],
+            "false positives": {},
+            "total_sim": 0.19178703054785728
+        }
+    }
+}

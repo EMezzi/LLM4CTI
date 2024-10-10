@@ -1,0 +1,77 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "NewRomanic Cyber Army Team",
+                    "APT38"
+                ],
+                "date_start": [
+                    "2012-06",
+                    "2013-03",
+                    "2010-03",
+                    "2009-03",
+                    "2011-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "NewRomanic Cyber Army Team",
+                    "APT38"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Compromised patch-management server",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2013-1753",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2013-1754",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

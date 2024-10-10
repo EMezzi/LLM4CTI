@@ -1,0 +1,80 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "TopHat"
+                ],
+                "date_start": [
+                    "2017-09",
+                    "2017-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "TopHat"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Malicious RTF files leveraging Bit.ly",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious BMP files using DKMC",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Malicious RTFs exploiting CVE-2017-0199",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Self-extracting Executables",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.7122193276882172
+            ],
+            "false positives": {},
+            "total_sim": 0.7122193276882172
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.4244386553764343
+            ],
+            "false positives": {},
+            "total_sim": 0.4244386553764343
+        },
+        "attack_vector": {},
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {
+                "vulnerability2": {
+                    "name": "CVE-2017-0263",
+                    "id": "vulnerability2"
+                }
+            },
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.5683289915323257
+            ],
+            "false positives": {},
+            "total_sim": 0.5683289915323257
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.8561096638441086
+            ],
+            "false positives": {
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ]
+            },
+            "total_sim": 0.8561096638441086
+        },
+        "employs": {
+            "employs1": [],
+            "false positives": {},
+            "total_sim": 0.0
+        }
+    }
+}

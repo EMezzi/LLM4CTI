@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "TEMP.Periscope",
+                "date_start": [
+                    "2018-07"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "TEMP.Periscope",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spearphishing attachment",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": []
+}

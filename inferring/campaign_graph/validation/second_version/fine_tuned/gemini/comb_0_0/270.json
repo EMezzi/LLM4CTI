@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Sandworm Team"
+                ],
+                "date_start": [
+                    "2014-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Sandworm Team"
+                ],
+                "description": "Sandworm Team is a threat group that has been attributed to the Russian GRU\u2019s Main Center for Special Technologies (GTsST)",
+                "labels": "nation-state",
+                "goals": "sabotage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-4114",
+                "reservedDate": "2014-08",
+                "baseScore": "9.3",
+                "publishedDate": "2014-10",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

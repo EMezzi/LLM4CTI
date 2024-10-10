@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Cobalt group",
+                "date_start": [
+                    "2017-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Cobalt group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Phishing emails with malicious attachments",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Microsoft Word Intruder (MWI)",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2016-4117",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-2545",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-1641",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability5"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ],
+            [
+                "campaign1",
+                "vulnerability4"
+            ],
+            [
+                "campaign1",
+                "vulnerability5"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

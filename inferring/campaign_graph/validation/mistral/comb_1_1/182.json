@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "Gorgon Group",
+                "date_start": [
+                    "2018-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Gorgon Group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [],
+        "targets": [],
+        "employs": []
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                1.0
+            ],
+            "attack_vector3": [
+                "attack_vector4",
+                0.3708034157752991
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Web Service",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.7902678449948629
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "vulnerability3": [],
+            "vulnerability4": [],
+            "vulnerability5": [
+                "vulnerability3",
+                1
+            ],
+            "vulnerability6": [],
+            "vulnerability7": [],
+            "vulnerability8": [],
+            "vulnerability9": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2012-4792",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2014-6332",
+                    "id": "vulnerability2"
+                }
+            },
+            "total_sim": 0.1111111111111111
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.45447874069213867
+            ],
+            "false positives": {},
+            "total_sim": 0.45447874069213867
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                1.0000000596046448
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                1.0
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                0.6854017078876495
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.8951339224974314
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.5
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.5
+            ],
+            "targets3": [
+                [
+                    "APT1",
+                    "vulnerability3"
+                ],
+                0.5
+            ],
+            "targets4": [],
+            "targets5": [],
+            "targets6": [],
+            "targets7": [],
+            "targets8": [],
+            "targets9": [],
+            "false positives": {},
+            "total_sim": 0.16666666666666666
+        }
+    }
+}

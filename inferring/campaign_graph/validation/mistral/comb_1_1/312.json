@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Emissary Panda",
+                "date_start": [
+                    "2019-04"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Emissary Panda",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "CVE-2019-0604",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "CVE-2017-0144",
+            "id": "attack_vector2"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2019-0604",
+            "id": "vulnerability1"
+        },
+        {
+            "name": "CVE-2017-0144",
+            "id": "vulnerability2"
+        }
+    ]
+}

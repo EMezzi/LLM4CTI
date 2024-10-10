@@ -1,0 +1,86 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.13656577467918396
+            ],
+            "false positives": {},
+            "total_sim": 0.13656577467918396
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2731315493583679
+            ],
+            "false positives": {},
+            "total_sim": 0.2731315493583679
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.33288419246673584
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Compromised SWIFT logon credentials",
+                    "id": "attack_vector1"
+                }
+            },
+            "total_sim": 0.33288419246673584
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2015-0235",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2016-0800",
+                    "id": "vulnerability2"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.20484866201877594
+            ],
+            "false positives": {},
+            "total_sim": 0.20484866201877594
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.2347249835729599
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ]
+            },
+            "total_sim": 0.2347249835729599
+        }
+    }
+}

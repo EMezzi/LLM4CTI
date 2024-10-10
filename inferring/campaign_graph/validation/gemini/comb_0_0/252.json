@@ -1,0 +1,118 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "PLATINUM"
+                ],
+                "date_start": [
+                    "2012-01",
+                    "2018-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "PLATINUM"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "WMI subscriptions",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "PowerShell",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Dropbox",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "WinSock NSP",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Steganography",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "DLL side-loading",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Credential Store",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Protected Storage",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "C&C communication",
+                "id": "attack_vector9"
+            },
+            {
+                "name": "Runtime Crypter",
+                "id": "attack_vector10"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ],
+            [
+                "campaign1",
+                "attack_vector8"
+            ],
+            [
+                "campaign1",
+                "attack_vector9"
+            ],
+            [
+                "campaign1",
+                "attack_vector10"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT41",
+                "date_start": [
+                    "2020-01",
+                    "2020-03"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "APT41",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spearphishing attachment",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "drive-by compromise",
+            "id": "attack_vector2"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2019-19781",
+            "id": "vulnerability1"
+        },
+        {
+            "name": "CVE-2019-1653",
+            "id": "vulnerability2"
+        },
+        {
+            "name": "CVE-2019-1652",
+            "id": "vulnerability3"
+        },
+        {
+            "name": "CVE-2020-10189",
+            "id": "vulnerability4"
+        }
+    ]
+}

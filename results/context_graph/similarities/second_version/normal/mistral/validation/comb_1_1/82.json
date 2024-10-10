@@ -1,0 +1,153 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector4",
+                0.4581097960472107
+            ],
+            "attack_vector3": [
+                "attack_vector3",
+                0.339917927980423
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "PowerShell",
+                    "id": "attack_vector2"
+                },
+                "attack_vector5": {
+                    "name": "Exfiltration Over Alternative Protocol",
+                    "id": "attack_vector5"
+                }
+            },
+            "total_sim": 0.5387411018212637
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "vulnerability3": [
+                "vulnerability3",
+                1
+            ],
+            "vulnerability4": [
+                "vulnerability2",
+                1
+            ],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-0144",
+                    "id": "vulnerability1"
+                }
+            },
+            "total_sim": 0.5
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.4764662981033325
+            ],
+            "false positives": {},
+            "total_sim": 0.4764662981033325
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999999701976776
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999701976776
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090977609157562
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                0.729054868221283
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                0.6699589341878891
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses5": [
+                    "APT1",
+                    "attack_vector5"
+                ]
+            },
+            "total_sim": 0.7693705211083094
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.4999999701976776
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.4999999701976776
+            ],
+            "targets3": [
+                [
+                    "APT1",
+                    "vulnerability3"
+                ],
+                0.9999999701976776
+            ],
+            "targets4": [],
+            "false positives": {},
+            "total_sim": 0.4999999776482582
+        }
+    }
+}

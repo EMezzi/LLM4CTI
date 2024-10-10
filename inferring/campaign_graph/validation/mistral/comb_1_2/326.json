@@ -1,0 +1,31 @@
+{
+    "nodes": {
+        ";campaign\": [;": [
+            {
+                "actor": "Winnti",
+                "date_start": [
+                    "2013-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        ";APT\": [{": [
+            {
+                "name": "Winnti",
+                "id": "APT1"
+            }
+        ],
+        ";attack_vector\": [{": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        ";vulnerability\": [{": [
+            {
+                "name": "CVE-2013-3906",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

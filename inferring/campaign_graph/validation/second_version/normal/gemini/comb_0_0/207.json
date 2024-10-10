@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT38",
+                    "Hidden Cobra",
+                    "Lazarus Group"
+                ],
+                "date_start": [
+                    "2018-02",
+                    "2017-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT38",
+                    "Hidden Cobra",
+                    "Lazarus Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

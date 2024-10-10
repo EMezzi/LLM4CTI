@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "RASPITE",
+                "date_start": [
+                    "2017-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "RASPITE",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "strategic website compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

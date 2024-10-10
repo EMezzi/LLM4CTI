@@ -1,0 +1,96 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Naikon"
+                ],
+                "goals": "espionage",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Remote Desktop Protocol",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "PowerShell",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Exfiltration Over Command and Control Channel",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

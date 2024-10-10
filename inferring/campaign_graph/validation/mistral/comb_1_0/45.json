@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT32/OceanLotus",
+                "date_start": [
+                    "2017-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT32/OceanLotus",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "compromised websites with malicious code",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Google account permission request",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

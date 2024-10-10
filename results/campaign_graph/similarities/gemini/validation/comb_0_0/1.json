@@ -1,0 +1,64 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6380307972431183
+            ],
+            "false positives": {},
+            "total_sim": 0.6380307972431183
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2760615944862366
+            ],
+            "false positives": {},
+            "total_sim": 0.2760615944862366
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6931829452514648
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Malicious Link",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.6931829452514648
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.45704619586467743
+            ],
+            "false positives": {},
+            "total_sim": 0.45704619586467743
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.6656068712472916
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.6656068712472916
+        }
+    }
+}

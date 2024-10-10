@@ -1,0 +1,81 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.7699327170848846
+            ],
+            "false positives": {},
+            "total_sim": 0.7699327170848846
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.5398654341697693
+            ],
+            "false positives": {},
+            "total_sim": 0.5398654341697693
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "spearphishing via service",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 1.0000001192092896
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.654899075627327
+            ],
+            "false positives": {},
+            "total_sim": 0.654899075627327
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.8849663585424423
+            ],
+            "false positives": {},
+            "total_sim": 0.8849663585424423
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.8849664181470871
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.8849664181470871
+        }
+    }
+}

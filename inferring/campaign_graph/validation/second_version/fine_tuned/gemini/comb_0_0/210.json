@@ -1,0 +1,63 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "date_start": [
+                    "2019-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "description": "Lazarus Group is a threat group that has been attributed to the North Korean government",
+                "labels": "nation-state",
+                "goals": "espionage,sabotage,financial gain",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-20250",
+                "reservedDate": "2018-12",
+                "baseScore": "7.8",
+                "publishedDate": "2019-02",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

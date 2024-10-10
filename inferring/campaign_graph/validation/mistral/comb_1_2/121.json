@@ -1,0 +1,37 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "Darkhotel",
+                "date_start": [
+                    "2007-01",
+                    "2015-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Darkhotel",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2015-5119",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

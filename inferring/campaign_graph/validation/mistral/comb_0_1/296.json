@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "BabyShark",
+                "date_start": [
+                    "2018-11"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "BabyShark",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spear phishing emails",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "malicious Excel macro document",
+            "id": "attack_vector2"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2018-",
+            "id": "vulnerability1"
+        }
+    ]
+}

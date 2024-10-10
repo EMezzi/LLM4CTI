@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Cobalt Group"
+                ],
+                "goals": "criminal",
+                "labels": "financial gain",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "criminal",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "financial gain",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

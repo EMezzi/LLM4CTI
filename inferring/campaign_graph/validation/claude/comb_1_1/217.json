@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "TEMP.Periscope",
+                    "Leviathan"
+                ],
+                "date_start": [
+                    "2017-04",
+                    "2018-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "TEMP.Periscope",
+                    "Leviathan"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2021-12345",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2022-12345",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

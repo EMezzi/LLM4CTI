@@ -1,0 +1,20 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": "Scarlet Mimic",
+                "goals": "espionage",
+                "labels": "activist",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    }
+}

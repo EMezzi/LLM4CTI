@@ -1,0 +1,91 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.5630208477377892
+            ],
+            "false positives": {},
+            "total_sim": 0.5630208477377892
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.1260416954755783
+            ],
+            "false positives": {},
+            "total_sim": 0.1260416954755783
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector3",
+                0.4379926323890686
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Malicious RTF Files",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "Self-extracting Windows Executables",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.4379926323890686
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-0199",
+                    "id": "vulnerability1"
+                }
+            },
+            "total_sim": 0.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.34453127160668373
+            ],
+            "false positives": {},
+            "total_sim": 0.34453127160668373
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.2815104238688946
+            ],
+            "false positives": {},
+            "total_sim": 0.2815104238688946
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                0.5005067400634289
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.5005067400634289
+        }
+    }
+}

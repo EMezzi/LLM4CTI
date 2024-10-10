@@ -1,0 +1,106 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Strider",
+                    "ProjectSauron APT",
+                    "Sauron",
+                    "ProjectSauron",
+                    "Project Sauron"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "External Remote Services",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Obfuscated Files or Information",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Data Encoding",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Custom Cryptographic Protocol",
+                "id": "attack_vector7"
+            }
+        ],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ]
+        ]
+    }
+}

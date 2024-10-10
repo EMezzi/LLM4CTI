@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "Thamar Reservoir",
+                "date_start": [
+                    "2014-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Thamar Reservoir",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

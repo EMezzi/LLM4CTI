@@ -1,0 +1,92 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Strider",
+                    "Sauron",
+                    "ProjectSauron APT",
+                    "ProjectSauron",
+                    "Project Sauron"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Audi Capture",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Double File Extension",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Custom Cryptographic Protocol",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "N/A",
+                "id": "vulnerability1"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

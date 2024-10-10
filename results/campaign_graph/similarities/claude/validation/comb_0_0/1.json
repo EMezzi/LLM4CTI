@@ -1,0 +1,86 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6380307972431183
+            ],
+            "false positives": {},
+            "total_sim": 0.6380307972431183
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2760615944862366
+            ],
+            "false positives": {},
+            "total_sim": 0.2760615944862366
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.7584385871887207
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Legitimate-looking file download link",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.7584385871887207
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2014-0322",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2014-0569",
+                    "id": "vulnerability2"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.45704619586467743
+            ],
+            "false positives": {},
+            "total_sim": 0.45704619586467743
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.6982346922159195
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.6982346922159195
+        }
+    }
+}

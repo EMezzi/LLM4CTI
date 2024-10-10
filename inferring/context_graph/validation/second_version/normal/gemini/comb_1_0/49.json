@@ -1,0 +1,57 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Operation Lotus Blossom",
+                    "DRAGONFISH",
+                    "Spring Dragon",
+                    "Lotus Blossom"
+                ],
+                "goals": "espionage",
+                "labels": "spy",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "spy",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector13",
+                0.3300668001174927
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "spear-phishing",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "watering hole attacks",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "webshell uploads",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "zero-day vulnerability",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "Fake screensaver installer",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "Executable file disguised as a document file",
+                    "id": "attack_vector6"
+                },
+                "attack_vector7": {
+                    "name": "Installer of a security program",
+                    "id": "attack_vector7"
+                },
+                "attack_vector8": {
+                    "name": "HWP  vulnerability",
+                    "id": "attack_vector8"
+                },
+                "attack_vector9": {
+                    "name": "Masqueraded as a security program module",
+                    "id": "attack_vector9"
+                },
+                "attack_vector10": {
+                    "name": "HWPx vulnerability",
+                    "id": "attack_vector10"
+                },
+                "attack_vector11": {
+                    "name": "malicious email",
+                    "id": "attack_vector11"
+                },
+                "attack_vector12": {
+                    "name": "OpenType Font vulnerability",
+                    "id": "attack_vector12"
+                },
+                "attack_vector14": {
+                    "name": "loading",
+                    "id": "attack_vector14"
+                },
+                "attack_vector15": {
+                    "name": "EPS",
+                    "id": "attack_vector15"
+                }
+            },
+            "total_sim": 0.3300668001174927
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2015-6585",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2016-7256",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2016-0189",
+                    "id": "vulnerability3"
+                },
+                "vulnerability4": {
+                    "name": "CVE-2015-2545",
+                    "id": "vulnerability4"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ],
+                "targets3": [
+                    "campaign1",
+                    "vulnerability3"
+                ],
+                "targets4": [
+                    "campaign1",
+                    "vulnerability4"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector13"
+                ],
+                0.6650334000587463
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                "employs5": [
+                    "campaign1",
+                    "attack_vector5"
+                ],
+                "employs6": [
+                    "campaign1",
+                    "attack_vector6"
+                ],
+                "employs7": [
+                    "campaign1",
+                    "attack_vector7"
+                ],
+                "employs8": [
+                    "campaign1",
+                    "attack_vector8"
+                ],
+                "employs9": [
+                    "campaign1",
+                    "attack_vector9"
+                ],
+                "employs10": [
+                    "campaign1",
+                    "attack_vector10"
+                ],
+                "employs11": [
+                    "campaign1",
+                    "attack_vector11"
+                ],
+                "employs12": [
+                    "campaign1",
+                    "attack_vector12"
+                ],
+                "employs14": [
+                    "campaign1",
+                    "attack_vector14"
+                ],
+                "employs15": [
+                    "campaign1",
+                    "attack_vector15"
+                ]
+            },
+            "total_sim": 0.6650334000587463
+        }
+    }
+}

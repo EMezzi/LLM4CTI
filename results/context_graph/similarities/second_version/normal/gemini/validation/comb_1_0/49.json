@@ -1,0 +1,77 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.16198956966400146
+            ],
+            "attack_vector2": [],
+            "false positives": {},
+            "total_sim": 0.08099478483200073
+        },
+        "vulnerability": {},
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.328830748796463
+            ],
+            "false positives": {},
+            "total_sim": 0.328830748796463
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.5809947848320007
+            ],
+            "uses2": [],
+            "false positives": {},
+            "total_sim": 0.29049739241600037
+        },
+        "targets": {
+            "targets1": [],
+            "targets2": [],
+            "false positives": {},
+            "total_sim": 0.0
+        }
+    }
+}

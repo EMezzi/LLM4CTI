@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Rancor",
+                    "Rancor group",
+                    "Rancor Group"
+                ],
+                "goals": "espionage",
+                "labels": "spy",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "spy",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

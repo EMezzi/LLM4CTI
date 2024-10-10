@@ -1,0 +1,84 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "SandCat, FruityArmor",
+                "date_start": [
+                    "2019-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "SandCat",
+                "id": "APT1"
+            },
+            {
+                "name": "FruityArmor",
+                "id": "APT2"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Heap spraying palettes and accelerator tables with the use of GdiSharedHandleTable and gSharedInfo to leak kernel addresses",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Use of windows instead of palettes in exploitation of Windows 10 build 14393 and higher",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2019-0797",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2018-8589",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2018-8611",
+                "id": "vulnerability3"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign1",
+                "APT2"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

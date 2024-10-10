@@ -1,0 +1,107 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.000000238418579
+            ],
+            "false positives": {},
+            "total_sim": 1.000000238418579
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.4133892059326172
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "exploit public-facing application",
+                    "id": "attack_vector1"
+                }
+            },
+            "total_sim": 0.4133892059326172
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {
+                "vulnerability2": {
+                    "name": "CVE-2016-0165",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2016-1010",
+                    "id": "vulnerability3"
+                },
+                "vulnerability4": {
+                    "name": "CVE-2016-4171",
+                    "id": "vulnerability4"
+                }
+            },
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                1.0000001788139343
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001788139343
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                1.0000000596046448
+            ],
+            "false positives": {
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ],
+                "targets3": [
+                    "campaign1",
+                    "vulnerability3"
+                ],
+                "targets4": [
+                    "campaign1",
+                    "vulnerability4"
+                ]
+            },
+            "total_sim": 1.0000000596046448
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.7066946625709534
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ]
+            },
+            "total_sim": 0.7066946625709534
+        }
+    }
+}

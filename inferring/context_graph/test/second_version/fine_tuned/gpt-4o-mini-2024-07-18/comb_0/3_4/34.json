@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "FIN5"
+                ],
+                "goals": "financial gain",
+                "labels": "crime-syndicate",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "crime-syndicate",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

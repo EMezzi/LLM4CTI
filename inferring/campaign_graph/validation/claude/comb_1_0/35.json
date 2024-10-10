@@ -1,0 +1,72 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT29"
+                ],
+                "date_start": [
+                    "2018-10",
+                    "2018-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT29"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Phishing email",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Weaponized Windows shortcut",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-8174",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

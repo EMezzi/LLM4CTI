@@ -1,0 +1,71 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT17",
+                    "Winnti Group",
+                    "Suckfly",
+                    "APT41",
+                    "BARIUM"
+                ],
+                "date_start": [
+                    "2016-autumn"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT17",
+                    "Winnti Group",
+                    "Suckfly",
+                    "APT41",
+                    "BARIUM"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "valid accounts",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "unknown",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-18348",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

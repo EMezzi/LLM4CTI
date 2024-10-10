@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Pitty Panda"
+                ],
+                "date_start": [
+                    "2014-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Pitty Panda"
+                ],
+                "description": "Pitty Panda is a Chinese threat group that has been active since at least 2008. The group has targeted a wide range of victims, including government, military, and commercial organizations in the United States, Japan, South Korea, Taiwan, and the United Kingdom",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-1761",
+                "reservedDate": "2014-01",
+                "baseScore": "9.3",
+                "publishedDate": "2014-04",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

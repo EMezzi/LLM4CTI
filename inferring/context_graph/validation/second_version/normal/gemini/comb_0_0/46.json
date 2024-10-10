@@ -1,0 +1,180 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "ZINC",
+                    "Subgroup: Bluenoroff",
+                    "Unit 121",
+                    "Bureau 121",
+                    "HIDDEN COBRA",
+                    "Guardians of Peace",
+                    "Operation Troy",
+                    "Dark Seoul",
+                    "APT-C-26",
+                    "Lazarus Group",
+                    "NICKEL ACADEMY",
+                    "Stardust Chollima",
+                    "Lazarus",
+                    "Operation DarkSeoul",
+                    "Operation GhostSecret",
+                    "Andariel",
+                    "Operation AppleJeus",
+                    "APT38",
+                    "Hastati Group",
+                    "Nickel Academy",
+                    "NewRomanic Cyber Army Team",
+                    "Hidden Cobra",
+                    "Bluenoroff",
+                    "Appleworm",
+                    "APT 38",
+                    "Zinc",
+                    "Whois Hacking Team",
+                    "Labyrinth Chollima",
+                    "Group 77"
+                ],
+                "goals": "espionage,financial gain,sabotage",
+                "labels": "financial gain",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "North Korea",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Data from Local System",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Command-Line Interface",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Obfuscated Files or Information",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Windows Management Instrumentation",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "DLL Side-Loading",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Credential Dumping",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "Data Encrypted",
+                "id": "attack_vector9"
+            },
+            {
+                "name": "Custom Cryptographic Protocol",
+                "id": "attack_vector10"
+            },
+            {
+                "name": "Exploitation for Defense Evasion",
+                "id": "attack_vector11"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-8759",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage,financial gain,sabotage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "financial gain",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ],
+            [
+                "APT1",
+                "attack_vector9"
+            ],
+            [
+                "APT1",
+                "attack_vector10"
+            ],
+            [
+                "APT1",
+                "attack_vector11"
+            ]
+        ]
+    }
+}

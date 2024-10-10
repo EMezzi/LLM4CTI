@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "FIn7",
+                "date_start": [
+                    "2017-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "FIn7",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "PowerShell backdoor (POWERSOURCE)",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "PowerShell backdoor (TEXTMATE)",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Cobalt Strike Beacon",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

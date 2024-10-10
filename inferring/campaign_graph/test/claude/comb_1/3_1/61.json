@@ -1,0 +1,204 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT37"
+                ],
+                "date_start": [
+                    "2015-01",
+                    "2017-01",
+                    "2018-01",
+                    "2016-01",
+                    "2012-01",
+                    "2014-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT37"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "valid accounts",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "external remote services",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "supply chain compromise",
+                "id": "attack_vector7"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-4878",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-2387",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-2545",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2015-7645",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2016-4117",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2013-4979",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2015-5122",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2016-1019",
+                "id": "vulnerability9"
+            },
+            {
+                "name": "CVE-2014-8439",
+                "id": "vulnerability10"
+            },
+            {
+                "name": "CVE-2015-5119",
+                "id": "vulnerability11"
+            },
+            {
+                "name": "CVE-2015-2419",
+                "id": "vulnerability12"
+            },
+            {
+                "name": "CVE-2015-3105",
+                "id": "vulnerability13"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ],
+            [
+                "campaign1",
+                "vulnerability4"
+            ],
+            [
+                "campaign1",
+                "vulnerability5"
+            ],
+            [
+                "campaign1",
+                "vulnerability6"
+            ],
+            [
+                "campaign1",
+                "vulnerability7"
+            ],
+            [
+                "campaign1",
+                "vulnerability8"
+            ],
+            [
+                "campaign1",
+                "vulnerability9"
+            ],
+            [
+                "campaign1",
+                "vulnerability10"
+            ],
+            [
+                "campaign1",
+                "vulnerability11"
+            ],
+            [
+                "campaign1",
+                "vulnerability12"
+            ],
+            [
+                "campaign1",
+                "vulnerability13"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ]
+        ]
+    }
+}

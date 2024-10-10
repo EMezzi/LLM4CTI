@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Unnamed actors",
+                "date_start": [
+                    "2015-10"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Unnamed actors",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "valid accounts",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": []
+}

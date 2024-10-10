@@ -1,0 +1,14 @@
+{
+    "": {
+        "": [
+            {
+                "name": "CVE-2016-4171",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2018-4878",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

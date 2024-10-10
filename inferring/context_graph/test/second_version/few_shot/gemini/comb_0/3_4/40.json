@@ -1,0 +1,320 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Gamaredon Group"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Macros",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Exploitation of Vulnerabilities",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Command-Line Interface",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Data from Local System",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Data Compressed",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Scripting",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Process Discovery",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "Email Collection",
+                "id": "attack_vector9"
+            },
+            {
+                "name": "Masquerading",
+                "id": "attack_vector10"
+            },
+            {
+                "name": "System Network Connections Discovery",
+                "id": "attack_vector11"
+            },
+            {
+                "name": "Account Discovery",
+                "id": "attack_vector12"
+            },
+            {
+                "name": "Automated Collection",
+                "id": "attack_vector13"
+            },
+            {
+                "name": "Network Share Discovery",
+                "id": "attack_vector14"
+            },
+            {
+                "name": "System Service Discovery",
+                "id": "attack_vector15"
+            },
+            {
+                "name": "System Network Configuration Discovery",
+                "id": "attack_vector16"
+            },
+            {
+                "name": "File and Directory Discovery",
+                "id": "attack_vector17"
+            },
+            {
+                "name": "Obfuscated Files or Information",
+                "id": "attack_vector18"
+            },
+            {
+                "name": "Standard Application Layer Protocol",
+                "id": "attack_vector19"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector20"
+            },
+            {
+                "name": "Registry Run Keys / Startup Folder",
+                "id": "attack_vector21"
+            },
+            {
+                "name": "Remote File Copy",
+                "id": "attack_vector22"
+            },
+            {
+                "name": "Scheduled Task",
+                "id": "attack_vector23"
+            },
+            {
+                "name": "File Deletion",
+                "id": "attack_vector24"
+            },
+            {
+                "name": "System Information Discovery",
+                "id": "attack_vector25"
+            },
+            {
+                "name": "Data Encoding",
+                "id": "attack_vector26"
+            },
+            {
+                "name": "Regsvr32",
+                "id": "attack_vector27"
+            },
+            {
+                "name": "Rundll32",
+                "id": "attack_vector28"
+            },
+            {
+                "name": "System Owner/User Discovery",
+                "id": "attack_vector29"
+            },
+            {
+                "name": "DLL Side-Loading",
+                "id": "attack_vector30"
+            },
+            {
+                "name": "Modify Registry",
+                "id": "attack_vector31"
+            },
+            {
+                "name": "PowerShell",
+                "id": "attack_vector32"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ],
+            [
+                "APT1",
+                "attack_vector9"
+            ],
+            [
+                "APT1",
+                "attack_vector10"
+            ],
+            [
+                "APT1",
+                "attack_vector11"
+            ],
+            [
+                "APT1",
+                "attack_vector12"
+            ],
+            [
+                "APT1",
+                "attack_vector13"
+            ],
+            [
+                "APT1",
+                "attack_vector14"
+            ],
+            [
+                "APT1",
+                "attack_vector15"
+            ],
+            [
+                "APT1",
+                "attack_vector16"
+            ],
+            [
+                "APT1",
+                "attack_vector17"
+            ],
+            [
+                "APT1",
+                "attack_vector18"
+            ],
+            [
+                "APT1",
+                "attack_vector19"
+            ],
+            [
+                "APT1",
+                "attack_vector20"
+            ],
+            [
+                "APT1",
+                "attack_vector21"
+            ],
+            [
+                "APT1",
+                "attack_vector22"
+            ],
+            [
+                "APT1",
+                "attack_vector23"
+            ],
+            [
+                "APT1",
+                "attack_vector24"
+            ],
+            [
+                "APT1",
+                "attack_vector25"
+            ],
+            [
+                "APT1",
+                "attack_vector26"
+            ],
+            [
+                "APT1",
+                "attack_vector27"
+            ],
+            [
+                "APT1",
+                "attack_vector28"
+            ],
+            [
+                "APT1",
+                "attack_vector29"
+            ],
+            [
+                "APT1",
+                "attack_vector30"
+            ],
+            [
+                "APT1",
+                "attack_vector31"
+            ],
+            [
+                "APT1",
+                "attack_vector32"
+            ]
+        ]
+    }
+}

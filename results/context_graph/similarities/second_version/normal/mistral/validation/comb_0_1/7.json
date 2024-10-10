@@ -1,0 +1,150 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                0.4085152745246887
+            ],
+            "attack_vector3": [
+                "attack_vector4",
+                0.3608529567718506
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "PowerShell",
+                    "id": "attack_vector2"
+                },
+                "attack_vector5": {
+                    "name": "Exfiltration Over Command and Control Channel",
+                    "id": "attack_vector5"
+                }
+            },
+            "total_sim": 0.5291879375775655
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-0263",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2017-8759",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2017-11882",
+                    "id": "vulnerability3"
+                }
+            },
+            "total_sim": 0.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999999105930328
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999105930328
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090977311134338
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                0.7042575776576996
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                0.6804264187812805
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses5": [
+                    "APT1",
+                    "attack_vector5"
+                ]
+            },
+            "total_sim": 0.7645939091841379
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.4999999403953552
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.4999999403953552
+            ],
+            "false positives": {
+                "targets3": [
+                    "APT1",
+                    "vulnerability3"
+                ]
+            },
+            "total_sim": 0.4999999403953552
+        }
+    }
+}

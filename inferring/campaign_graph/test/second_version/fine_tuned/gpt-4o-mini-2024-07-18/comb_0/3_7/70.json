@@ -1,0 +1,58 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "date_start": [
+                    "2016-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "description": "APT38 is a North Korean state-sponsored threat group that focuses on stealing money from financial institutions to fund the North Korean regime. The group has been active since at least 2014 and is known for its sophisticated techniques and tools.",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-0189",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

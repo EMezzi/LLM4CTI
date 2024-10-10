@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Lazarus Group",
+                "date_start": [
+                    "2014-11"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Lazarus Group",
+            "id": "APT1"
+        }
+    ]
+}

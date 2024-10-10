@@ -1,0 +1,21 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT15",
+                "date_start": [
+                    "2017-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT15",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    }
+}

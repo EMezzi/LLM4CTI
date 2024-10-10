@@ -1,0 +1,83 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.13741491734981537
+            ],
+            "false positives": {},
+            "total_sim": 0.13741491734981537
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.27482983469963074
+            ],
+            "false positives": {},
+            "total_sim": 0.27482983469963074
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6931829452514648
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                0.43460988998413086
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Account Recovery Abuse",
+                    "id": "attack_vector2"
+                },
+                "attack_vector4": {
+                    "name": "Compromised Website",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.5638964176177979
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.20612237602472305
+            ],
+            "false positives": {},
+            "total_sim": 0.20612237602472305
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.4152989313006401
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                0.2860124036669731
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.3506556674838066
+        }
+    }
+}

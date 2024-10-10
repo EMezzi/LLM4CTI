@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "TEMP.Veles",
+                    "XENOTIME"
+                ],
+                "goals": "sabotage",
+                "labels": "sabotage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-yyyy-",
+                "id": "vulnerability1"
+            }
+        ],
+        "goals": [
+            {
+                "name": "sabotage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "sabotage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

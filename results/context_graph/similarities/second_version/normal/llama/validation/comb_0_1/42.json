@@ -1,0 +1,85 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.000000238418579
+            ],
+            "false positives": {},
+            "total_sim": 1.000000238418579
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.818195641040802
+            ],
+            "attack_vector2": [
+                "attack_vector2",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9090977609157562
+        },
+        "vulnerability": {},
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998211860657
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998211860657
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090979397296906
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                1.0000000596046448
+            ],
+            "false positives": {},
+            "total_sim": 0.9545489996671677
+        },
+        "targets": {
+            "targets1": [],
+            "false positives": {},
+            "total_sim": 0.0
+        }
+    }
+}

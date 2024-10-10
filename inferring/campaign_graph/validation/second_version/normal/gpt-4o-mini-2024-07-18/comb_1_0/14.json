@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Chinese APT"
+                ],
+                "date_start": [
+                    "2017-07",
+                    "2014-04",
+                    "2017-08",
+                    "2017-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Chinese APT"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-xxxx",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-xxxx",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

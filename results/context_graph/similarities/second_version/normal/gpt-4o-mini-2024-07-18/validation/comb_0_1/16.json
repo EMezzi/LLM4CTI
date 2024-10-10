@@ -1,0 +1,116 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.46542268991470337
+            ],
+            "false positives": {},
+            "total_sim": 0.46542268991470337
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.4483731985092163
+            ],
+            "attack_vector2": [
+                "attack_vector1",
+                0.27682405710220337
+            ],
+            "attack_vector3": [],
+            "false positives": {},
+            "total_sim": 0.2417324185371399
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "vulnerability3": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2020-0601",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2019-0708",
+                    "id": "vulnerability2"
+                }
+            },
+            "total_sim": 0.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                0.3419210910797119
+            ],
+            "false positives": {},
+            "total_sim": 0.3419210910797119
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.7327113151550293
+            ],
+            "false positives": {},
+            "total_sim": 0.7327113151550293
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                0.7241865694522858
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.6384119987487793
+            ],
+            "uses3": [],
+            "false positives": {},
+            "total_sim": 0.45419952273368835
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.4999999701976776
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.4999999701976776
+            ],
+            "targets3": [],
+            "false positives": {},
+            "total_sim": 0.3333333134651184
+        }
+    }
+}

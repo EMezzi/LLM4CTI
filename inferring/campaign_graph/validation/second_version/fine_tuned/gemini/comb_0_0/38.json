@@ -1,0 +1,72 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT3"
+                ],
+                "date_start": [
+                    "2014-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT3"
+                ],
+                "description": "APT3 is a threat group that has been attributed to Chinese nation-state actors",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-6332",
+                "reservedDate": "2014-09",
+                "baseScore": "9.3",
+                "publishedDate": "2014-11",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-4113",
+                "reservedDate": "2014-08",
+                "baseScore": "7.8",
+                "publishedDate": "2014-10",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

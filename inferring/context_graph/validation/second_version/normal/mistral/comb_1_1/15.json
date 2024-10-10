@@ -1,0 +1,166 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Wicked Spider",
+                    "Winnti Group",
+                    "Suckfly",
+                    "WinNTI",
+                    "Dogfish",
+                    "Wicked Panda",
+                    "Winnti Umbrella",
+                    "Group 72",
+                    "Blackfly",
+                    "Tailgater",
+                    "Deputy Dog",
+                    "Group72",
+                    "Winnti",
+                    "APT 41",
+                    "APT 17",
+                    "Ragebeast",
+                    "APT17",
+                    "Barium",
+                    "Hidden Lynx",
+                    "Group 8",
+                    "APT41",
+                    "Tailgater Team",
+                    "Lead"
+                ],
+                "goals": "espionage,financial gain",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Exploitation of Remote Services",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Window Management Instrumentation",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Windows Management Instrumentation Event Subscription",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "PowerShell",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Winlogon Helper DLL",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "DLL Side-Loading",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Modify Registry",
+                "id": "attack_vector8"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2019-0859",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2017-0261",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2014-6332",
+                "id": "vulnerability4"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage,financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Sandworm Team"
+                ],
+                "goals": "nation-state",
+                "labels": "espionage,sabotage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Exploitation for Privilege Escalation",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Exploitation of Remote Services",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "External Remote Services",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Drive-by Compromise",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "Supply Chain Compromise",
+                "id": "attack_vector9"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-4114",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-6332",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-1701",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-2314",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2015-2424",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2015-2590",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2015-4852",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2015-6127",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2015-7645",
+                "id": "vulnerability9"
+            }
+        ],
+        "goals": [
+            {
+                "name": "nation-state",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage,sabotage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ],
+            [
+                "APT1",
+                "attack_vector9"
+            ]
+        ]
+    }
+}

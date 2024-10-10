@@ -1,0 +1,47 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Deep Panda"
+                ],
+                "date_start": [
+                    "2014-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Deep Panda"
+                ],
+                "description": "Deep Panda is a Chinese cyber espionage group that has targeted a variety of industries, including media, technology, and government. The group has been active since at least 2013 and is believed to be operating out of China. The group has been linked to a number of campaigns, including those targeting the U.S. government, U.S. defense contractors, and the media.",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

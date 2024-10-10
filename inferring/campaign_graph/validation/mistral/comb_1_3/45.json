@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "APT32",
+                "date_start": [
+                    "2017-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT32",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

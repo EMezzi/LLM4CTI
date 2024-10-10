@@ -1,0 +1,78 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6041578128933907
+            ],
+            "false positives": {},
+            "total_sim": 0.6041578128933907
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2083156257867813
+            ],
+            "false positives": {},
+            "total_sim": 0.2083156257867813
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.7584385871887207
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Malicious file downloads",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.7584385871887207
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2014-",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.406236719340086
+            ],
+            "false positives": {},
+            "total_sim": 0.406236719340086
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.6812982000410557
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.6812982000410557
+        }
+    }
+}

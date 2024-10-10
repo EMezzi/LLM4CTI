@@ -1,0 +1,81 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6602698862552643
+            ],
+            "false positives": {},
+            "total_sim": 0.6602698862552643
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.32053977251052856
+            ],
+            "false positives": {},
+            "total_sim": 0.32053977251052856
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.438179075717926
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "SOAP WSDL parser code injection",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.438179075717926
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4904048293828964
+            ],
+            "false positives": {},
+            "total_sim": 0.4904048293828964
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.8301349431276321
+            ],
+            "false positives": {},
+            "total_sim": 0.8301349431276321
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.5492244809865952
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.5492244809865952
+        }
+    }
+}

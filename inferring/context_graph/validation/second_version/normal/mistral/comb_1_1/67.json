@@ -1,0 +1,98 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "WHISPER SPIDER",
+                    "Silence",
+                    "Silence APT group"
+                ],
+                "goals": "financial gain",
+                "labels": "criminal",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Network Service Scanning",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Credential Dumping",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Data from Local System",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-yyyy-Unknown1",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-yyyy-Unknown2",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "criminal",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

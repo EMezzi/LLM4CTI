@@ -1,0 +1,80 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Suckfly",
+                    "Winnti Group",
+                    "APT41",
+                    "Elderwood Group",
+                    "APT17"
+                ],
+                "date_start": [
+                    "2009-12",
+                    "2009-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Suckfly",
+                    "Winnti Group",
+                    "APT41",
+                    "Elderwood Group",
+                    "APT17"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2010-0001",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-0002",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

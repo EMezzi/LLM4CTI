@@ -1,0 +1,128 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector7",
+                0.3477950990200043
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "WMI subscriptions",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "PowerShell",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Dropbox",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "WinSock NSP",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "Steganography",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "DLL side-loading",
+                    "id": "attack_vector6"
+                },
+                "attack_vector8": {
+                    "name": "Protected Storage",
+                    "id": "attack_vector8"
+                },
+                "attack_vector9": {
+                    "name": "C&C communication",
+                    "id": "attack_vector9"
+                },
+                "attack_vector10": {
+                    "name": "Runtime Crypter",
+                    "id": "attack_vector10"
+                }
+            },
+            "total_sim": 0.3477950990200043
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.9999999105930328
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999105930328
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector7"
+                ],
+                0.6738975197076797
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                "employs5": [
+                    "campaign1",
+                    "attack_vector5"
+                ],
+                "employs6": [
+                    "campaign1",
+                    "attack_vector6"
+                ],
+                "employs8": [
+                    "campaign1",
+                    "attack_vector8"
+                ],
+                "employs9": [
+                    "campaign1",
+                    "attack_vector9"
+                ],
+                "employs10": [
+                    "campaign1",
+                    "attack_vector10"
+                ]
+            },
+            "total_sim": 0.6738975197076797
+        }
+    }
+}

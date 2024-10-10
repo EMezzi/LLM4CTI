@@ -1,0 +1,41 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Unknown",
+                "date_start": [
+                    "2017-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [],
+        "attack_vector": [
+            {
+                "name": "Phishing",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

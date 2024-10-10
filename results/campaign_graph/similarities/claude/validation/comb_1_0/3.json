@@ -1,0 +1,81 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6435585916042328
+            ],
+            "false positives": {},
+            "total_sim": 0.6435585916042328
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2871171832084656
+            ],
+            "false positives": {},
+            "total_sim": 0.2871171832084656
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6612724661827087
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Malicious Flash (.swf) file embedded in Excel (.xls) file",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.6612724661827087
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4653378874063492
+            ],
+            "false positives": {},
+            "total_sim": 0.4653378874063492
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.8217792958021164
+            ],
+            "false positives": {},
+            "total_sim": 0.8217792958021164
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.6524155288934708
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.6524155288934708
+        }
+    }
+}

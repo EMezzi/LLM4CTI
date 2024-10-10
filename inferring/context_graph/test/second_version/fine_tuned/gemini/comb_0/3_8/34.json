@@ -1,0 +1,216 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "FIN5"
+                ],
+                "goals": "financial gain",
+                "labels": "criminal",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "External Remote Services",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-6332",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2015-1641",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-1701",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-2424",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2015-2590",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2015-6127",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2016-0165",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2016-0189",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2016-4117",
+                "id": "vulnerability9"
+            },
+            {
+                "name": "CVE-2016-7255",
+                "id": "vulnerability10"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability11"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability12"
+            },
+            {
+                "name": "CVE-2017-8570",
+                "id": "vulnerability13"
+            },
+            {
+                "name": "CVE-2017-8759",
+                "id": "vulnerability14"
+            },
+            {
+                "name": "CVE-2018-0802",
+                "id": "vulnerability15"
+            },
+            {
+                "name": "CVE-2018-8174",
+                "id": "vulnerability16"
+            }
+        ],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "criminal",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ],
+            [
+                "APT1",
+                "vulnerability10"
+            ],
+            [
+                "APT1",
+                "vulnerability11"
+            ],
+            [
+                "APT1",
+                "vulnerability12"
+            ],
+            [
+                "APT1",
+                "vulnerability13"
+            ],
+            [
+                "APT1",
+                "vulnerability14"
+            ],
+            [
+                "APT1",
+                "vulnerability15"
+            ],
+            [
+                "APT1",
+                "vulnerability16"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

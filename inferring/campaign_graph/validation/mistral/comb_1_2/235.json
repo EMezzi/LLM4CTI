@@ -1,0 +1,21 @@
+{
+    "nodes": {
+        "; campaign": [
+            {
+                "actor": "MuddyWater",
+                "date_start": [
+                    "2019-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "MuddyWater",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    }
+}

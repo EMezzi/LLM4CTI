@@ -1,0 +1,78 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.9313033819198608
+            ],
+            "false positives": {},
+            "total_sim": 0.9313033819198608
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.8626067638397217
+            ],
+            "false positives": {},
+            "total_sim": 0.8626067638397217
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.3294101357460022
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "VBS script",
+                    "id": "attack_vector1"
+                }
+            },
+            "total_sim": 0.3294101357460022
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2018-",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.8969550728797913
+            ],
+            "false positives": {},
+            "total_sim": 0.8969550728797913
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.6303567588329315
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ]
+            },
+            "total_sim": 0.6303567588329315
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6880113929510117
+            ],
+            "false positives": {},
+            "total_sim": 0.6880113929510117
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.3760227859020233
+            ],
+            "false positives": {},
+            "total_sim": 0.3760227859020233
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6931829452514648
+            ],
+            "attack_vector2": [
+                "attack_vector5",
+                0.3225057125091553
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Phone calls",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Breaching trusted websites",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Abusing account recovery mechanisms",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.5078443288803101
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2014-1761",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2015-1641",
+                    "id": "vulnerability2"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.5320170894265175
+            ],
+            "false positives": {},
+            "total_sim": 0.5320170894265175
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.6905971691012383
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector5"
+                ],
+                0.5052585527300835
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.5979278609156609
+        }
+    }
+}

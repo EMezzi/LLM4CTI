@@ -1,0 +1,81 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.615597203373909
+            ],
+            "false positives": {},
+            "total_sim": 0.615597203373909
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.231194406747818
+            ],
+            "false positives": {},
+            "total_sim": 0.231194406747818
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.438179075717926
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Taidoor trojan",
+                    "id": "attack_vector1"
+                }
+            },
+            "total_sim": 0.438179075717926
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4233958050608635
+            ],
+            "false positives": {},
+            "total_sim": 0.4233958050608635
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.8077986016869545
+            ],
+            "false positives": {},
+            "total_sim": 0.8077986016869545
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.5268881395459175
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ]
+            },
+            "total_sim": 0.5268881395459175
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "DEEP PANDA",
+                "date_start": [
+                    "2020-01"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "DEEP PANDA",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spearphishing attachment",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": []
+}

@@ -1,0 +1,31 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Kimsuky",
+                "date_start": [
+                    "2020-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Kimsuky",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

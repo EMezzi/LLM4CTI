@@ -1,0 +1,57 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "FIn7",
+                "date_start": [
+                    "2015-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "FIn7",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "hidden shortcut files (LnK files)",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "VBScript functionality launched by mshta.exe",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

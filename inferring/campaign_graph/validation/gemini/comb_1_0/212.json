@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "RASPITE",
+                    "LEAFMINER",
+                    "Leafminer"
+                ],
+                "date_start": [
+                    "2017-06",
+                    "2017-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "RASPITE",
+                    "LEAFMINER",
+                    "Leafminer"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Strategic Web Compromise",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Links",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "SMB Connection Prompt",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Credential Harvesting",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Malicious Service Installation",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "C2 Beaconing",
+                "id": "attack_vector6"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ]
+        ]
+    }
+}

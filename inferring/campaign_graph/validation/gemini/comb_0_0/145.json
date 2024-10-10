@@ -1,0 +1,53 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "state-sponsored hackers"
+                ],
+                "date_start": [
+                    "2017-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "state-sponsored hackers"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Compromised Routers",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Virtual Wire Tap",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

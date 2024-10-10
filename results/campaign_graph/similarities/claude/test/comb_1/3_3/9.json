@@ -1,0 +1,100 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.11503827571868896
+            ],
+            "false positives": {},
+            "total_sim": 0.11503827571868896
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.23007655143737793
+            ],
+            "false positives": {},
+            "total_sim": 0.23007655143737793
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "spearphishing attachment",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 1.0
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2014-7247",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2015-5119",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2015-5122",
+                    "id": "vulnerability3"
+                }
+            },
+            "total_sim": 0.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.17255741357803345
+            ],
+            "false positives": {},
+            "total_sim": 0.17255741357803345
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.05751913785934448
+            ],
+            "false positives": {
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ],
+                "targets3": [
+                    "campaign1",
+                    "vulnerability3"
+                ]
+            },
+            "total_sim": 0.05751913785934448
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.5575191378593445
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.5575191378593445
+        }
+    }
+}

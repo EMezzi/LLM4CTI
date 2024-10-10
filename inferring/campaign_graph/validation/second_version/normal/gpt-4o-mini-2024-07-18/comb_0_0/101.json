@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Charming Kitten",
+                    "NewsBeef"
+                ],
+                "date_start": [
+                    "2016-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Charming Kitten",
+                    "NewsBeef"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "exploit public-facing application",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-XXXX",
+                "// Example placeholder for actual CVE codes, as none were provided in the report. This should be replaced with actual CVE codes if available.": "vulnerability1",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2016-XXXX",
+                "// Example placeholder for actual CVE codes, as none were provided in the report. This should be replaced with actual CVE codes if available.": "vulnerability2",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

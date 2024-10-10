@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "date_start": [
+                    "2018-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Lazarus Group",
+                    "APT38"
+                ],
+                "description": "Lazarus Group is a threat group believed to be operated by North Korea's primary intelligence agency, the Reconnaissance General Bureau (RGB). The group has been attributed to a number of high-profile attacks, including the 2014 Sony Pictures hack and the 2016 Bangladesh Bank heist.",
+                "labels": [
+                    "nation-state",
+                    "crime-syndicate"
+                ],
+                "goals": [
+                    "espionage",
+                    "financial-motivation"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

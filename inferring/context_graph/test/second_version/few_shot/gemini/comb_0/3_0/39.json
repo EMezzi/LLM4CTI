@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": "Gallmaker",
+                "goals": "espionage",
+                "labels": "spy",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-yyyy-",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

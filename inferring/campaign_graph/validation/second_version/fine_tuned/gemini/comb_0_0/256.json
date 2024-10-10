@@ -1,0 +1,72 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Patchwork"
+                ],
+                "date_start": [
+                    "2018-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Patchwork"
+                ],
+                "description": "Patchwork is a threat group that has targeted individuals and organizations in the Indian subcontinent since at least 2015",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2015-2545",
+                "reservedDate": "2015-05",
+                "baseScore": "9.3",
+                "publishedDate": "2015-06",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0261",
+                "reservedDate": "2017-01",
+                "baseScore": "9.3",
+                "publishedDate": "2017-02",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

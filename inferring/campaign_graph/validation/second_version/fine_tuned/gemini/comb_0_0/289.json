@@ -1,0 +1,63 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Stealth Falcon",
+                    "FruityArmor"
+                ],
+                "date_start": [
+                    "2016-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Stealth Falcon",
+                    "FruityArmor"
+                ],
+                "description": "FruityArmor is a threat group that has been active since at least 2014. The group has targeted individuals in the Middle East and North Africa, as well as individuals involved in the Syrian conflict",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-3393",
+                "reservedDate": "2016-06",
+                "baseScore": "7.8",
+                "publishedDate": "2016-10",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

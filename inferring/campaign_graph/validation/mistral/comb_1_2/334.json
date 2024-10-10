@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "FireEye",
+                "date_start": [
+                    "2011"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "FireEye",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-yyyy-",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-yyyy-",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

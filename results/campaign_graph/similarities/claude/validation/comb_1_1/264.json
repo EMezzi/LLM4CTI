@@ -1,0 +1,97 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6566394865512848
+            ],
+            "false positives": {},
+            "total_sim": 0.6566394865512848
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.3132789731025696
+            ],
+            "false positives": {},
+            "total_sim": 0.3132789731025696
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector4",
+                0.36068034172058105
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "OLE package objects",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "DLL Sideloading",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "VBScript Execution",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.36068034172058105
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4849592298269272
+            ],
+            "false positives": {},
+            "total_sim": 0.4849592298269272
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.8283197432756424
+            ],
+            "false positives": {},
+            "total_sim": 0.8283197432756424
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                0.5086599141359329
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.5086599141359329
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Gaza Cybergang",
+                    "Molerats"
+                ],
+                "date_start": [
+                    "2017-06",
+                    "2017-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Gaza Cybergang",
+                    "Molerats"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Email attachments and download links",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "CVE-2017-0199 vulnerability exploitation",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Microsoft Access files with macros",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

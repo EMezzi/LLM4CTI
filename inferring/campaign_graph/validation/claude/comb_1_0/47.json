@@ -1,0 +1,73 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT32",
+                    "OceanLotus"
+                ],
+                "date_start": [
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT32",
+                    "OceanLotus"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Malicious Office Document",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "RAR Archive",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

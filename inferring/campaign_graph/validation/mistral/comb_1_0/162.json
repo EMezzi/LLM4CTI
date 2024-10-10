@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "FIN6",
+                "date_start": [
+                    "2019-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "FIN6",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "HTA files executing PowerShell scripts",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "WMI/PowerShell",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Reflection (direct in-memory loading of DLL)",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "PowerShell Extension",
+                "id": "attack_vector4"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-unknown",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ]
+        ]
+    }
+}

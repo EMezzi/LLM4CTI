@@ -1,0 +1,187 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Suckfly",
+                    "APT17",
+                    "Winnti Group",
+                    "APT41"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2013-3906",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-1641",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-1701",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2015-2424",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2015-2595",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2016-0165",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2016-0189",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2016-4117",
+                "id": "vulnerability9"
+            },
+            {
+                "name": "CVE-2016-7193",
+                "id": "vulnerability10"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability11"
+            },
+            {
+                "name": "CVE-2017-8570",
+                "id": "vulnerability12"
+            },
+            {
+                "name": "CVE-2017-8759",
+                "id": "vulnerability13"
+            },
+            {
+                "name": "CVE-2018-0802",
+                "id": "vulnerability14"
+            },
+            {
+                "name": "CVE-2018-8174",
+                "id": "vulnerability15"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ],
+            [
+                "APT1",
+                "vulnerability10"
+            ],
+            [
+                "APT1",
+                "vulnerability11"
+            ],
+            [
+                "APT1",
+                "vulnerability12"
+            ],
+            [
+                "APT1",
+                "vulnerability13"
+            ],
+            [
+                "APT1",
+                "vulnerability14"
+            ],
+            [
+                "APT1",
+                "vulnerability15"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

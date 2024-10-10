@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT41",
+                    "APT17",
+                    "Suckfly",
+                    "Winnti Group"
+                ],
+                "date_start": [
+                    "2016-09",
+                    "2016-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT41",
+                    "APT17",
+                    "Suckfly",
+                    "Winnti Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Backdoor",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

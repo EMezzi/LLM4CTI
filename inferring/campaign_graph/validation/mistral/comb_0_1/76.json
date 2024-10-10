@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Lazarus Group (or Hidden Cobra)",
+                "date_start": [
+                    "2018-12"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Lazarus Group (or Hidden Cobra)",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "Phishing via LinkedIn job ad and Skype interview",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": []
+}

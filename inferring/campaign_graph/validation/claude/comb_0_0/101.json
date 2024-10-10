@@ -1,0 +1,71 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "NewsBeef APT"
+                ],
+                "date_start": [
+                    "2016-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "NewsBeef APT"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Watering hole attack",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Repackaging open source tools",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-0189",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2016-0034",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Molerats (aka Gaza cybergang)",
+                "date_start": [
+                    "2015-05"
+                ],
+                "id": "DustySky"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Molerats (aka Gaza cybergang)",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "social engineering",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "DustySky",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "DustySky",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

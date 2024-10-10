@@ -1,0 +1,111 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "admin@338"
+                ],
+                "date_start": [
+                    "2014-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "admin@338"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector6"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability3"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ]
+        ]
+    }
+}

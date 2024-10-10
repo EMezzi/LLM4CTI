@@ -1,0 +1,96 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Desert Falcons"
+                ],
+                "date_start": [
+                    "2013-04",
+                    "2013-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Desert Falcons"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Targeted emails and documents",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Just click the shortcut: the rar/lnk trick",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Right-to-left extension override trick",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Social Networking tricks",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "The fake RealPlayer plugin trick",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2013-0074",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-0322",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

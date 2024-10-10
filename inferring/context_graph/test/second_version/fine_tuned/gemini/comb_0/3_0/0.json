@@ -1,0 +1,240 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "APT1"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Web Service",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-3333",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2012-4681",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2012-0002",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2011-3402",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2010-2883",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2010-0249",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2009-3129",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2009-0079",
+                "id": "vulnerability9"
+            },
+            {
+                "name": "CVE-2008-4250",
+                "id": "vulnerability10"
+            },
+            {
+                "name": "CVE-2007-0038",
+                "id": "vulnerability11"
+            },
+            {
+                "name": "CVE-2006-4868",
+                "id": "vulnerability12"
+            },
+            {
+                "name": "CVE-2006-0003",
+                "id": "vulnerability13"
+            },
+            {
+                "name": "CVE-2004-0789",
+                "id": "vulnerability14"
+            },
+            {
+                "name": "CVE-2003-0818",
+                "id": "vulnerability15"
+            },
+            {
+                "name": "CVE-2003-0352",
+                "id": "vulnerability16"
+            },
+            {
+                "name": "CVE-2003-0113",
+                "id": "vulnerability17"
+            },
+            {
+                "name": "CVE-2002-0367",
+                "id": "vulnerability18"
+            },
+            {
+                "name": "CVE-2001-0537",
+                "id": "vulnerability19"
+            },
+            {
+                "name": "CVE-2000-0884",
+                "id": "vulnerability20"
+            },
+            {
+                "name": "CVE-1999-0516",
+                "id": "vulnerability21"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ],
+            [
+                "APT1",
+                "vulnerability10"
+            ],
+            [
+                "APT1",
+                "vulnerability11"
+            ],
+            [
+                "APT1",
+                "vulnerability12"
+            ],
+            [
+                "APT1",
+                "vulnerability13"
+            ],
+            [
+                "APT1",
+                "vulnerability14"
+            ],
+            [
+                "APT1",
+                "vulnerability15"
+            ],
+            [
+                "APT1",
+                "vulnerability16"
+            ],
+            [
+                "APT1",
+                "vulnerability17"
+            ],
+            [
+                "APT1",
+                "vulnerability18"
+            ],
+            [
+                "APT1",
+                "vulnerability19"
+            ],
+            [
+                "APT1",
+                "vulnerability20"
+            ],
+            [
+                "APT1",
+                "vulnerability21"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

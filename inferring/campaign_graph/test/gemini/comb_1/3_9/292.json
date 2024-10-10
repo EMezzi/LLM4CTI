@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FruityArmor APT"
+                ],
+                "date_start": [
+                    "2018-08",
+                    "2017-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FruityArmor APT"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [
+            {
+                "name": "CVE-2018-8453",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0263",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": []
+    }
+}

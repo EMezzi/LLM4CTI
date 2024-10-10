@@ -1,0 +1,64 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Stolen Pencil"
+                ],
+                "goals": "espionage",
+                "labels": "spy",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Democratic People's Republic of Korea",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-yyyy-",
+                "id": "vulnerability1"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "spy",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT39"
+                ],
+                "date_start": [
+                    "2019-01",
+                    "2019-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT39"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing with malicious attachments",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing with hyperlinks",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "compromised email accounts",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "registration and leveraging of domains masquerading as legitimate web services",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "exploitation of vulnerable web servers",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "stolen legitimate credentials to compromise Outlook Web Access",
+                "id": "attack_vector6"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-unknown",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ]
+        ]
+    }
+}

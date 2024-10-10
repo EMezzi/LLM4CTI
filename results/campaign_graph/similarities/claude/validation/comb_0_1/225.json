@@ -1,0 +1,113 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.4999999701976776
+            ],
+            "false positives": {},
+            "total_sim": 0.4999999701976776
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector5",
+                0.4035918712615967
+            ],
+            "attack_vector2": [
+                "attack_vector1",
+                0.4052632749080658
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Just click the shortcut: the rar/lnk trick",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Right-to-left extension override trick",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Social Networking tricks",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.40442757308483124
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2013-0074",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2014-0322",
+                    "id": "vulnerability2"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.7499999552965164
+            ],
+            "false positives": {},
+            "total_sim": 0.7499999552965164
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "campaign1",
+                    "vulnerability2"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector5"
+                ],
+                0.45179592072963715
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.4526316225528717
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.4522137716412544
+        }
+    }
+}

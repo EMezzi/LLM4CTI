@@ -1,0 +1,64 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Chinese hackers",
+                    "APT17",
+                    "Winnti Group",
+                    "APT41",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2016-10",
+                    "2016-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Chinese hackers",
+                    "APT17",
+                    "Winnti Group",
+                    "APT41",
+                    "Suckfly"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Winnti backdoor",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "Unknown",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

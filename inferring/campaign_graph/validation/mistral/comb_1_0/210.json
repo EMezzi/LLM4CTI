@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Lazarus hacking group",
+                "date_start": [
+                    "2019-03"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Lazarus",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spear phishing email",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "malicious Rising Sun backdoor malware",
+            "id": "attack_vector2"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2018-20250",
+            "id": "vulnerability1"
+        }
+    ]
+}

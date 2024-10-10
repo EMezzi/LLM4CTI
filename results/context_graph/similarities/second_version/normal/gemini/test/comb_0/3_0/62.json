@@ -1,0 +1,127 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.000000238418579
+            ],
+            "false positives": {},
+            "total_sim": 1.000000238418579
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector4",
+                0.3366079032421112
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Valid Accounts",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.6683040112257004
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2012-0002",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2010-3333",
+                    "id": "vulnerability2"
+                }
+            },
+            "total_sim": 0.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                1.0000001788139343
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                0.6683040708303452
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.8341521248221397
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.5000001192092896
+            ],
+            "false positives": {
+                "targets2": [
+                    "APT1",
+                    "vulnerability2"
+                ]
+            },
+            "total_sim": 0.5000001192092896
+        }
+    }
+}

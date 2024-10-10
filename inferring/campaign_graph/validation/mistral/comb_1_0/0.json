@@ -1,0 +1,42 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Chinese hackers",
+                "date_start": [
+                    "2011-10",
+                    "2012-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Comment Crew",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Phishing emails",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FruityArmor and SandCat"
+                ],
+                "date_start": [
+                    "2019-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FruityArmor and SandCat"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Zero-day vulnerability in win32k.sys",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "FinFisher/FinSpy framework",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2019-0797",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2018-8589",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2018-8611",
+                "id": "vulnerability3"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

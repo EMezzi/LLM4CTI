@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Kimsuky organization",
+                "date_start": [
+                    "2019-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Kimsuky",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Phishing emails disguised as PDF files",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious files disguised as resident registration copies",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

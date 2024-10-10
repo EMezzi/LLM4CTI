@@ -1,0 +1,123 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.16266022622585297
+            ],
+            "false positives": {},
+            "total_sim": 0.16266022622585297
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.32532045245170593
+            ],
+            "false positives": {},
+            "total_sim": 0.32532045245170593
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector7",
+                1.0
+            ],
+            "attack_vector2": [
+                "attack_vector1",
+                0.7282965779304504
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Drive-by compromise",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Supply chain compromise",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Exploit public-facing application",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "Valid accounts",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "External remote services",
+                    "id": "attack_vector6"
+                },
+                "attack_vector8": {
+                    "name": "Phone calls to victims",
+                    "id": "attack_vector8"
+                },
+                "attack_vector9": {
+                    "name": "Messages on social networks",
+                    "id": "attack_vector9"
+                }
+            },
+            "total_sim": 0.8641482889652252
+        },
+        "vulnerability": "No ground truth and no false positives"
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.24399033933877945
+            ],
+            "false positives": {},
+            "total_sim": 0.24399033933877945
+        },
+        "targets": "No relations to pair and no false positives",
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector7"
+                ],
+                0.5813301131129265
+            ],
+            "employs2": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.4454784020781517
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                "employs5": [
+                    "campaign1",
+                    "attack_vector5"
+                ],
+                "employs6": [
+                    "campaign1",
+                    "attack_vector6"
+                ],
+                "employs8": [
+                    "campaign1",
+                    "attack_vector8"
+                ],
+                "employs9": [
+                    "campaign1",
+                    "attack_vector9"
+                ]
+            },
+            "total_sim": 0.5134042575955391
+        }
+    }
+}

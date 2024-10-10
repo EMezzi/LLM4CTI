@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT28 and Sandworm Team",
+                "date_start": [
+                    "2019-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT28 and Sandworm Team",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

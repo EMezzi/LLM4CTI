@@ -1,0 +1,94 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "FIN10"
+                ],
+                "goals": "financial gain",
+                "labels": "crime-syndicate",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "North America",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Data from Local System",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Data Compressed",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Data Encrypted",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Data Staged",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Exfiltration Over Command and Control Channel",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Exfiltration Over Alternative Protocol",
+                "id": "attack_vector6"
+            }
+        ],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "crime-syndicate",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ]
+        ]
+    }
+}

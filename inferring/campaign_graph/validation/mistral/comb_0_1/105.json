@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Charming Kitten",
+                "date_start": [
+                    "2018-10"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Charming Kitten",
+            "id": "APT1"
+        }
+    ]
+}

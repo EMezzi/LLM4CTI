@@ -1,0 +1,74 @@
+{
+    "": {
+        "": [
+            {
+                "name": "CVE-2012-1856",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-4114",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability3"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ],
+            [
+                "campaign1",
+                "attack_vector8"
+            ]
+        ]
+    }
+}

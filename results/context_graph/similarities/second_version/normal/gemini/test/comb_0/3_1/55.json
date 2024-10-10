@@ -1,0 +1,113 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector2",
+                0.257291316986084
+            ],
+            "false positives": {
+                "attack_vector3": {
+                    "name": "SQL Injection",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.5377434492111206
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2007-0188",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2010-3332",
+                    "id": "vulnerability2"
+                }
+            }
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090977907180786
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                0.628645658493042
+            ],
+            "false positives": {
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.7688717246055603
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "APT1",
+                    "vulnerability2"
+                ]
+            }
+        }
+    }
+}

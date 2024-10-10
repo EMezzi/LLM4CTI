@@ -1,0 +1,47 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT32",
+                    "OceanLotus group"
+                ],
+                "date_start": [
+                    "2019-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT32",
+                    "OceanLotus group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": []
+    }
+}

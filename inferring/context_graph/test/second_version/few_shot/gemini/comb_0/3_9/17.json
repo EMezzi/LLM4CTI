@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "BlackOasis"
+                ],
+                "goals": "espionage",
+                "labels": "crime-syndicate",
+                "id": "APT1"
+            }
+        ],
+        "country": [],
+        "attack_vector": [
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-8759",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "crime-syndicate",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "admin@338",
+                "date_start": [
+                    "2015-08"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "admin@338",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spearphishing attachment",
+            "id": "attack_vector1"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2012-0158",
+            "id": "vulnerability1"
+        }
+    ]
+}

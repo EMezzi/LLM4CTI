@@ -1,0 +1,21 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "TRITOn actor",
+                "date_start": [
+                    "2014-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "TRITOn actor",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    }
+}

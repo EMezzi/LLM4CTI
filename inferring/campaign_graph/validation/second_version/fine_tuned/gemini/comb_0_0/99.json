@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Charming Kitten",
+                    "Newscaster",
+                    "Magic Hound"
+                ],
+                "date_start": [
+                    "2011-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Charming Kitten",
+                    "Newscaster",
+                    "Magic Hound"
+                ],
+                "description": "Newscaster is a threat group that has targeted military and government personnel, journalists, and academics since at least 2011",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

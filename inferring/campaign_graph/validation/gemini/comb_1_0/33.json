@@ -1,0 +1,89 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT29",
+                    "The Dukes"
+                ],
+                "date_start": [
+                    "2016-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT29",
+                    "The Dukes"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear Phishing Emails",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Microsoft Office Documents",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Malicious ZIP files",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Exploitation of CVE-2020-0688",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Compromised Email Accounts",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2020-0688",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

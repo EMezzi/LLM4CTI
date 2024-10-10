@@ -1,0 +1,150 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        },
+        "country": {
+            "country1": [
+                "country1",
+                1.0
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector5",
+                0.4060307741165161
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Component Object Model Hijacking",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Web Shell",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "PowerShell",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.6121131777763367
+        },
+        "vulnerability": {
+            "vulnerability1": [],
+            "vulnerability2": [],
+            "vulnerability3": [],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-0199",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2017-8759",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2017-11882",
+                    "id": "vulnerability3"
+                }
+            },
+            "total_sim": 0.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0000000596046448
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000596046448
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090978503227234
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector5"
+                ],
+                0.7030154466629028
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.8060566484928131
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                0.5000000596046448
+            ],
+            "targets2": [
+                [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                0.5000000596046448
+            ],
+            "targets3": [
+                [
+                    "APT1",
+                    "vulnerability3"
+                ],
+                0.5000000596046448
+            ],
+            "false positives": {},
+            "total_sim": 0.5000000596046448
+        }
+    }
+}

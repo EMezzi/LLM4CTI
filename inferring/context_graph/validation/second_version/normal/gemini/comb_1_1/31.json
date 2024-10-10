@@ -1,0 +1,544 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Equation"
+                ],
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "United States",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Credential Dumping",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Command-Line Interface",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Data from Local System",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Data Compressed",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Scripting",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Process Discovery",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Email Collection",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Masquerading",
+                "id": "attack_vector8"
+            },
+            {
+                "name": "System Network Connections Discovery",
+                "id": "attack_vector9"
+            },
+            {
+                "name": "Account Discovery",
+                "id": "attack_vector10"
+            },
+            {
+                "name": "Automated Collection",
+                "id": "attack_vector11"
+            },
+            {
+                "name": "Pass the Hash",
+                "id": "attack_vector12"
+            },
+            {
+                "name": "Network Share Discovery",
+                "id": "attack_vector13"
+            },
+            {
+                "name": "System Service Discovery",
+                "id": "attack_vector14"
+            },
+            {
+                "name": "System Network Configuration Discovery",
+                "id": "attack_vector15"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector16"
+            },
+            {
+                "name": "External Remote Services",
+                "id": "attack_vector17"
+            },
+            {
+                "name": "File and Directory Discovery",
+                "id": "attack_vector18"
+            },
+            {
+                "name": "Obfuscated Files or Information",
+                "id": "attack_vector19"
+            },
+            {
+                "name": "Standard Application Layer Protocol",
+                "id": "attack_vector20"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector21"
+            },
+            {
+                "name": "Commonly Used Port",
+                "id": "attack_vector22"
+            },
+            {
+                "name": "Registry Run Keys / Startup Folder",
+                "id": "attack_vector23"
+            },
+            {
+                "name": "Remote File Copy",
+                "id": "attack_vector24"
+            },
+            {
+                "name": "Scheduled Task",
+                "id": "attack_vector25"
+            },
+            {
+                "name": "File Deletion",
+                "id": "attack_vector26"
+            },
+            {
+                "name": "System Information Discovery",
+                "id": "attack_vector27"
+            },
+            {
+                "name": "Data Encoding",
+                "id": "attack_vector28"
+            },
+            {
+                "name": "Regsvr32",
+                "id": "attack_vector29"
+            },
+            {
+                "name": "Rundll32",
+                "id": "attack_vector30"
+            },
+            {
+                "name": "System Owner/User Discovery",
+                "id": "attack_vector31"
+            },
+            {
+                "name": "DLL Side-Loading",
+                "id": "attack_vector32"
+            },
+            {
+                "name": "Modify Registry",
+                "id": "attack_vector33"
+            },
+            {
+                "name": "PowerShell",
+                "id": "attack_vector34"
+            },
+            {
+                "name": "Modify Existing Service",
+                "id": "attack_vector35"
+            },
+            {
+                "name": "Deobfuscate/Decode Files or Information",
+                "id": "attack_vector36"
+            },
+            {
+                "name": "Hidden Window",
+                "id": "attack_vector37"
+            },
+            {
+                "name": "Data Obfuscation",
+                "id": "attack_vector38"
+            },
+            {
+                "name": "Replication Through Removable Media",
+                "id": "attack_vector39"
+            },
+            {
+                "name": "Dynamic Data Exchange",
+                "id": "attack_vector40"
+            },
+            {
+                "name": "Hidden Files and Directories",
+                "id": "attack_vector41"
+            },
+            {
+                "name": "Timestomp",
+                "id": "attack_vector42"
+            },
+            {
+                "name": "Peripheral Device Discovery",
+                "id": "attack_vector43"
+            },
+            {
+                "name": "Screen Capture",
+                "id": "attack_vector44"
+            },
+            {
+                "name": "Indicator Removal on Host",
+                "id": "attack_vector45"
+            },
+            {
+                "name": "Data from Information Repositories",
+                "id": "attack_vector46"
+            },
+            {
+                "name": "Logon Scripts",
+                "id": "attack_vector47"
+            },
+            {
+                "name": "Bootkit",
+                "id": "attack_vector48"
+            },
+            {
+                "name": "Exploitation for Privilege Escalation",
+                "id": "attack_vector49"
+            },
+            {
+                "name": "Exploitation for Defense Evasion",
+                "id": "attack_vector50"
+            },
+            {
+                "name": "Access Token Manipulation",
+                "id": "attack_vector51"
+            },
+            {
+                "name": "Data from Removable Media",
+                "id": "attack_vector52"
+            },
+            {
+                "name": "Data Staged",
+                "id": "attack_vector53"
+            },
+            {
+                "name": "Trusted Relationship",
+                "id": "attack_vector54"
+            },
+            {
+                "name": "Communication Through Removable Media",
+                "id": "attack_vector55"
+            },
+            {
+                "name": "Rootkit",
+                "id": "attack_vector56"
+            },
+            {
+                "name": "Connection Proxy",
+                "id": "attack_vector57"
+            },
+            {
+                "name": "Exploitation of Remote Services",
+                "id": "attack_vector58"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0002",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-3333",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2009-3129",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2008-4250",
+                "id": "vulnerability4"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ],
+            [
+                "APT1",
+                "attack_vector7"
+            ],
+            [
+                "APT1",
+                "attack_vector8"
+            ],
+            [
+                "APT1",
+                "attack_vector9"
+            ],
+            [
+                "APT1",
+                "attack_vector10"
+            ],
+            [
+                "APT1",
+                "attack_vector11"
+            ],
+            [
+                "APT1",
+                "attack_vector12"
+            ],
+            [
+                "APT1",
+                "attack_vector13"
+            ],
+            [
+                "APT1",
+                "attack_vector14"
+            ],
+            [
+                "APT1",
+                "attack_vector15"
+            ],
+            [
+                "APT1",
+                "attack_vector16"
+            ],
+            [
+                "APT1",
+                "attack_vector17"
+            ],
+            [
+                "APT1",
+                "attack_vector18"
+            ],
+            [
+                "APT1",
+                "attack_vector19"
+            ],
+            [
+                "APT1",
+                "attack_vector20"
+            ],
+            [
+                "APT1",
+                "attack_vector21"
+            ],
+            [
+                "APT1",
+                "attack_vector22"
+            ],
+            [
+                "APT1",
+                "attack_vector23"
+            ],
+            [
+                "APT1",
+                "attack_vector24"
+            ],
+            [
+                "APT1",
+                "attack_vector25"
+            ],
+            [
+                "APT1",
+                "attack_vector26"
+            ],
+            [
+                "APT1",
+                "attack_vector27"
+            ],
+            [
+                "APT1",
+                "attack_vector28"
+            ],
+            [
+                "APT1",
+                "attack_vector29"
+            ],
+            [
+                "APT1",
+                "attack_vector30"
+            ],
+            [
+                "APT1",
+                "attack_vector31"
+            ],
+            [
+                "APT1",
+                "attack_vector32"
+            ],
+            [
+                "APT1",
+                "attack_vector33"
+            ],
+            [
+                "APT1",
+                "attack_vector34"
+            ],
+            [
+                "APT1",
+                "attack_vector35"
+            ],
+            [
+                "APT1",
+                "attack_vector36"
+            ],
+            [
+                "APT1",
+                "attack_vector37"
+            ],
+            [
+                "APT1",
+                "attack_vector38"
+            ],
+            [
+                "APT1",
+                "attack_vector39"
+            ],
+            [
+                "APT1",
+                "attack_vector40"
+            ],
+            [
+                "APT1",
+                "attack_vector41"
+            ],
+            [
+                "APT1",
+                "attack_vector42"
+            ],
+            [
+                "APT1",
+                "attack_vector43"
+            ],
+            [
+                "APT1",
+                "attack_vector44"
+            ],
+            [
+                "APT1",
+                "attack_vector45"
+            ],
+            [
+                "APT1",
+                "attack_vector46"
+            ],
+            [
+                "APT1",
+                "attack_vector47"
+            ],
+            [
+                "APT1",
+                "attack_vector48"
+            ],
+            [
+                "APT1",
+                "attack_vector49"
+            ],
+            [
+                "APT1",
+                "attack_vector50"
+            ],
+            [
+                "APT1",
+                "attack_vector51"
+            ],
+            [
+                "APT1",
+                "attack_vector52"
+            ],
+            [
+                "APT1",
+                "attack_vector53"
+            ],
+            [
+                "APT1",
+                "attack_vector54"
+            ],
+            [
+                "APT1",
+                "attack_vector55"
+            ],
+            [
+                "APT1",
+                "attack_vector56"
+            ],
+            [
+                "APT1",
+                "attack_vector57"
+            ],
+            [
+                "APT1",
+                "attack_vector58"
+            ]
+        ]
+    }
+}

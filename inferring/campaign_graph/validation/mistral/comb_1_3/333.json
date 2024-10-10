@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        ".\u00a0\u00a0\u00a0 ": [],
+        "campaign": [
+            {
+                "actor": "Winnti Group",
+                "date_start": [
+                    "2019-10"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Winnti Group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    }
+}

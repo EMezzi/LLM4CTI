@@ -1,0 +1,20 @@
+{
+    "nodes": {
+        "": [
+            {
+                "id": "campaign1",
+                "date_start": [
+                    "2016-08"
+                ],
+                "actor": "NSO Group",
+                "name": "Trident"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "id": "APT1",
+            "name": "NSO Group"
+        }
+    ]
+}

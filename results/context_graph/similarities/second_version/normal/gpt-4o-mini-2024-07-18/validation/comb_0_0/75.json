@@ -1,0 +1,97 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.000000238418579
+            ],
+            "false positives": {},
+            "total_sim": 1.000000238418579
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "Remote Access Tools",
+                    "id": "attack_vector2"
+                }
+            }
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-10271",
+                    "id": "vulnerability1"
+                },
+                "vulnerability2": {
+                    "name": "CVE-2018-7600",
+                    "id": "vulnerability2"
+                }
+            }
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.7272940874099731
+            ],
+            "false positives": {},
+            "total_sim": 0.7272940874099731
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0000000894069672
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000894069672
+        },
+        "uses": {
+            "false positives": {
+                "uses1": [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ]
+            }
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                "targets2": [
+                    "APT1",
+                    "vulnerability2"
+                ]
+            }
+        }
+    }
+}

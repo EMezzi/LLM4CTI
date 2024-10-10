@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Elderwood Group"
+                ],
+                "date_start": [
+                    "2009-12",
+                    "2009-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Elderwood Group"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

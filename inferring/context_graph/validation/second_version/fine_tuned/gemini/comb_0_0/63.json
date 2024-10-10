@@ -1,0 +1,136 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "RTM"
+                ],
+                "goals": "financial gain",
+                "labels": "financial gain",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Spearphishing Link",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2015-1701",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2015-2419",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-2545",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2015-2546",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2015-2590",
+                "id": "vulnerability5"
+            },
+            {
+                "name": "CVE-2015-5119",
+                "id": "vulnerability6"
+            },
+            {
+                "name": "CVE-2015-5122",
+                "id": "vulnerability7"
+            },
+            {
+                "name": "CVE-2015-6127",
+                "id": "vulnerability8"
+            },
+            {
+                "name": "CVE-2015-6128",
+                "id": "vulnerability9"
+            }
+        ],
+        "goals": [
+            {
+                "name": "financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "financial gain",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ],
+            [
+                "APT1",
+                "vulnerability3"
+            ],
+            [
+                "APT1",
+                "vulnerability4"
+            ],
+            [
+                "APT1",
+                "vulnerability5"
+            ],
+            [
+                "APT1",
+                "vulnerability6"
+            ],
+            [
+                "APT1",
+                "vulnerability7"
+            ],
+            [
+                "APT1",
+                "vulnerability8"
+            ],
+            [
+                "APT1",
+                "vulnerability9"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

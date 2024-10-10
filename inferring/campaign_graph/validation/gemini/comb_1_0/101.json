@@ -1,0 +1,112 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "NewsBeef APT"
+                ],
+                "date_start": [
+                    "2016-04",
+                    "2016-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "NewsBeef APT"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Social Engineering",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Waterhole Campaign",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Compromised Website",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "Outdated Plugins",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "iframe Injection",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "src Injection",
+                "id": "attack_vector6"
+            },
+            {
+                "name": "Malicious Javascript",
+                "id": "attack_vector7"
+            },
+            {
+                "name": "Browser Exploitation Framework (BeEF)",
+                "id": "attack_vector8"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-unknown",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ],
+            [
+                "campaign1",
+                "attack_vector7"
+            ],
+            [
+                "campaign1",
+                "attack_vector8"
+            ]
+        ]
+    }
+}

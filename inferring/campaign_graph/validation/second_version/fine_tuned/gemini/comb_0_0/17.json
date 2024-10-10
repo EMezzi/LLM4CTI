@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Codoso Team",
+                    "APT19"
+                ],
+                "date_start": [
+                    "2014-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Codoso Team",
+                    "APT19"
+                ],
+                "description": "Codoso Team is a Chinese threat group that has been active since at least 2010",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-9163",
+                "reservedDate": "2014-11",
+                "baseScore": "9.3",
+                "publishedDate": "2014-12",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2015-0071",
+                "reservedDate": "2014-12",
+                "baseScore": "6.8",
+                "publishedDate": "2015-02",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

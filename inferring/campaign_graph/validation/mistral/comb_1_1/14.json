@@ -1,0 +1,20 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Chinese APT actors",
+                "date_start": [
+                    "2017-08",
+                    "2017-07"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Chinese APT actors",
+            "id": "APT1"
+        }
+    ]
+}

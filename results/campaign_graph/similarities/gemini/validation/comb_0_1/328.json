@@ -1,0 +1,86 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6216342225670815
+            ],
+            "false positives": {},
+            "total_sim": 0.6216342225670815
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2432684451341629
+            ],
+            "false positives": {},
+            "total_sim": 0.2432684451341629
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6502373814582825
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Malicious Link",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "watering hole attack",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.6502373814582825
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2013-1347",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.4324513338506222
+            ],
+            "false positives": {},
+            "total_sim": 0.4324513338506222
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.635935802012682
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.635935802012682
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Winnti",
+                    "Winnti Group",
+                    "APT17",
+                    "APT41",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2014-01",
+                    "2011-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Winnti",
+                    "Winnti Group",
+                    "APT17",
+                    "APT41",
+                    "Suckfly"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "external remote services",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "valid accounts",
+                "id": "attack_vector5"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2013-3660",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2014-4114",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2015-2545",
+                "id": "vulnerability3"
+            },
+            {
+                "name": "CVE-2016-0167",
+                "id": "vulnerability4"
+            },
+            {
+                "name": "CVE-2019-0752",
+                "id": "vulnerability5"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ],
+            [
+                "campaign1",
+                "vulnerability4"
+            ],
+            [
+                "campaign1",
+                "vulnerability5"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.818195641040802
+            ],
+            "attack_vector2": [],
+            "attack_vector3": [],
+            "attack_vector4": [],
+            "false positives": {},
+            "total_sim": 0.2045489102602005
+        },
+        "vulnerability": {},
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998211860657
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998211860657
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090977609157562
+            ],
+            "uses2": [],
+            "uses3": [],
+            "uses4": [],
+            "false positives": {},
+            "total_sim": 0.22727444022893906
+        },
+        "targets": {
+            "targets1": [],
+            "targets2": [],
+            "targets3": [],
+            "targets4": [],
+            "false positives": {},
+            "total_sim": 0.0
+        }
+    }
+}

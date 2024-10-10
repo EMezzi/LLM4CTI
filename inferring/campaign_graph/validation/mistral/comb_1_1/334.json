@@ -1,0 +1,38 @@
+{
+    "nodes": {
+        "": [
+            {
+                "actor": "Poison Ivy",
+                "date_start": [
+                    "2008",
+                    "2009",
+                    "2011",
+                    "2012"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Poison Ivy",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                [
+                    "campaign1"
+                ],
+                [
+                    "APT1"
+                ]
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

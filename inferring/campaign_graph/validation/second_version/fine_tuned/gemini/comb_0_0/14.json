@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT41",
+                    "Winnti Group",
+                    "APT17",
+                    "Suckfly",
+                    "Deputy Dog"
+                ],
+                "date_start": [
+                    "2017-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT41",
+                    "Winnti Group",
+                    "APT17",
+                    "Suckfly",
+                    "Deputy Dog"
+                ],
+                "description": "Deputy Dog is a threat group that has targeted foreign affairs ministries in Europe and Asia since at least 2012",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Blue Estimate",
+                    "Kimsuky"
+                ],
+                "date_start": [
+                    "2019-12",
+                    "2020-02"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Blue Estimate",
+                    "Kimsuky"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Phishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious PDF",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2019-19781",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2020-0674",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

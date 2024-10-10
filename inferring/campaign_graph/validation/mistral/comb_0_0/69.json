@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Unidentified hackers",
+                "date_start": [
+                    "2015-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [],
+        "attack_vector": [
+            {
+                "name": "SWIFT logon credentials theft",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FruityArmor",
+                    "Stealth Falcon"
+                ],
+                "date_start": [
+                    "2016-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FruityArmor",
+                    "Stealth Falcon"
+                ],
+                "description": "Stealth Falcon is a threat group that has targeted journalists, activists, and dissidents since at least 2012",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-4655",
+                "reservedDate": "2016-05",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2016-4656",
+                "reservedDate": "2016-05",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2016-4657",
+                "reservedDate": "2016-05",
+                "id": "vulnerability3"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

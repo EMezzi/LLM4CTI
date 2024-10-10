@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "SandWorm",
+                "date_start": [
+                    "2013-12"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "SandWorm",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2014-4114",
+                "id": "vulnerability1"
+            }
+        ]
+    }
+}

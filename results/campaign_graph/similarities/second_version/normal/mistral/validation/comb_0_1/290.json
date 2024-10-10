@@ -1,0 +1,93 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.7022135555744171
+            ],
+            "false positives": {},
+            "total_sim": 0.7022135555744171
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.40442711114883423
+            ],
+            "false positives": {},
+            "total_sim": 0.40442711114883423
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.6125043034553528
+            ],
+            "false positives": {},
+            "total_sim": 0.6125043034553528
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability2",
+                1
+            ],
+            "vulnerability2": [
+                "vulnerability3",
+                1
+            ],
+            "vulnerability3": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {},
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.5533203333616257
+            ],
+            "false positives": {},
+            "total_sim": 0.5533203333616257
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability2"
+                ],
+                0.8511067777872086
+            ],
+            "targets2": [
+                [
+                    "campaign1",
+                    "vulnerability3"
+                ],
+                0.8511067777872086
+            ],
+            "targets3": [
+                [
+                    "campaign1",
+                    "vulnerability1"
+                ],
+                0.8511067777872086
+            ],
+            "false positives": {},
+            "total_sim": 0.8511067777872086
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.657358929514885
+            ],
+            "false positives": {},
+            "total_sim": 0.657358929514885
+        }
+    }
+}

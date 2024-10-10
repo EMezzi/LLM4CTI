@@ -1,0 +1,86 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.7311557680368423
+            ],
+            "false positives": {},
+            "total_sim": 0.7311557680368423
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.4623115360736847
+            ],
+            "false positives": {},
+            "total_sim": 0.4623115360736847
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector3",
+                0.28024157881736755
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "drive-by compromise",
+                    "id": "attack_vector1"
+                },
+                "attack_vector2": {
+                    "name": "spearphishing link",
+                    "id": "attack_vector2"
+                }
+            },
+            "total_sim": 0.28024157881736755
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2010-0249",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.5967336520552635
+            ],
+            "false positives": {},
+            "total_sim": 0.5967336520552635
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                0.505698673427105
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ]
+            },
+            "total_sim": 0.505698673427105
+        }
+    }
+}

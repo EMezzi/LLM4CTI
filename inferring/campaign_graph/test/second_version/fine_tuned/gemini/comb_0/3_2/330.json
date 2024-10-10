@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Suckfly",
+                    "Winnti Group",
+                    "APT41",
+                    "Wicked Panda",
+                    "APT17"
+                ],
+                "date_start": [
+                    "2018-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Suckfly",
+                    "Winnti Group",
+                    "APT41",
+                    "Wicked Panda",
+                    "APT17"
+                ],
+                "description": "Wicked Panda is a Chinese threat group that has targeted organizations across a variety of industries, including healthcare, telecommunications, education, and travel",
+                "labels": "nation-state",
+                "goals": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "unknown",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

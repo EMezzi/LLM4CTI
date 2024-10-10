@@ -1,0 +1,42 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": "Putter Panda",
+                "goals": "espionage",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Valid Accounts",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Exploitation for Client Execution",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2010-3333",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

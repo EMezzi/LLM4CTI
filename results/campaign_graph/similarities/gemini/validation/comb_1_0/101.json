@@ -1,0 +1,126 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.6237421184778214
+            ],
+            "false positives": {},
+            "total_sim": 0.6237421184778214
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.2474842369556427
+            ],
+            "false positives": {},
+            "total_sim": 0.2474842369556427
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.45580482482910156
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Social Engineering",
+                    "id": "attack_vector1"
+                },
+                "attack_vector3": {
+                    "name": "Compromised Website",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Outdated Plugins",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "iframe Injection",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "src Injection",
+                    "id": "attack_vector6"
+                },
+                "attack_vector7": {
+                    "name": "Malicious Javascript",
+                    "id": "attack_vector7"
+                },
+                "attack_vector8": {
+                    "name": "Browser Exploitation Framework (BeEF)",
+                    "id": "attack_vector8"
+                }
+            },
+            "total_sim": 0.45580482482910156
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-unknown",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.435613177716732
+            ],
+            "false positives": {},
+            "total_sim": 0.435613177716732
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.5397734716534615
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ],
+                "employs5": [
+                    "campaign1",
+                    "attack_vector5"
+                ],
+                "employs6": [
+                    "campaign1",
+                    "attack_vector6"
+                ],
+                "employs7": [
+                    "campaign1",
+                    "attack_vector7"
+                ],
+                "employs8": [
+                    "campaign1",
+                    "attack_vector8"
+                ]
+            },
+            "total_sim": 0.5397734716534615
+        }
+    }
+}

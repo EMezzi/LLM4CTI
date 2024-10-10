@@ -1,0 +1,32 @@
+{
+    "nodes": {
+        "": [],
+        "campaign": [
+            {
+                "actor": "ProjectSauron",
+                "date_start": [
+                    "2011-06"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "ProjectSauron",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

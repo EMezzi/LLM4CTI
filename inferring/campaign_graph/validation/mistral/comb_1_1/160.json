@@ -1,0 +1,36 @@
+[
+    {
+        "nodes": {
+            "]campaign[": [
+                {
+                    "actor": "FIN4",
+                    "date_start": [
+                        "2013-06"
+                    ],
+                    "id": "campaign1"
+                }
+            ]
+        },
+        "APT": [
+            {
+                "name": "FIN4",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "hijacked email threads",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "fake Outlook Web App login pages",
+                "id": "attack_vector3"
+            }
+        ]
+    },
+    "relations': {"
+]

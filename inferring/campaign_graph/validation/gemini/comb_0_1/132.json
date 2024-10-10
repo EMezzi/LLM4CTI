@@ -1,0 +1,37 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "DEEP PANDA"
+                ],
+                "date_start": [
+                    "2014-04",
+                    "2014-08",
+                    "2014-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "DEEP PANDA"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "`campaign": [
+            {
+                "actor": "TEMP.Periscope",
+                "date_start": [
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "TEMP.Periscope",
+            "id": "APT1"
+        }
+    ]
+}

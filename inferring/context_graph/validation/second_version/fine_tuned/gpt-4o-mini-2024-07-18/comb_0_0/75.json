@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "TEMP.Veles"
+                ],
+                "goals": "nation-state",
+                "labels": "espionage,sabotage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Russia",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "nation-state",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage,sabotage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

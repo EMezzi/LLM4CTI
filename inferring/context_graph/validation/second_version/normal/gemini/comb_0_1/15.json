@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Wicked Spider",
+                    "Winnti Group",
+                    "Suckfly",
+                    "WinNTI",
+                    "Dogfish",
+                    "Wicked Panda",
+                    "Winnti Umbrella",
+                    "Group 72",
+                    "Blackfly",
+                    "Tailgater",
+                    "Deputy Dog",
+                    "Group72",
+                    "Winnti",
+                    "APT 41",
+                    "APT 17",
+                    "Ragebeast",
+                    "APT17",
+                    "Barium",
+                    "Hidden Lynx",
+                    "Group 8",
+                    "APT41",
+                    "Tailgater Team",
+                    "Lead"
+                ],
+                "goals": "espionage,financial gain",
+                "labels": "nation-state",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "China",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage,financial gain",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "nation-state",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": []
+    }
+}

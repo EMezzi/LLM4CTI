@@ -1,0 +1,182 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.000000238418579
+            ],
+            "false positives": {},
+            "total_sim": 1.000000238418579
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                1.0000001192092896
+            ],
+            "attack_vector2": [
+                "attack_vector3",
+                1.0
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Spearphishing Link",
+                    "id": "attack_vector2"
+                },
+                "attack_vector4": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector4"
+                },
+                "attack_vector5": {
+                    "name": "Command-Line Interface",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "PowerShell",
+                    "id": "attack_vector6"
+                },
+                "attack_vector7": {
+                    "name": "Archive Collected Data",
+                    "id": "attack_vector7"
+                },
+                "attack_vector8": {
+                    "name": "Exfiltration Over Command and Control Channel",
+                    "id": "attack_vector8"
+                },
+                "attack_vector9": {
+                    "name": "Exfiltration Over Alternative Protocol",
+                    "id": "attack_vector9"
+                },
+                "attack_vector10": {
+                    "name": "Custom Command and Control Protocol",
+                    "id": "attack_vector10"
+                }
+            },
+            "total_sim": 1.0000000596046448
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability1",
+                1
+            ],
+            "false positives": {
+                "vulnerability2": {
+                    "name": "CVE-2017-11882",
+                    "id": "vulnerability2"
+                },
+                "vulnerability3": {
+                    "name": "CVE-2017-0199",
+                    "id": "vulnerability3"
+                }
+            },
+            "total_sim": 1.0
+        },
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                1.0000000894069672
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000894069672
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                1.0000001788139343
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                1.0000001192092896
+            ],
+            "false positives": {
+                "uses2": [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                "uses4": [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                "uses5": [
+                    "APT1",
+                    "attack_vector5"
+                ],
+                "uses6": [
+                    "APT1",
+                    "attack_vector6"
+                ],
+                "uses7": [
+                    "APT1",
+                    "attack_vector7"
+                ],
+                "uses8": [
+                    "APT1",
+                    "attack_vector8"
+                ],
+                "uses9": [
+                    "APT1",
+                    "attack_vector9"
+                ],
+                "uses10": [
+                    "APT1",
+                    "attack_vector10"
+                ]
+            },
+            "total_sim": 1.000000149011612
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "APT1",
+                    "vulnerability1"
+                ],
+                1.0000001192092896
+            ],
+            "false positives": {
+                "targets2": [
+                    "APT1",
+                    "vulnerability2"
+                ],
+                "targets3": [
+                    "APT1",
+                    "vulnerability3"
+                ]
+            },
+            "total_sim": 1.0000001192092896
+        }
+    }
+}

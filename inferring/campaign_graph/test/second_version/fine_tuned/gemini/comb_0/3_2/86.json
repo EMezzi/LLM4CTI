@@ -1,0 +1,67 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "date_start": [
+                    "2019-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Winnti Group",
+                    "APT41",
+                    "APT17",
+                    "Suckfly"
+                ],
+                "description": "APT41 is a Chinese threat group that has conducted espionage activity in support of Chinese government goals since at least 2012",
+                "labels": "nation-state",
+                "goals": "espionage,financial gain",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "exploit public-facing application",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2019-3396",
+                "reservedDate": "2019-02",
+                "baseScore": "9.8",
+                "publishedDate": "2019-03",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

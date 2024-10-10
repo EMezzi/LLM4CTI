@@ -1,0 +1,116 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Strider",
+                    "Sauron",
+                    "ProjectSauron APT",
+                    "ProjectSauron",
+                    "Project Sauron"
+                ],
+                "goals": "espionage",
+                "labels": "espionage",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Unknown",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "System Owner/User Discovery",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Command-Line Interface",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "File and Directory Discovery",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "Data from Local System",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "Exfiltration Over Command and Control Channel",
+                "id": "attack_vector6"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2011-XXXX",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2012-XXXX",
+                "id": "vulnerability2"
+            }
+        ],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "espionage",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [
+            [
+                "APT1",
+                "vulnerability1"
+            ],
+            [
+                "APT1",
+                "vulnerability2"
+            ]
+        ],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ],
+            [
+                "APT1",
+                "attack_vector2"
+            ],
+            [
+                "APT1",
+                "attack_vector3"
+            ],
+            [
+                "APT1",
+                "attack_vector4"
+            ],
+            [
+                "APT1",
+                "attack_vector5"
+            ],
+            [
+                "APT1",
+                "attack_vector6"
+            ]
+        ]
+    }
+}

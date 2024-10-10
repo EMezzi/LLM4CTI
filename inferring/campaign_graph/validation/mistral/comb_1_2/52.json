@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT33",
+                "date_start": [
+                    "2018-07",
+                    "2018-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "APT33",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0213",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11774",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

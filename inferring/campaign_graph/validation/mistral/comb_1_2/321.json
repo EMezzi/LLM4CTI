@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Turla",
+                "date_start": [
+                    "2016-11"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Turla",
+            "id": "APT1"
+        }
+    ]
+}

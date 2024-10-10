@@ -1,0 +1,84 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Multiple Threat Actors",
+                "date_start": [
+                    "2015",
+                    "2017-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Turla",
+                "id": "APT1"
+            },
+            {
+                "name": "APT28",
+                "id": "APT2"
+            },
+            {
+                "name": "Unknown Financially Motivated Actor",
+                "id": "APT3"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0261",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-0262",
+                "id": "vulnerability2"
+            },
+            {
+                "name": "CVE-2017-0263",
+                "id": "vulnerability3"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign1",
+                "APT2"
+            ],
+            [
+                "campaign1",
+                "APT3"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ],
+            [
+                "campaign1",
+                "vulnerability3"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

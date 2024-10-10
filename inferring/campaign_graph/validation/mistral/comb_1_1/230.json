@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "TopHat",
+                "date_start": [
+                    "2017-09"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "TopHat",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            }
+        ],
+        "malware": [
+            {
+                "name": "Scote",
+                "id": "malware1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "malware1"
+            ]
+        ]
+    }
+}

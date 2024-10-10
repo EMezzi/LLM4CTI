@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "APT28",
+                    "Sofacy"
+                ],
+                "date_start": [
+                    "2016-10",
+                    "2016-12",
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "APT28",
+                    "Sofacy"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spear Phishing Email",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Malicious Microsoft Word Document",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Exploit Kit",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2016-4117",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

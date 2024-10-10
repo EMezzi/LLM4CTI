@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Honeybee"
+                ],
+                "goals": "espionage",
+                "labels": "unknown",
+                "id": "APT1"
+            }
+        ],
+        "country": [
+            {
+                "name": "Japan",
+                "id": "country1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Spearphishing Attachment",
+                "id": "attack_vector1"
+            }
+        ],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "espionage",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "unknown",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [
+            [
+                "APT1",
+                "country1"
+            ]
+        ],
+        "targets": [],
+        "uses": [
+            [
+                "APT1",
+                "attack_vector1"
+            ]
+        ]
+    }
+}

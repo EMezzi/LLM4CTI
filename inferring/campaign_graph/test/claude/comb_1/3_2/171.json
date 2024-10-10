@@ -1,0 +1,128 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "FIN8"
+                ],
+                "date_start": [
+                    "2017-02",
+                    "2017-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "FIN8"
+                ],
+                "id": "APT1"
+            },
+            {
+                "name": "APT19",
+                "id": "APT2"
+            },
+            {
+                "name": "APT32",
+                "id": "APT3"
+            },
+            {
+                "name": "FIN7",
+                "id": "APT4"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "spearphishing via service",
+                "id": "attack_vector3"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector4"
+            },
+            {
+                "name": "external remote services",
+                "id": "attack_vector5"
+            },
+            {
+                "name": "valid accounts",
+                "id": "attack_vector6"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2017-11882",
+                "id": "vulnerability2"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign1",
+                "APT2"
+            ],
+            [
+                "campaign1",
+                "APT3"
+            ],
+            [
+                "campaign1",
+                "APT4"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ],
+            [
+                "campaign1",
+                "vulnerability2"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ],
+            [
+                "campaign1",
+                "attack_vector4"
+            ],
+            [
+                "campaign1",
+                "attack_vector5"
+            ],
+            [
+                "campaign1",
+                "attack_vector6"
+            ]
+        ]
+    }
+}

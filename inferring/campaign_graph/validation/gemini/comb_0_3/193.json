@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "Kimsuky",
+                    "BlackBanshee"
+                ],
+                "date_start": [
+                    "2019-04",
+                    "2019-05",
+                    "2018-08",
+                    "2020-01",
+                    "2019-06",
+                    "2019-12",
+                    "2019-11",
+                    "2019-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "Kimsuky",
+                    "BlackBanshee"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "spearphishing link",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ]
+        ]
+    }
+}

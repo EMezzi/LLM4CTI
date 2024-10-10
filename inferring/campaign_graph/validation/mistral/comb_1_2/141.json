@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Dragonfly",
+                "date_start": [
+                    "2011-01"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Dragonfly",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "watering hole",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "trojanized software",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    }
+}

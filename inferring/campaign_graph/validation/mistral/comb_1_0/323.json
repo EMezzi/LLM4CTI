@@ -1,0 +1,35 @@
+{
+    "": {
+        "campaign": [
+            {
+                "actor": "WIRTE Group",
+                "date_start": [
+                    "2018-08"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "WIRTE Group",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "Visual Basic Script (VBS)",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "Empire post-exploitation framework",
+            "id": "attack_vector2"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-yyyy-",
+            "id": "vulnerability1"
+        }
+    ]
+}

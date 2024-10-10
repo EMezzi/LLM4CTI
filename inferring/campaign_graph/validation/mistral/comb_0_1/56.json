@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "ScarCruft",
+                "date_start": [
+                    "2016-03"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "ScarCruft",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "spear-phishing e-mails",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "watering hole attacks",
+            "id": "attack_vector2"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2016-1010",
+            "id": "vulnerability1"
+        },
+        {
+            "name": "CVE-2016-0147",
+            "id": "vulnerability2"
+        },
+        {
+            "name": "CVE-2016-4117",
+            "id": "vulnerability3"
+        }
+    ]
+}

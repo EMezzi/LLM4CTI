@@ -1,0 +1,86 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                0.7328963577747345
+            ],
+            "false positives": {},
+            "total_sim": 0.7328963577747345
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.465792715549469
+            ],
+            "false positives": {},
+            "total_sim": 0.465792715549469
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8091717958450317
+            ],
+            "false positives": {
+                "attack_vector2": {
+                    "name": "Fake login pages",
+                    "id": "attack_vector2"
+                },
+                "attack_vector3": {
+                    "name": "Domain spoofing",
+                    "id": "attack_vector3"
+                }
+            },
+            "total_sim": 0.8091717958450317
+        },
+        "vulnerability": {
+            "false positives": {
+                "vulnerability1": {
+                    "name": "N/A",
+                    "id": "vulnerability1"
+                }
+            }
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                0.5993445366621017
+            ],
+            "false positives": {},
+            "total_sim": 0.5993445366621017
+        },
+        "targets": {
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            }
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                0.7710340768098831
+            ],
+            "false positives": {
+                "employs2": [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ]
+            },
+            "total_sim": 0.7710340768098831
+        }
+    }
+}

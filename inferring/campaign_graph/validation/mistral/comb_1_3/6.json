@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "APT12",
+                "date_start": [
+                    "2014-09"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "APT12",
+            "id": "APT1"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Charming Kitten",
+                "date_start": [
+                    "2019-07"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Charming Kitten",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spearphishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "credential harvesting",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    }
+}

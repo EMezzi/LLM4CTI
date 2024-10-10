@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": [
+                    "DEEP PANDA"
+                ],
+                "date_start": [
+                    "2014-08",
+                    "2014-04"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": [
+                    "DEEP PANDA"
+                ],
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "Adobe Reader Installer Dropper",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "Juniper VPN Installer Dropper",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "Microsoft ActiveX Control Installer Dropper",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

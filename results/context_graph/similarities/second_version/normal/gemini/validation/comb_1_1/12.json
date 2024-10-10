@@ -1,0 +1,136 @@
+{
+    "nodes_similarities": {
+        "APT": {
+            "APT1": [
+                "APT1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "country": {
+            "country1": [
+                "country1",
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector1",
+                0.8181955814361572
+            ],
+            "attack_vector2": [
+                "attack_vector4",
+                0.43086355924606323
+            ],
+            "attack_vector3": [
+                "attack_vector2",
+                0.329038143157959
+            ],
+            "false positives": {
+                "attack_vector3": {
+                    "name": "Valid Accounts",
+                    "id": "attack_vector3"
+                },
+                "attack_vector5": {
+                    "name": "Exploitation for Client Execution",
+                    "id": "attack_vector5"
+                },
+                "attack_vector6": {
+                    "name": "DLL Side-Loading",
+                    "id": "attack_vector6"
+                }
+            },
+            "total_sim": 0.5260324279467264
+        },
+        "vulnerability": {},
+        "goals": {
+            "goals1": [
+                "goals1",
+                0.9999998807907104
+            ],
+            "false positives": {},
+            "total_sim": 0.9999998807907104
+        },
+        "labels": {
+            "labels1": [
+                "labels1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        }
+    },
+    "relations_similarities": {
+        "origin": {
+            "origin1": [
+                [
+                    "APT1",
+                    "country1"
+                ],
+                0.9999999403953552
+            ],
+            "false positives": {},
+            "total_sim": 0.9999999403953552
+        },
+        "uses": {
+            "uses1": [
+                [
+                    "APT1",
+                    "attack_vector1"
+                ],
+                0.9090977609157562
+            ],
+            "uses2": [
+                [
+                    "APT1",
+                    "attack_vector4"
+                ],
+                0.7154317498207092
+            ],
+            "uses3": [
+                [
+                    "APT1",
+                    "attack_vector2"
+                ],
+                0.6645190417766571
+            ],
+            "false positives": {
+                "uses3": [
+                    "APT1",
+                    "attack_vector3"
+                ],
+                "uses5": [
+                    "APT1",
+                    "attack_vector5"
+                ],
+                "uses6": [
+                    "APT1",
+                    "attack_vector6"
+                ]
+            },
+            "total_sim": 0.7630161841710409
+        },
+        "targets": {
+            "targets1": [],
+            "targets2": [],
+            "targets3": [],
+            "targets4": [],
+            "targets5": [],
+            "targets6": [],
+            "targets7": [],
+            "targets8": [],
+            "targets9": [],
+            "targets10": [],
+            "targets11": [],
+            "targets12": [],
+            "targets13": [],
+            "targets14": [],
+            "targets15": [],
+            "false positives": {},
+            "total_sim": 0.0
+        }
+    }
+}

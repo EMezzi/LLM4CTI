@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Hidden Cobra",
+                "date_start": [
+                    "2018-03"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Hidden Cobra",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [
+        {
+            "name": "Spear Phishing",
+            "id": "attack_vector1"
+        },
+        {
+            "name": "Microsoft Word Document with Embedded Adobe Flash Exploit",
+            "id": "attack_vector2"
+        }
+    ],
+    "vulnerability": [
+        {
+            "name": "CVE-2018-4878",
+            "id": "vulnerability1"
+        }
+    ]
+}

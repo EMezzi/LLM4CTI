@@ -1,0 +1,21 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Desert Falcons",
+                "date_start": [
+                    "2013"
+                ],
+                "id": "campaign1"
+            }
+        ]
+    },
+    "APT": [
+        {
+            "name": "Desert Falcons",
+            "id": "APT1"
+        }
+    ],
+    "attack_vector": [],
+    "vulnerability": []
+}

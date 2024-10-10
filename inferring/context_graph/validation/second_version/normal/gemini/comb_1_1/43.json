@@ -1,0 +1,35 @@
+{
+    "nodes": {
+        "APT": [
+            {
+                "name": [
+                    "Honeybee",
+                    "Operation Honeybee"
+                ],
+                "goals": "Unknown",
+                "labels": "Unknown",
+                "id": "APT1"
+            }
+        ],
+        "country": [],
+        "attack_vector": [],
+        "vulnerability": [],
+        "goals": [
+            {
+                "name": "Unknown",
+                "id": "goals1"
+            }
+        ],
+        "labels": [
+            {
+                "name": "Unknown",
+                "id": "labels1"
+            }
+        ]
+    },
+    "relations": {
+        "origin": [],
+        "targets": [],
+        "uses": []
+    }
+}

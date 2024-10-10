@@ -1,0 +1,43 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Operation Pawn Storm",
+                "date_start": [
+                    "2011-10",
+                    "2012-01",
+                    "2013-09",
+                    "2014-01",
+                    "2014-08"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Operation Pawn Storm",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing attachment",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "drive-by compromise",
+                "id": "attack_vector2"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2010-3333",
+                "id": "vulnerability1"
+            },
+            {
+                "name": "CVE-2012-0158",
+                "id": "vulnerability2"
+            }
+        ]
+    }
+}

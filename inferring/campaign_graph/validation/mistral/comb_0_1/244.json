@@ -1,0 +1,67 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "OilRig group",
+                "date_start": [
+                    "2016-05"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "OilRig group",
+                "id": "APT1"
+            }
+        ],
+        "attack_vector": [
+            {
+                "name": "spear-phishing email",
+                "id": "attack_vector1"
+            },
+            {
+                "name": "malicious macro in Microsoft Word document",
+                "id": "attack_vector2"
+            },
+            {
+                "name": "exploit of CVE-2017-0199 vulnerability",
+                "id": "attack_vector3"
+            }
+        ],
+        "vulnerability": [
+            {
+                "name": "CVE-2017-0199",
+                "id": "vulnerability1"
+            }
+        ]
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ]
+        ],
+        "targets": [
+            [
+                "campaign1",
+                "vulnerability1"
+            ]
+        ],
+        "employs": [
+            [
+                "campaign1",
+                "attack_vector1"
+            ],
+            [
+                "campaign1",
+                "attack_vector2"
+            ],
+            [
+                "campaign1",
+                "attack_vector3"
+            ]
+        ]
+    }
+}

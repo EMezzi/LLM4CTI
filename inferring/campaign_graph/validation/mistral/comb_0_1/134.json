@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "campaign": [
+            {
+                "actor": "Chinese hackers",
+                "date_start": [
+                    "2014-11"
+                ],
+                "id": "campaign1"
+            }
+        ],
+        "APT": [
+            {
+                "name": "Deep Panda",
+                "id": "APT1"
+            },
+            {
+                "name": "Vixen Panda",
+                "id": "APT2"
+            }
+        ],
+        "attack_vector": [],
+        "vulnerability": []
+    },
+    "relations": {
+        "attributed_to": [
+            [
+                "campaign1",
+                "APT1"
+            ],
+            [
+                "campaign1",
+                "APT2"
+            ]
+        ],
+        "targets": [],
+        "employs": []
+    }
+}

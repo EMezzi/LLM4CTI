@@ -1,0 +1,107 @@
+{
+    "nodes_similarities": {
+        "campaign": {
+            "campaign1": [
+                "campaign1",
+                1.0000000596046448
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000596046448
+        },
+        "APT": {
+            "APT1": [
+                "APT1",
+                1.0000001192092896
+            ],
+            "false positives": {},
+            "total_sim": 1.0000001192092896
+        },
+        "attack_vector": {
+            "attack_vector1": [
+                "attack_vector2",
+                0.46748411655426025
+            ],
+            "false positives": {
+                "attack_vector1": {
+                    "name": "Spear Phishing",
+                    "id": "attack_vector1"
+                },
+                "attack_vector3": {
+                    "name": "Password Spraying",
+                    "id": "attack_vector3"
+                },
+                "attack_vector4": {
+                    "name": "Credential Theft",
+                    "id": "attack_vector4"
+                }
+            },
+            "total_sim": 0.46748411655426025
+        },
+        "vulnerability": {
+            "vulnerability1": [
+                "vulnerability2",
+                1
+            ],
+            "false positives": {
+                "vulnerability1": {
+                    "name": "CVE-2017-0213",
+                    "id": "vulnerability1"
+                }
+            },
+            "total_sim": 1.0
+        }
+    },
+    "relations_similarities": {
+        "attributed_to": {
+            "attributed_to1": [
+                [
+                    "campaign1",
+                    "APT1"
+                ],
+                1.0000000894069672
+            ],
+            "false positives": {},
+            "total_sim": 1.0000000894069672
+        },
+        "targets": {
+            "targets1": [
+                [
+                    "campaign1",
+                    "vulnerability2"
+                ],
+                1.0000000298023224
+            ],
+            "false positives": {
+                "targets1": [
+                    "campaign1",
+                    "vulnerability1"
+                ]
+            },
+            "total_sim": 1.0000000298023224
+        },
+        "employs": {
+            "employs1": [
+                [
+                    "campaign1",
+                    "attack_vector2"
+                ],
+                0.7337420880794525
+            ],
+            "false positives": {
+                "employs1": [
+                    "campaign1",
+                    "attack_vector1"
+                ],
+                "employs3": [
+                    "campaign1",
+                    "attack_vector3"
+                ],
+                "employs4": [
+                    "campaign1",
+                    "attack_vector4"
+                ]
+            },
+            "total_sim": 0.7337420880794525
+        }
+    }
+}
